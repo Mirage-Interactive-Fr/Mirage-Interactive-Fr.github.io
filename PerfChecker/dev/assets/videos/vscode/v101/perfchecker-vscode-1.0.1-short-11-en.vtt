@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.533
+Use Create feature suite for a starter, or
+point the extension
+
+00:00:03.533 --> 00:00:06.610
+at an existing suite and its factory. The
+Julia source
+
+00:00:06.610 --> 00:00:10.144
+declares the workload and the combinations
+that are available.
+
+00:00:10.275 --> 00:00:13.969
+The visual designer presents that plan for
+selection. The tree
+
+00:00:13.969 --> 00:00:17.425
+follows package, feature, check type and
+target. A feature
+
+00:00:17.425 --> 00:00:20.822
+might represent one operation or one part
+of the package.
+
+00:00:20.953 --> 00:00:25.359
+Each check asks for a particular kind of
+evidence, and each target identifies
+
+00:00:25.359 --> 00:00:29.822
+a measured configuration of the code.
+Choose the sum of squares feature first.
+
+00:00:29.953 --> 00:00:33.206
+Inspect its input preparation and
+correctness oracle in
+
+00:00:33.206 --> 00:00:36.637
+source, then check the visible execution
+plan. The waiting
+
+00:00:36.637 --> 00:00:40.304
+task supplies another workload for
+examining waiting behavior.
+
+00:00:40.435 --> 00:00:45.401
+The designer can only offer combinations
+made available by the suite and prepared
+
+00:00:45.401 --> 00:00:50.061
+environment. The saved selection can be
+reused across compatible interfaces.

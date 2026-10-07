@@ -1,0 +1,60 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.184
+A flame graph needs recorded profile
+stacks. Select the
+
+00:00:03.184 --> 00:00:06.310
+profiling result from the workload that
+produced them,
+
+00:00:06.310 --> 00:00:09.436
+then inspect the visible call paths and
+their weights.
+
+00:00:09.567 --> 00:00:13.920
+The horizontal weight represents the
+profile's sampled activity according to
+
+00:00:13.920 --> 00:00:18.330
+that collector. It is not an independent
+timing measurement of each function.
+
+00:00:18.461 --> 00:00:22.381
+An operation that appears in a wide stack
+is a place to investigate,
+
+00:00:22.381 --> 00:00:25.897
+especially when it aligns with the
+question and workload, but
+
+00:00:25.897 --> 00:00:29.298
+the graph does not establish a speedup for
+a proposed edit.
+
+00:00:29.429 --> 00:00:34.077
+Follow the available source information to
+inspect the operation and its inputs.
+
+00:00:34.208 --> 00:00:38.254
+Use the Julia debugger for state or
+correctness questions when helpful, then
+
+00:00:38.254 --> 00:00:42.194
+collect performance evidence separately
+from stepping through the program.
+
+00:00:42.325 --> 00:00:47.046
+For allocation views, check whether the
+report contains totals or sampled sites.
+
+00:00:47.046 --> 00:00:51.944
+For wall profiles, remember that waiting
+can be part of the recorded task behavior.
+
+00:00:52.076 --> 00:00:54.240
+The check guide explains the boundary and
+
+00:00:54.240 --> 00:00:56.721
+provider requirements for each kind of
+profile.

@@ -1,0 +1,56 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.112
+We will begin with the Vector reduction
+test item from
+
+00:00:03.112 --> 00:00:06.050
+the guide. It checks that summing the
+integers from
+
+00:00:06.050 --> 00:00:09.220
+one to ten thousand gives fifty million,
+five thousand.
+
+00:00:09.351 --> 00:00:13.032
+The runner needs TestItemRunner version
+one point three point
+
+00:00:13.032 --> 00:00:16.472
+two or newer, along with TestItems and the
+package's test
+
+00:00:16.472 --> 00:00:20.576
+dependencies. Discover the items in the
+Testing view and select one.
+
+00:00:20.707 --> 00:00:24.771
+Tags can narrow the performance selection,
+and explicit repetitions
+
+00:00:24.771 --> 00:00:28.957
+control how many fresh processes are
+requested. There is no automatic
+
+00:00:28.957 --> 00:00:32.717
+warmup of a native test item. Read the
+item before running it.
+
+00:00:32.849 --> 00:00:35.599
+Its setup, operations and correctness
+assertion
+
+00:00:35.599 --> 00:00:37.939
+define the scope that is being observed.
+
+00:00:38.071 --> 00:00:41.651
+If an item builds data, performs file
+access or includes
+
+00:00:41.651 --> 00:00:45.358
+several operations, do not describe its
+result as the cost
+
+00:00:45.358 --> 00:00:48.938
+of one isolated function without checking
+that boundary.

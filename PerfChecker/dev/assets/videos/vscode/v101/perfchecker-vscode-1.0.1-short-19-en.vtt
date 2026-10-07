@@ -1,0 +1,57 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.151
+Open Advisor chat and choose a connection.
+The local Codex connector
+
+00:00:04.151 --> 00:00:08.423
+checks a supported native executable and
+existing authentication, then
+
+00:00:08.423 --> 00:00:12.513
+provides separate advice and
+implementation tools for this session.
+
+00:00:12.644 --> 00:00:16.268
+The controller needs HTTP. For an external
+MCP agent,
+
+00:00:16.268 --> 00:00:20.303
+configure its endpoint and revision,
+discover the available
+
+00:00:20.303 --> 00:00:24.269
+tools, and select the tool that accepts an
+advice request.
+
+00:00:24.400 --> 00:00:28.091
+Use the actual case-sensitive name and
+input schema. Additional
+
+00:00:28.091 --> 00:00:31.196
+required arguments belong in the
+configuration, while
+
+00:00:31.196 --> 00:00:34.653
+credentials come from the configured
+environment mechanism.
+
+00:00:34.784 --> 00:00:37.546
+A successful probe checks the connection
+and tool
+
+00:00:37.546 --> 00:00:40.647
+inventory. The quality of an answer still
+needs review.
+
+00:00:40.778 --> 00:00:44.561
+The server's filesystem permissions and
+model provider remain part of
+
+00:00:44.561 --> 00:00:48.619
+your setup, and the configured provider
+may process the requested context.
+
+00:00:48.750 --> 00:00:53.236
+Disconnect the temporary local connection
+to return to saved provider settings.

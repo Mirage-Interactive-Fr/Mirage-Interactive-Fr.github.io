@@ -1,0 +1,65 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.527
+Select a completed suite report and open
+its visual output. This surface reads
+
+00:00:04.527 --> 00:00:09.345
+saved suite measurements, so it can remain
+beside the source while you investigate.
+
+00:00:09.476 --> 00:00:12.386
+Choose the package, feature and check
+filters that
+
+00:00:12.386 --> 00:00:15.587
+match your question. A distribution shows
+the spread of
+
+00:00:15.587 --> 00:00:18.730
+recorded samples, including outliers and
+sample count.
+
+00:00:18.862 --> 00:00:22.394
+Hover a point or focus its accessible
+control to inspect
+
+00:00:22.394 --> 00:00:26.179
+the value and unit. The raw JSON and
+series JSON provide the
+
+00:00:26.179 --> 00:00:30.153
+underlying recorded data when you need to
+check its provenance.
+
+00:00:30.284 --> 00:00:33.799
+A wide distribution can motivate another
+experiment, but it
+
+00:00:33.799 --> 00:00:37.253
+does not identify the cause by itself.
+Check the workload,
+
+00:00:37.253 --> 00:00:41.185
+collector boundary and environment before
+deciding what to change.
+
+00:00:41.316 --> 00:00:44.756
+Keep the report containing the baseline.
+After modifying the
+
+00:00:44.756 --> 00:00:48.025
+code, collect the same kind of evidence
+for the candidate
+
+00:00:48.025 --> 00:00:51.063
+and assess compatibility before
+interpreting a ratio.
+
+00:00:51.195 --> 00:00:54.519
+A saved result is a concrete observation
+tied to its
+
+00:00:54.519 --> 00:00:58.546
+configuration, not a guarantee about every
+workload or machine.

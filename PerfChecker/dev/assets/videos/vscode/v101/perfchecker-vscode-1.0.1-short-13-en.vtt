@@ -1,0 +1,49 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.071
+Targets let us compare a known revision
+with a candidate. Choose a
+
+00:00:04.071 --> 00:00:08.511
+discovered branch, tag or commit, or enter
+a supported reference. A full
+
+00:00:08.511 --> 00:00:13.137
+commit identifier is useful when you want
+an unambiguous recorded baseline.
+
+00:00:13.268 --> 00:00:17.493
+Inspect the resolved target information
+before running. The Example
+
+00:00:17.493 --> 00:00:21.528
+hello workload also gives us a real saved
+package-version series
+
+00:00:21.528 --> 00:00:25.752
+to inspect. A Git target selects a version
+of the measured package.
+
+00:00:25.883 --> 00:00:29.726
+The Julia executable separately selects
+the runtime. Keep that
+
+00:00:29.726 --> 00:00:34.003
+distinction in mind when comparing package
+versions across a changing
+
+00:00:34.003 --> 00:00:38.218
+environment. Use an exact baseline for a
+straightforward comparison.
+
+00:00:38.349 --> 00:00:42.202
+Grouped references can use an aggregation
+such as median, mean,
+
+00:00:42.202 --> 00:00:46.484
+minimum or maximum. Choose the policy that
+answers your question, then
+
+00:00:46.484 --> 00:00:50.644
+inspect the comparison matrix for missing
+or overlapping references.

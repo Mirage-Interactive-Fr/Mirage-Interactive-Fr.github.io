@@ -1,0 +1,57 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.849
+Select the saved evidence that matches
+your question and ask the
+
+00:00:03.849 --> 00:00:07.638
+agent what could explain the observation.
+The local advice tool
+
+00:00:07.638 --> 00:00:11.607
+uses read-only mode. Its answer gives you
+a hypothesis to inspect.
+
+00:00:11.738 --> 00:00:14.816
+Continue the conversation with the
+constraints that
+
+00:00:14.816 --> 00:00:17.833
+matter: empty inputs, representative
+types, signed
+
+00:00:17.833 --> 00:00:21.212
+values, numerical tolerance or a specific
+Julia version.
+
+00:00:21.344 --> 00:00:25.355
+Ask what experiment would test the
+explanation and which oracle should
+
+00:00:25.355 --> 00:00:29.424
+preserve correctness. The follow-up can
+retain the earlier messages, so
+
+00:00:29.424 --> 00:00:33.493
+the investigation becomes more precise
+instead of restarting each turn.
+
+00:00:33.624 --> 00:00:37.607
+Keep observed facts separate from the
+proposed explanation. After
+
+00:00:37.607 --> 00:00:41.468
+review, you can make the change yourself
+or request an isolated
+
+00:00:41.468 --> 00:00:45.022
+implementation. Receiving advice does not
+approve an edit.
+
+00:00:45.153 --> 00:00:47.929
+The useful next step is an explicit
+validation
+
+00:00:47.929 --> 00:00:50.705
+plan tied to your workload and saved
+baseline.
