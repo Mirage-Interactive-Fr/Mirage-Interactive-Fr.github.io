@@ -1,0 +1,53 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.305
+Start by preparing a controller that you
+can inspect. In an unconfigured
+
+00:00:04.305 --> 00:00:08.372
+Studio, choose Set up workspace and create
+suite. You can create the
+
+00:00:08.372 --> 00:00:12.916
+controller environment, select an existing
+project, or open the setup guide.
+
+00:00:13.047 --> 00:00:16.808
+Package downloads require an explicit
+installation confirmation.
+
+00:00:16.808 --> 00:00:20.452
+The controller provides PerfChecker and
+its measurement tools.
+
+00:00:20.583 --> 00:00:24.997
+The package being measured still needs its
+own dependencies, and existing
+
+00:00:24.997 --> 00:00:29.169
+test items need their test dependencies in
+the selected runner. After
+
+00:00:29.169 --> 00:00:33.221
+setup, inspect Runner Project and the
+resolved PerfChecker version.
+
+00:00:33.352 --> 00:00:37.481
+For an MCP connection, add HTTP
+deliberately to the controller.
+
+00:00:37.481 --> 00:00:41.216
+Pluto uses a separate project with the
+qualified notebook
+
+00:00:41.216 --> 00:00:44.821
+dependencies. Opening Studio gives you the
+next action.
+
+00:00:44.952 --> 00:00:48.624
+It does not request measurements or
+install an agent. A clear
+
+00:00:48.624 --> 00:00:52.838
+environment selection makes the later
+result much easier to reproduce.
