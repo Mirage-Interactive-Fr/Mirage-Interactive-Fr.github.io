@@ -3,7 +3,7 @@ core_version = "1.0.1"
 documented_modules = ["PerfCheckerWeb"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "f198b2e07cea772b869230f97d329c808d82a78e60a5c1ce499f53ee38c676db"
+manifest_sha256 = "412b5f3dc880e6c3cad25343bfd9cf12f9e963490cf3ca850867997887e76891"
 owner = "PerfCheckerWeb"
 owner_uuid = "6e33b44e-937a-4705-841e-8b92a61e3730"
 owner_version = "1.0.0"
@@ -11,8 +11,8 @@ pretty_tables = "absent"
 project_sha256 = "e74801a991bd6af819b7b93ab34a3b9a72b0aea590f5669c5fe95facca841da9"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4727e3e149d1e4e6aee772dd560860918056a6d0"
-source_tree = "13194249d7f423073e506bd89262a7c1536d324c"
+source_revision = "4dfbfd49723814cdba1e09634a9693cb15b2f1a8"
+source_tree = "dd32e23f42a42fddd37358b989e76f61404feeca"
 
 [[bindings]]
 binding = "PerfChecker.register_oxygen_routes!"
@@ -397,10 +397,10 @@ source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38
 
 [[outputs]]
 path = ".documenter/web/public-api.md"
-sha256 = "7c96358de2fa8c8efd13a0fb57bd5f220dcebe20c60f77861fc2c84c07e9a9f9"
+sha256 = "142670c0b8314914e6d1d4eaacd0ad8f5ba88f6051f26f66e2922d6fe1591770"
 [[outputs]]
 path = ".documenter/web/full-api.md"
-sha256 = "ba3f5b6fb4859e5211ac3731d55e603b0fafae9a5bfdd024a64e722ffbe832c0"
+sha256 = "a4302c33c7030eda704f92258a36f00f48079ea9841a8298f395a07df1c6ac12"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "8e4ae53ceba788d01b6957dc9602b413ade7d97548b5f1e97bcdd59ba99f1082"

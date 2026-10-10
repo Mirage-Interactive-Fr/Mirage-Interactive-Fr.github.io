@@ -3,7 +3,7 @@ core_version = "1.0.1"
 documented_modules = ["PerfCheckerLinuxPerf"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "8e65268f0d58da34e90371b7dfa4b02524ebde41f46893b5165ab132729bbb03"
+manifest_sha256 = "3b5faf3b92d0a171d4e7a03fecd462d244456b7965cff91e27dc8c1d734d327c"
 owner = "PerfCheckerLinuxPerf"
 owner_uuid = "a4fefc68-8c0a-49a5-9567-b52f4d4f54cb"
 owner_version = "1.0.1"
@@ -11,8 +11,8 @@ pretty_tables = "2.4.0"
 project_sha256 = "bee11c2ba5e2fb36b914056c6dd477ea6ca6310f527879c4b5ef8fcec57c0bc8"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4727e3e149d1e4e6aee772dd560860918056a6d0"
-source_tree = "13194249d7f423073e506bd89262a7c1536d324c"
+source_revision = "4dfbfd49723814cdba1e09634a9693cb15b2f1a8"
+source_tree = "dd32e23f42a42fddd37358b989e76f61404feeca"
 
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.CounterRecord"
@@ -238,10 +238,10 @@ source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a89
 
 [[outputs]]
 path = ".documenter/linuxperf/public-api.md"
-sha256 = "212180f8018e09191cbcf8e0308a1c08fade7dc7b820f89487bde20c26681329"
+sha256 = "9ee9d173a1e03406866144fc72d49d680573b140fb9cde2dbe33a279dbb909d0"
 [[outputs]]
 path = ".documenter/linuxperf/full-api.md"
-sha256 = "571d1a6d7714c4f117d4b601d4ad99882b041d014dce400e344572c6e2223ecc"
+sha256 = "549771340d9baece44fabf166a9bbb579d6bb585e4d0d04ccc73d7ec25409ae7"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "ad89f9658a2612ad05c4e981ea7343284b5615539c026cccb0b47c7defbf226a"

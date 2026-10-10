@@ -3,7 +3,7 @@ core_version = "1.0.1"
 documented_modules = ["PerfCheckerTachikoma"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "75ef330134935fc0ac156a341b39839559cd67b9012f9f94cf55b5baa24e2e2d"
+manifest_sha256 = "951716f2336b851046dff9a2aba28a278530d8c33eefeee0d00e896e5819aaef"
 owner = "PerfCheckerTachikoma"
 owner_uuid = "62732417-0f79-4b0f-bcf8-4246188b2099"
 owner_version = "1.0.1"
@@ -11,8 +11,8 @@ pretty_tables = "absent"
 project_sha256 = "e47b90459bf2f15b0c35f5f936de90f5fcd8e6a62293c68f089da96a030e40b7"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4727e3e149d1e4e6aee772dd560860918056a6d0"
-source_tree = "13194249d7f423073e506bd89262a7c1536d324c"
+source_revision = "4dfbfd49723814cdba1e09634a9693cb15b2f1a8"
+source_tree = "dd32e23f42a42fddd37358b989e76f61404feeca"
 
 [[bindings]]
 binding = "PerfCheckerTachikoma.PerfCheckerTachikoma"
@@ -223,10 +223,10 @@ source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835
 
 [[outputs]]
 path = ".documenter/tachikoma/public-api.md"
-sha256 = "c8086ff3801bd857373f222f3f6f50b1cb7e37019f66d30b9d49157b9ebf6f00"
+sha256 = "341862b4d6412fe1a7c06485123cd78da6b5814a3b8d4b0c30aeb583ad026f7a"
 [[outputs]]
 path = ".documenter/tachikoma/full-api.md"
-sha256 = "4c9ce14c742474352850c8efd1a5e4b1550d8eca8eac00fdc08f0752d0a67772"
+sha256 = "77f15e3a22d175d5d588ce835e4265e5e2725362f4e8b511e33b4a5917c1b676"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "82c133bf33580a2cb0996cd7cbc78049426e65f2fad1767cb706584c4c0587de"
