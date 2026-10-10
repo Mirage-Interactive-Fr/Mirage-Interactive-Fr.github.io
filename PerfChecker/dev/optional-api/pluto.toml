@@ -1,0 +1,154 @@
+channel = "source"
+core_version = "1.0.1"
+documented_modules = ["PerfCheckerPluto"]
+documenter = "1.19.0"
+julia = "1.13.1"
+manifest_sha256 = "5c4be1adb9ef11ff8d4142e4b31c7194e614f49af881ed67d195857ce43e13ac"
+owner = "PerfCheckerPluto"
+owner_uuid = "862b4710-55ee-4fb5-a69c-50e17f92c1f9"
+owner_version = "1.0.1"
+pretty_tables = "absent"
+project_sha256 = "67578af9b5e5b2faebd9a6afc22e50d4078dc60cdeadc50a3af93a95d62caf1a"
+renderer = "0.3.5"
+schema = "perfchecker-optional-doc-export/1"
+source_revision = "52df29e6aeda433b55cace74b3a9909a2f38c30b"
+source_tree = "00c133336911b8600d63a8d6c59ce1befc5ce690"
+
+[[bindings]]
+binding = "PerfChecker.launch_pluto_dashboard"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerPluto"
+exported = true
+line = 18
+owner = "PerfCheckerPluto"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerPluto/src/PerfCheckerPluto.jl"
+source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c080021"
+[[bindings]]
+binding = "PerfChecker.prepare_pluto_dashboard"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerPluto"
+exported = true
+line = 35
+owner = "PerfCheckerPluto"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerPluto/src/PerfCheckerPluto.jl"
+source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c080021"
+[[bindings]]
+binding = "PerfChecker.write_investigation_notebook"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerPluto"
+exported = true
+line = 1
+owner = "PerfCheckerPluto"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerPluto/src/investigation_notebook.jl"
+source_sha256 = "8cceae8d8392c81888ab4cb31aed0bfb09ebbc41f39a34f48afd9f109c22da2e"
+[[bindings]]
+binding = "PerfChecker.write_suite_notebook"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerPluto"
+exported = true
+line = 1
+owner = "PerfCheckerPluto"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerPluto/src/suite_notebook.jl"
+source_sha256 = "616242b21741b5c6b14ab242dced47d933c697744c017d897551c03195d706bf"
+[[bindings]]
+binding = "PerfCheckerPluto.PerfCheckerPluto"
+binding_module = "PerfCheckerPluto"
+docstring_module = "PerfCheckerPluto"
+exported = true
+line = 1
+owner = "PerfCheckerPluto"
+public = true
+public_api = true
+signature = "Union{}"
+source = "packages/PerfCheckerPluto/src/PerfCheckerPluto.jl"
+source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c080021"
+
+[[inputs]]
+path = "website/optional-api/make.jl"
+sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+[[inputs]]
+path = "website/optional-api/pluto/Project.toml"
+sha256 = "19834d58244ffa62d1e1141e4927b0eff20fd202b22920598abdd989eef38c7b"
+[[inputs]]
+path = "website/compat.jl"
+sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
+[[inputs]]
+path = "website/package.json"
+sha256 = "2eee8d65709eb6296d36322b8645047bde3fe50032446cf0c35cabcedf9acfa5"
+[[inputs]]
+path = "website/package-lock.json"
+sha256 = "c07692de6c633073d2eed2997115f8ad0dbc1a4e5d3bf9aa23da7e69c8e0e19b"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/config.mts"
+sha256 = "5a12c3bbfd223b0fc70b43c24f9c6a9960c02210c0bebbd4ad0d88abae7d07aa"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/index.ts"
+sha256 = "930fa3a97351771e84cd3ed50e36a9fdfe001b283da26b716d0c70058ff439ea"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/style.css"
+sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
+[[inputs]]
+path = "website/optional-api/src/pluto/public-api.md"
+sha256 = "f5e52365766d2d9b7571451171a3cdb531be6d37265ae79eedb37a06c8a0f40c"
+[[inputs]]
+path = "website/optional-api/src/pluto/full-api.md"
+sha256 = "b2414a6b0de27256bc94f954d4643a75e8e7bcc9e3f89e5a8df445f792f96229"
+
+[[methods]]
+binding = "PerfChecker.launch_pluto_dashboard"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerPluto"
+line = 29
+owner = "PerfCheckerPluto"
+signature = "Tuple{typeof(launch_pluto_dashboard), AbstractString}"
+source = "packages/PerfCheckerPluto/src/PerfCheckerPluto.jl"
+source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c080021"
+[[methods]]
+binding = "PerfChecker.prepare_pluto_dashboard"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerPluto"
+line = 54
+owner = "PerfCheckerPluto"
+signature = "Tuple{typeof(prepare_pluto_dashboard), AbstractString}"
+source = "packages/PerfCheckerPluto/src/PerfCheckerPluto.jl"
+source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c080021"
+[[methods]]
+binding = "PerfChecker.write_investigation_notebook"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerPluto"
+line = 24
+owner = "PerfCheckerPluto"
+signature = "Tuple{typeof(write_investigation_notebook), AbstractString}"
+source = "packages/PerfCheckerPluto/src/investigation_notebook.jl"
+source_sha256 = "8cceae8d8392c81888ab4cb31aed0bfb09ebbc41f39a34f48afd9f109c22da2e"
+[[methods]]
+binding = "PerfChecker.write_suite_notebook"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerPluto"
+line = 21
+owner = "PerfCheckerPluto"
+signature = "Tuple{typeof(write_suite_notebook), AbstractString}"
+source = "packages/PerfCheckerPluto/src/suite_notebook.jl"
+source_sha256 = "616242b21741b5c6b14ab242dced47d933c697744c017d897551c03195d706bf"
+
+[[outputs]]
+path = ".documenter/pluto/public-api.md"
+sha256 = "876ce666c27e7c87f6eb6570381232485a7e7385c5cb443e8513d2524f6e53db"
+[[outputs]]
+path = ".documenter/pluto/full-api.md"
+sha256 = "5a2b03c1209cec14f2b7cd306cafb68283b1f6cf1e48c0842f515e946e259eab"
+[[outputs]]
+path = ".documenter/public/objects.inv"
+sha256 = "7dbbe2826ab7dac08a341bc17b4b30b232bf54301a3cb580c160440c07b889f2"

@@ -1,0 +1,406 @@
+channel = "source"
+core_version = "1.0.1"
+documented_modules = ["PerfCheckerWeb"]
+documenter = "1.19.0"
+julia = "1.13.1"
+manifest_sha256 = "f198b2e07cea772b869230f97d329c808d82a78e60a5c1ce499f53ee38c676db"
+owner = "PerfCheckerWeb"
+owner_uuid = "6e33b44e-937a-4705-841e-8b92a61e3730"
+owner_version = "1.0.0"
+pretty_tables = "absent"
+project_sha256 = "e74801a991bd6af819b7b93ab34a3b9a72b0aea590f5669c5fe95facca841da9"
+renderer = "0.3.5"
+schema = "perfchecker-optional-doc-export/1"
+source_revision = "52df29e6aeda433b55cace74b3a9909a2f38c30b"
+source_tree = "00c133336911b8600d63a8d6c59ce1befc5ce690"
+
+[[bindings]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 47
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{ScenarioCatalog}"
+source = "packages/PerfCheckerWeb/src/investigations.jl"
+source_sha256 = "af37740b5f33b1b5b6aa4c06fde20fc5d10b913297a214893da41e58fd696ac1"
+[[bindings]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 25
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{Function}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 52
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{SoftwareSuiteResult}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 64
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{RunBundle}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 303
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 364
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{SoftwareSuite}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.register_testitem_routes!"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 1
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerWeb/src/testitems.jl"
+source_sha256 = "9e84e87669d12cabbff934d4f3a96e04ae0d86d7cea09014586f655946c5665c"
+[[bindings]]
+binding = "PerfChecker.run_studio_agent"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 971
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{SoftwareSuite}"
+source = "packages/PerfCheckerWeb/src/studio.jl"
+source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38f"
+[[bindings]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 389
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{ScenarioCatalog}"
+source = "packages/PerfCheckerWeb/src/investigations.jl"
+source_sha256 = "af37740b5f33b1b5b6aa4c06fde20fc5d10b913297a214893da41e58fd696ac1"
+[[bindings]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 403
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{Function}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 421
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{SoftwareSuiteResult}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 433
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{RunBundle}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 450
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 482
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{SoftwareSuite}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[bindings]]
+binding = "PerfChecker.studio_token_authenticator"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 51
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{AbstractDict}"
+source = "packages/PerfCheckerWeb/src/studio.jl"
+source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38f"
+[[bindings]]
+binding = "PerfChecker.studio_token_authenticator"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 78
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Tuple{AbstractString}"
+source = "packages/PerfCheckerWeb/src/studio.jl"
+source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38f"
+[[bindings]]
+binding = "PerfCheckerWeb.PerfCheckerWeb"
+binding_module = "PerfCheckerWeb"
+docstring_module = "PerfCheckerWeb"
+exported = true
+line = 1
+owner = "PerfCheckerWeb"
+public = true
+public_api = true
+signature = "Union{}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+
+[[inputs]]
+path = "website/optional-api/make.jl"
+sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+[[inputs]]
+path = "website/optional-api/web/Project.toml"
+sha256 = "fd341c2c96d35b075a9631141e28e015e4128255c8d45519af1e9063d0e76fac"
+[[inputs]]
+path = "website/compat.jl"
+sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
+[[inputs]]
+path = "website/package.json"
+sha256 = "2eee8d65709eb6296d36322b8645047bde3fe50032446cf0c35cabcedf9acfa5"
+[[inputs]]
+path = "website/package-lock.json"
+sha256 = "c07692de6c633073d2eed2997115f8ad0dbc1a4e5d3bf9aa23da7e69c8e0e19b"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/config.mts"
+sha256 = "5a12c3bbfd223b0fc70b43c24f9c6a9960c02210c0bebbd4ad0d88abae7d07aa"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/index.ts"
+sha256 = "930fa3a97351771e84cd3ed50e36a9fdfe001b283da26b716d0c70058ff439ea"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/style.css"
+sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
+[[inputs]]
+path = "website/optional-api/src/web/public-api.md"
+sha256 = "78a660e4ba5aa224d7eb6832d4e72a4cb5c2de8839360b631fe393906149d756"
+[[inputs]]
+path = "website/optional-api/src/web/full-api.md"
+sha256 = "b6ed4986d73c9f1a908c7c39c5efbf5a1b49f4014ce2555484da3021748fbf1b"
+
+[[methods]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 317
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_oxygen_routes!), AbstractString}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 34
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_oxygen_routes!), Function}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 72
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_oxygen_routes!), RunBundle}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 64
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_oxygen_routes!), ScenarioCatalog}"
+source = "packages/PerfCheckerWeb/src/investigations.jl"
+source_sha256 = "af37740b5f33b1b5b6aa4c06fde20fc5d10b913297a214893da41e58fd696ac1"
+[[methods]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 59
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_oxygen_routes!), SoftwareSuiteResult}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.register_oxygen_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 385
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_oxygen_routes!), SoftwareSuite}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.register_testitem_routes!"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 31
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(register_testitem_routes!), AbstractString}"
+source = "packages/PerfCheckerWeb/src/testitems.jl"
+source_sha256 = "9e84e87669d12cabbff934d4f3a96e04ae0d86d7cea09014586f655946c5665c"
+[[methods]]
+binding = "PerfChecker.run_studio_agent"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 1010
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(run_studio_agent), SoftwareSuite}"
+source = "packages/PerfCheckerWeb/src/studio.jl"
+source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38f"
+[[methods]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 469
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(serve_suite), AbstractString}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 414
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(serve_suite), Function}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 443
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(serve_suite), RunBundle}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 405
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(serve_suite), ScenarioCatalog}"
+source = "packages/PerfCheckerWeb/src/investigations.jl"
+source_sha256 = "af37740b5f33b1b5b6aa4c06fde20fc5d10b913297a214893da41e58fd696ac1"
+[[methods]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 429
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(serve_suite), SoftwareSuiteResult}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.serve_suite"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 498
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(serve_suite), SoftwareSuite}"
+source = "packages/PerfCheckerWeb/src/PerfCheckerWeb.jl"
+source_sha256 = "89b37d9ec186b858d78ba08aec9bf0cdcabaf881569585db758633fb7f6be6de"
+[[methods]]
+binding = "PerfChecker.studio_token_authenticator"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 69
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(studio_token_authenticator), AbstractDict}"
+source = "packages/PerfCheckerWeb/src/studio.jl"
+source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38f"
+[[methods]]
+binding = "PerfChecker.studio_token_authenticator"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerWeb"
+line = 90
+owner = "PerfCheckerWeb"
+signature = "Tuple{typeof(studio_token_authenticator), AbstractString}"
+source = "packages/PerfCheckerWeb/src/studio.jl"
+source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38f"
+
+[[outputs]]
+path = ".documenter/web/public-api.md"
+sha256 = "57e8852702c4c7b56177a9a2eb2f60b3c9589bff2a8a8f5e6dbaadb5bfc7c8c1"
+[[outputs]]
+path = ".documenter/web/full-api.md"
+sha256 = "a00c80fca3c144fc7eb855627ff3939d6110ec3ee69377646d1fb8eaef6aa299"
+[[outputs]]
+path = ".documenter/public/objects.inv"
+sha256 = "8e4ae53ceba788d01b6957dc9602b413ade7d97548b5f1e97bcdd59ba99f1082"

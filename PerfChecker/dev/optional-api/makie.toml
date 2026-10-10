@@ -1,0 +1,451 @@
+channel = "source"
+core_version = "1.0.1"
+documented_modules = ["PerfCheckerMakie", "WGLMakieExt"]
+documenter = "1.19.0"
+julia = "1.13.1"
+manifest_sha256 = "54e4aaa8b3e80598df3eb59903c60abd5eb2033720e69eb3741cb942d901979e"
+owner = "PerfCheckerMakie"
+owner_uuid = "1039c70d-de90-4811-a202-d36e08616791"
+owner_version = "1.0.1"
+pretty_tables = "absent"
+project_sha256 = "19c5a7ecc1d4eacf5034b369714335e491161af2a7876971a01e516f3929ceb3"
+renderer = "0.3.5"
+schema = "perfchecker-optional-doc-export/1"
+source_revision = "52df29e6aeda433b55cace74b3a9909a2f38c30b"
+source_tree = "00c133336911b8600d63a8d6c59ce1befc5ce690"
+
+[[bindings]]
+binding = "PerfChecker.checkres_to_boxplots"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 97
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.CheckerResult, Val{:benchmark}}"
+source = "packages/PerfCheckerMakie/src/bench.jl"
+source_sha256 = "54a912213fb4c27b62e35eda2a7d09147235560fb488f2bc327b4fa03f59ae1d"
+[[bindings]]
+binding = "PerfChecker.checkres_to_boxplots"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 13
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.CheckerResult, Val{:chairmark}}"
+source = "packages/PerfCheckerMakie/src/chair.jl"
+source_sha256 = "4ad649a3ef818b49f230a0c996e13e2efd54224ba98eaff64dfa15a5f3ae8dae"
+[[bindings]]
+binding = "PerfChecker.checkres_to_pie"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 47
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.CheckerResult, Val{:alloc}}"
+source = "packages/PerfCheckerMakie/src/allocs.jl"
+source_sha256 = "ad3ef354299e2698097ce97b34efd80466c58186b4adad04adee435bc3916ee7"
+[[bindings]]
+binding = "PerfChecker.checkres_to_scatterlines"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 59
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.CheckerResult, Val{:alloc}}"
+source = "packages/PerfCheckerMakie/src/allocs.jl"
+source_sha256 = "ad3ef354299e2698097ce97b34efd80466c58186b4adad04adee435bc3916ee7"
+[[bindings]]
+binding = "PerfChecker.checkres_to_scatterlines"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 49
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.CheckerResult, Val{:benchmark}}"
+source = "packages/PerfCheckerMakie/src/bench.jl"
+source_sha256 = "54a912213fb4c27b62e35eda2a7d09147235560fb488f2bc327b4fa03f59ae1d"
+[[bindings]]
+binding = "PerfChecker.checkres_to_scatterlines"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 1
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.CheckerResult, Val{:chairmark}}"
+source = "packages/PerfCheckerMakie/src/chair.jl"
+source_sha256 = "4ad649a3ef818b49f230a0c996e13e2efd54224ba98eaff64dfa15a5f3ae8dae"
+[[bindings]]
+binding = "PerfChecker.performance_figure"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 585
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{PerfChecker.PerformancePlot}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[bindings]]
+binding = "PerfChecker.saveplot"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 90
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{AbstractString, Figure}"
+source = "packages/PerfCheckerMakie/src/exports.jl"
+source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
+[[bindings]]
+binding = "PerfChecker.suite_dashboard"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 1
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{SoftwareSuiteResult}"
+source = "packages/PerfCheckerMakie/src/suite.jl"
+source_sha256 = "7a09096a3f1d5cc82e30cc6a8b53c564fa90c38edc2af3f4e15c296f9bc23a6f"
+[[bindings]]
+binding = "PerfChecker.table_to_pie"
+binding_module = "PerfChecker"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 1
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{TypedTables.Table, Val{:alloc}}"
+source = "packages/PerfCheckerMakie/src/allocs.jl"
+source_sha256 = "ad3ef354299e2698097ce97b34efd80466c58186b4adad04adee435bc3916ee7"
+[[bindings]]
+binding = "PerfCheckerMakie.PerfCheckerMakie"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 1
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Union{}"
+source = "packages/PerfCheckerMakie/src/PerfCheckerMakie.jl"
+source_sha256 = "aa8e9f1812efab0f02c1462593523079f6722e1b5c4bab93e239286034e9d3bb"
+[[bindings]]
+binding = "PerfCheckerMakie._allocation_heatmap_figure"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = false
+line = 336
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "Tuple{Any}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[bindings]]
+binding = "PerfCheckerMakie._allocation_pie_inspection"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = false
+line = 217
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "Tuple{Pie, Any}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[bindings]]
+binding = "PerfCheckerMakie._decorate!"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = false
+line = 45
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "Tuple{Any}"
+source = "packages/PerfCheckerMakie/src/plotutils.jl"
+source_sha256 = "b950edd64cae726ba121051bd328ff990152d3d9fb0025c32be9bc996c92e965"
+[[bindings]]
+binding = "PerfCheckerMakie._flame_colors"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = false
+line = 378
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "Tuple{Any}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[bindings]]
+binding = "PerfCheckerMakie._flame_label_color"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = false
+line = 387
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "Tuple{Any, Any}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[bindings]]
+binding = "PerfCheckerMakie._flame_labels!"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = false
+line = 404
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "NTuple{4, Any}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[bindings]]
+binding = "PerfCheckerMakie.checkres_figures"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 1
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Union{Tuple{backend}, Tuple{PerfChecker.CheckerResult, Val{backend}}} where backend"
+source = "packages/PerfCheckerMakie/src/exports.jl"
+source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
+[[bindings]]
+binding = "PerfChecker.performance_plot_html"
+binding_module = "PerfChecker"
+docstring_module = "WGLMakieExt"
+exported = false
+line = 257
+owner = "PerfCheckerMakie"
+public = false
+public_api = true
+signature = "Tuple{PerfChecker.PerformancePlot}"
+source = "packages/PerfCheckerMakie/ext/WGLMakieExt.jl"
+source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d188907"
+[[bindings]]
+binding = "WGLMakieExt._offline_point_controls"
+binding_module = "WGLMakieExt"
+docstring_module = "WGLMakieExt"
+exported = false
+line = 31
+owner = "PerfCheckerMakie"
+public = false
+public_api = false
+signature = "Tuple{Any, Any, Any}"
+source = "packages/PerfCheckerMakie/ext/WGLMakieExt.jl"
+source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d188907"
+
+[[inputs]]
+path = "website/optional-api/make.jl"
+sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+[[inputs]]
+path = "website/optional-api/makie/Project.toml"
+sha256 = "31c4de48b1f1cca25990f4739c2deb442e1ef07192667a473b52b109f6f9a761"
+[[inputs]]
+path = "website/compat.jl"
+sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
+[[inputs]]
+path = "website/package.json"
+sha256 = "2eee8d65709eb6296d36322b8645047bde3fe50032446cf0c35cabcedf9acfa5"
+[[inputs]]
+path = "website/package-lock.json"
+sha256 = "c07692de6c633073d2eed2997115f8ad0dbc1a4e5d3bf9aa23da7e69c8e0e19b"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/config.mts"
+sha256 = "5a12c3bbfd223b0fc70b43c24f9c6a9960c02210c0bebbd4ad0d88abae7d07aa"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/index.ts"
+sha256 = "930fa3a97351771e84cd3ed50e36a9fdfe001b283da26b716d0c70058ff439ea"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/style.css"
+sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
+[[inputs]]
+path = "website/optional-api/src/makie/public-api.md"
+sha256 = "39d7bb58055a9e63caf38fe2fec471d8cb29004efd032c92d7589bbf432c9723"
+[[inputs]]
+path = "website/optional-api/src/makie/full-api.md"
+sha256 = "ceed99899e1251739c3181c41eb45fd537645487a635b31daed420e2654e0563"
+
+[[methods]]
+binding = "PerfChecker.checkres_to_boxplots"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 109
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_to_boxplots), PerfChecker.CheckerResult, Val{:benchmark}}"
+source = "packages/PerfCheckerMakie/src/bench.jl"
+source_sha256 = "54a912213fb4c27b62e35eda2a7d09147235560fb488f2bc327b4fa03f59ae1d"
+[[methods]]
+binding = "PerfChecker.checkres_to_boxplots"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 21
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_to_boxplots), PerfChecker.CheckerResult, Val{:chairmark}}"
+source = "packages/PerfCheckerMakie/src/chair.jl"
+source_sha256 = "4ad649a3ef818b49f230a0c996e13e2efd54224ba98eaff64dfa15a5f3ae8dae"
+[[methods]]
+binding = "PerfChecker.checkres_to_pie"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 52
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_to_pie), PerfChecker.CheckerResult, Val{:alloc}}"
+source = "packages/PerfCheckerMakie/src/allocs.jl"
+source_sha256 = "ad3ef354299e2698097ce97b34efd80466c58186b4adad04adee435bc3916ee7"
+[[methods]]
+binding = "PerfChecker.checkres_to_scatterlines"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 66
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_to_scatterlines), PerfChecker.CheckerResult, Val{:alloc}}"
+source = "packages/PerfCheckerMakie/src/allocs.jl"
+source_sha256 = "ad3ef354299e2698097ce97b34efd80466c58186b4adad04adee435bc3916ee7"
+[[methods]]
+binding = "PerfChecker.checkres_to_scatterlines"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 60
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_to_scatterlines), PerfChecker.CheckerResult, Val{:benchmark}}"
+source = "packages/PerfCheckerMakie/src/bench.jl"
+source_sha256 = "54a912213fb4c27b62e35eda2a7d09147235560fb488f2bc327b4fa03f59ae1d"
+[[methods]]
+binding = "PerfChecker.checkres_to_scatterlines"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 7
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_to_scatterlines), PerfChecker.CheckerResult, Val{:chairmark}}"
+source = "packages/PerfCheckerMakie/src/chair.jl"
+source_sha256 = "4ad649a3ef818b49f230a0c996e13e2efd54224ba98eaff64dfa15a5f3ae8dae"
+[[methods]]
+binding = "PerfChecker.performance_figure"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 601
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(performance_figure), PerfChecker.PerformancePlot}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[methods]]
+binding = "PerfChecker.performance_figure"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 645
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(performance_figure), RunBundle, AbstractString}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[methods]]
+binding = "PerfChecker.performance_figure"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 637
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(performance_figure), RunBundle}"
+source = "packages/PerfCheckerMakie/src/performance.jl"
+source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+[[methods]]
+binding = "PerfChecker.performance_plot_html"
+binding_module = "PerfChecker"
+defining_module = "WGLMakieExt"
+line = 285
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(performance_plot_html), PerfChecker.PerformancePlot}"
+source = "packages/PerfCheckerMakie/ext/WGLMakieExt.jl"
+source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d188907"
+[[methods]]
+binding = "PerfChecker.saveplot"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 132
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(saveplot), AbstractString, AbstractVector{<:Pair}}"
+source = "packages/PerfCheckerMakie/src/exports.jl"
+source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
+[[methods]]
+binding = "PerfChecker.saveplot"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 108
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(saveplot), AbstractString, Figure}"
+source = "packages/PerfCheckerMakie/src/exports.jl"
+source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
+[[methods]]
+binding = "PerfChecker.suite_dashboard"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 12
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(suite_dashboard), SoftwareSuiteResult}"
+source = "packages/PerfCheckerMakie/src/suite.jl"
+source_sha256 = "7a09096a3f1d5cc82e30cc6a8b53c564fa90c38edc2af3f4e15c296f9bc23a6f"
+[[methods]]
+binding = "PerfChecker.suite_dashboard"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 92
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(suite_dashboard), SoftwareSuite}"
+source = "packages/PerfCheckerMakie/src/suite.jl"
+source_sha256 = "7a09096a3f1d5cc82e30cc6a8b53c564fa90c38edc2af3f4e15c296f9bc23a6f"
+[[methods]]
+binding = "PerfChecker.suite_dashboard"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 86
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(suite_dashboard), SuiteJob}"
+source = "packages/PerfCheckerMakie/src/suite.jl"
+source_sha256 = "7a09096a3f1d5cc82e30cc6a8b53c564fa90c38edc2af3f4e15c296f9bc23a6f"
+[[methods]]
+binding = "PerfChecker.table_to_pie"
+binding_module = "PerfChecker"
+defining_module = "PerfCheckerMakie"
+line = 12
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(table_to_pie), TypedTables.Table, Val{:alloc}}"
+source = "packages/PerfCheckerMakie/src/allocs.jl"
+source_sha256 = "ad3ef354299e2698097ce97b34efd80466c58186b4adad04adee435bc3916ee7"
+[[methods]]
+binding = "PerfCheckerMakie.checkres_figures"
+binding_module = "PerfCheckerMakie"
+defining_module = "PerfCheckerMakie"
+line = 21
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(checkres_figures), PerfChecker.CheckerResult, Val{backend}} where backend"
+source = "packages/PerfCheckerMakie/src/exports.jl"
+source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
+
+[[outputs]]
+path = ".documenter/makie/public-api.md"
+sha256 = "1f799ff27a65b2982ca4513b2b725691dd371cf920b313560cd3465bf366e2ec"
+[[outputs]]
+path = ".documenter/makie/full-api.md"
+sha256 = "24610975afb13a44e737ea8ee5bf960a7addcf82fc90694a2cabb01b67501514"
+[[outputs]]
+path = ".documenter/public/objects.inv"
+sha256 = "e95d8c852291d27dbf1fb824d71147249f0ea42c0c1b9543c00aa143e3dbd10c"

@@ -1,0 +1,232 @@
+channel = "source"
+core_version = "1.0.1"
+documented_modules = ["PerfCheckerTachikoma"]
+documenter = "1.19.0"
+julia = "1.13.1"
+manifest_sha256 = "75ef330134935fc0ac156a341b39839559cd67b9012f9f94cf55b5baa24e2e2d"
+owner = "PerfCheckerTachikoma"
+owner_uuid = "62732417-0f79-4b0f-bcf8-4246188b2099"
+owner_version = "1.0.1"
+pretty_tables = "absent"
+project_sha256 = "e47b90459bf2f15b0c35f5f936de90f5fcd8e6a62293c68f089da96a030e40b7"
+renderer = "0.3.5"
+schema = "perfchecker-optional-doc-export/1"
+source_revision = "52df29e6aeda433b55cace74b3a9909a2f38c30b"
+source_tree = "00c133336911b8600d63a8d6c59ce1befc5ce690"
+
+[[bindings]]
+binding = "PerfCheckerTachikoma.PerfCheckerTachikoma"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 1
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Union{}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[bindings]]
+binding = "PerfCheckerTachikoma.SuiteTUI"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 33
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Union{}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[bindings]]
+binding = "PerfCheckerTachikoma.close!"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 415
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Tuple{SuiteTUI}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[bindings]]
+binding = "PerfCheckerTachikoma.plot_pixels"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 14
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Union{}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[bindings]]
+binding = "PerfCheckerTachikoma.refresh!"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 118
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Tuple{SuiteTUI}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[bindings]]
+binding = "PerfCheckerTachikoma.tui"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 453
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Tuple{Any}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[bindings]]
+binding = "PerfCheckerTachikoma.tui_model"
+binding_module = "PerfCheckerTachikoma"
+docstring_module = "PerfCheckerTachikoma"
+exported = true
+line = 66
+owner = "PerfCheckerTachikoma"
+public = true
+public_api = true
+signature = "Tuple{SuitePlan}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+
+[[inputs]]
+path = "website/optional-api/make.jl"
+sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+[[inputs]]
+path = "website/optional-api/tachikoma/Project.toml"
+sha256 = "c41f002b3e29dae0c8cba5ddab241f84850780b5d303f0be085953e4b8c1fee5"
+[[inputs]]
+path = "website/compat.jl"
+sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
+[[inputs]]
+path = "website/package.json"
+sha256 = "2eee8d65709eb6296d36322b8645047bde3fe50032446cf0c35cabcedf9acfa5"
+[[inputs]]
+path = "website/package-lock.json"
+sha256 = "c07692de6c633073d2eed2997115f8ad0dbc1a4e5d3bf9aa23da7e69c8e0e19b"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/config.mts"
+sha256 = "5a12c3bbfd223b0fc70b43c24f9c6a9960c02210c0bebbd4ad0d88abae7d07aa"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/index.ts"
+sha256 = "930fa3a97351771e84cd3ed50e36a9fdfe001b283da26b716d0c70058ff439ea"
+[[inputs]]
+path = "website/optional-api/src/.vitepress/theme/style.css"
+sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
+[[inputs]]
+path = "website/optional-api/src/tachikoma/public-api.md"
+sha256 = "b3ecd2f92494e0db79151063a7b0d414500cef85292237afb695077e87c35098"
+[[inputs]]
+path = "website/optional-api/src/tachikoma/full-api.md"
+sha256 = "0a9fcf5f840618dca012e2bed5dc3ce855fa498802a90371ce0e45604e29306f"
+
+[[methods]]
+binding = "PerfCheckerTachikoma.SuiteTUI"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 42
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{Type{SuiteTUI}, Union{Nothing, SuitePlan}, Vector{Dict{String, Any}}, BitVector, Int64, Symbol, Union{Nothing, SuiteJob}, Dict{Symbol, Any}, Union{Nothing, SoftwareSuiteResult}, Union{Nothing, RunBundle}, Vector{Dict{String, Any}}, Dict{String, Any}, String, Bool, Int64, Union{Nothing, Task}, String, String, Any, Bool, Tuple{Int64, Int64}, Tuple{Int64, Int64}, Tuple{Int64, Int64}}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.SuiteTUI"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 42
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{Type{SuiteTUI}, Vararg{Any, 22}}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.close!"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 433
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(close!), SuiteTUI}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.plot_pixels"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "MakieExt"
+line = 8
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(plot_pixels), RunBundle, Any}"
+source = "packages/PerfCheckerTachikoma/ext/MakieExt.jl"
+source_sha256 = "356ea12d79f07b239330a0af1a6de5195c92c8057bdb5999da97e7d86891b79d"
+[[methods]]
+binding = "PerfCheckerTachikoma.refresh!"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 125
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(refresh!), SuiteTUI}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.tui"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 468
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(tui), Any}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.tui_model"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 107
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(tui_model), RunBundle}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.tui_model"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 109
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(tui_model), SoftwareSuiteResult}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.tui_model"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 94
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(tui_model), SoftwareSuite}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+[[methods]]
+binding = "PerfCheckerTachikoma.tui_model"
+binding_module = "PerfCheckerTachikoma"
+defining_module = "PerfCheckerTachikoma"
+line = 85
+owner = "PerfCheckerTachikoma"
+signature = "Tuple{typeof(tui_model), SuitePlan}"
+source = "packages/PerfCheckerTachikoma/src/PerfCheckerTachikoma.jl"
+source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835b"
+
+[[outputs]]
+path = ".documenter/tachikoma/public-api.md"
+sha256 = "baa4a4714e405845a5b4867ede9960fcc5277899a1bd908941ea051fe61922b7"
+[[outputs]]
+path = ".documenter/tachikoma/full-api.md"
+sha256 = "296a6b443ef0ed9c5e9dec5443864f0ec556708c7b7b77c37219975668f69cd4"
+[[outputs]]
+path = ".documenter/public/objects.inv"
+sha256 = "82c133bf33580a2cb0996cd7cbc78049426e65f2fad1767cb706584c4c0587de"
