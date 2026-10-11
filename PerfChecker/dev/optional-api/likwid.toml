@@ -1,18 +1,18 @@
 channel = "source"
-core_version = "1.0.1"
+core_version = "1.1.0"
 documented_modules = ["PerfCheckerLIKWID"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "b24c048992315b254126a9f2d2c554e48bca2cb7494086776c1701039ce61688"
+manifest_sha256 = "3c71c94cbe7b363aa744ffa8711ef7322ef13343d7fe6d4660e3e702fcef8b01"
 owner = "PerfCheckerLIKWID"
 owner_uuid = "00985017-4685-4f40-9ee8-39d442cefdbe"
 owner_version = "1.0.1"
 pretty_tables = "3.5.0"
-project_sha256 = "c3769e5c5d6483941ea098fa444b7f38484b7fde7b1fa6114c529629b349c321"
+project_sha256 = "d07b9e36fea19a949c690db88fa098f3c7b4b943b729388286dc469cbba77cf5"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4dfbfd49723814cdba1e09634a9693cb15b2f1a8"
-source_tree = "dd32e23f42a42fddd37358b989e76f61404feeca"
+source_revision = "2c89fe9f3339baecf62cff7c759e97c54ed67544"
+source_tree = "e188d7283e01637cc4e0e6176eace84bd2ca33be"
 
 [[bindings]]
 binding = "PerfCheckerLIKWID.CounterRecord"
@@ -125,10 +125,10 @@ source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+sha256 = "b35259e60fcd8c4642838c11755cfd852b141ad9d10d688f7074bed915bb2c02"
 [[inputs]]
 path = "website/optional-api/likwid/Project.toml"
-sha256 = "7edfa3507d66eaf8e61279cc614dc684940fb07162ad337bd98b794e1f48c8b1"
+sha256 = "f77a065c609f2b113488c111cce0ceac27294ecb46286a9cb2912394e1c6f7e9"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -247,10 +247,10 @@ source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc
 
 [[outputs]]
 path = ".documenter/likwid/public-api.md"
-sha256 = "419609db1ad476f5bba6a1dc937658e6f811c21a320be3535087ddf316515a8a"
+sha256 = "e95a31db8bf237dfbff6122e18a0109025e75d462ca572800ee921e34932413d"
 [[outputs]]
 path = ".documenter/likwid/full-api.md"
-sha256 = "fe9f62761431d2202773909b271ea9fd245ef56ea67b7cf043556a6b90043331"
+sha256 = "14ba8652bae94a5eb5871e469f2dafed55001be3cd5c92f79a20354ab3f5c93a"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "2f655178643c2dc0dfc27fa01b8f4ec04ee58dbe9849de13f65973e73a8ffb53"
+sha256 = "82928d841e951c07727a327dc2c8ce05c117b1a6308bace7872e9599f498147a"

@@ -1,18 +1,18 @@
 channel = "source"
-core_version = "1.0.1"
+core_version = "1.1.0"
 documented_modules = ["PerfCheckerPluto"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "618f4e82a206d426d2b311b08d97845ecb4cbc640a8d3ca0d17697553fd697ca"
+manifest_sha256 = "774dfa3569a651a7267a4f7968c088b94a098c3b615a2887d8b9ec6b8d546ccf"
 owner = "PerfCheckerPluto"
 owner_uuid = "862b4710-55ee-4fb5-a69c-50e17f92c1f9"
 owner_version = "1.0.1"
 pretty_tables = "absent"
-project_sha256 = "67578af9b5e5b2faebd9a6afc22e50d4078dc60cdeadc50a3af93a95d62caf1a"
+project_sha256 = "6c068466cf8579c65c46d8a48039819d5fb2f5cc652d552e082065e69cf0b1a1"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4dfbfd49723814cdba1e09634a9693cb15b2f1a8"
-source_tree = "dd32e23f42a42fddd37358b989e76f61404feeca"
+source_revision = "2c89fe9f3339baecf62cff7c759e97c54ed67544"
+source_tree = "e188d7283e01637cc4e0e6176eace84bd2ca33be"
 
 [[bindings]]
 binding = "PerfChecker.launch_pluto_dashboard"
@@ -77,10 +77,10 @@ source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c08002
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+sha256 = "b35259e60fcd8c4642838c11755cfd852b141ad9d10d688f7074bed915bb2c02"
 [[inputs]]
 path = "website/optional-api/pluto/Project.toml"
-sha256 = "19834d58244ffa62d1e1141e4927b0eff20fd202b22920598abdd989eef38c7b"
+sha256 = "bc14fa4bfe0791842e1ec7138371fd4aef942b89a74b37ffa6df6b2aaf67d582"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -101,10 +101,10 @@ path = "website/optional-api/src/.vitepress/theme/style.css"
 sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
 [[inputs]]
 path = "website/optional-api/src/pluto/public-api.md"
-sha256 = "f5e52365766d2d9b7571451171a3cdb531be6d37265ae79eedb37a06c8a0f40c"
+sha256 = "5ca40ef9a62b5bbbb150ae600779c074f75cd7df7c40ac85402cdc8e044de4d3"
 [[inputs]]
 path = "website/optional-api/src/pluto/full-api.md"
-sha256 = "b2414a6b0de27256bc94f954d4643a75e8e7bcc9e3f89e5a8df445f792f96229"
+sha256 = "4edebe76757c6d54207bf3dd2fdeecbc12210c1da627430336ca684be86d65ed"
 
 [[methods]]
 binding = "PerfChecker.launch_pluto_dashboard"
@@ -145,10 +145,10 @@ source_sha256 = "616242b21741b5c6b14ab242dced47d933c697744c017d897551c03195d706b
 
 [[outputs]]
 path = ".documenter/pluto/public-api.md"
-sha256 = "7c99b789f1368b23d7627196fd565023a7cea6ea423d23c0088320673015a959"
+sha256 = "99f9986fe803118780fd3d2a577e36fac221151f291c435ec18eeef309f9a856"
 [[outputs]]
 path = ".documenter/pluto/full-api.md"
-sha256 = "43deb86cb121d2c0558d44411a85900868494d617ff16ec76004669b0eef3309"
+sha256 = "9fcd91061ff1b9e38bc14d7960873e3e66a51aeb0d6a4746450299a13d7cc1ec"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "7dbbe2826ab7dac08a341bc17b4b30b232bf54301a3cb580c160440c07b889f2"
+sha256 = "6cd4cdec71031874f58304101bbb642fccb105b6f767e3ec202e22c90785c24c"

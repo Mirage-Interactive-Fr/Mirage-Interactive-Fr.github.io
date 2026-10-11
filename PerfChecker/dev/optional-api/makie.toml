@@ -1,18 +1,18 @@
 channel = "source"
-core_version = "1.0.1"
+core_version = "1.1.0"
 documented_modules = ["PerfCheckerMakie", "WGLMakieExt"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "bc7b5074af075c41dc805ce9ae2cf28b351daf34f7bf7d6fba7f3cce805d084b"
+manifest_sha256 = "b9d7f41b30dc22cde3f19d1819b9b3a01f9d5a4e48a43c0aa3e204bd3dd1faa9"
 owner = "PerfCheckerMakie"
 owner_uuid = "1039c70d-de90-4811-a202-d36e08616791"
 owner_version = "1.0.1"
 pretty_tables = "absent"
-project_sha256 = "19c5a7ecc1d4eacf5034b369714335e491161af2a7876971a01e516f3929ceb3"
+project_sha256 = "44ca4907db26e6c8afa58e824986c35772fc08b6d525404ce9906978cc57c221"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4dfbfd49723814cdba1e09634a9693cb15b2f1a8"
-source_tree = "dd32e23f42a42fddd37358b989e76f61404feeca"
+source_revision = "2c89fe9f3339baecf62cff7c759e97c54ed67544"
+source_tree = "e188d7283e01637cc4e0e6176eace84bd2ca33be"
 
 [[bindings]]
 binding = "PerfChecker.checkres_to_boxplots"
@@ -257,10 +257,10 @@ source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d18890
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "5885e76762c6eb4167c629629ba28f91dc2bd424f22496b56dcfcc1d6d4ccd36"
+sha256 = "b35259e60fcd8c4642838c11755cfd852b141ad9d10d688f7074bed915bb2c02"
 [[inputs]]
 path = "website/optional-api/makie/Project.toml"
-sha256 = "31c4de48b1f1cca25990f4739c2deb442e1ef07192667a473b52b109f6f9a761"
+sha256 = "35872389ac608b147591e58578d12cd2fcc1a9cb19e515ff8e7efefe3e2e9b0f"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -281,10 +281,10 @@ path = "website/optional-api/src/.vitepress/theme/style.css"
 sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
 [[inputs]]
 path = "website/optional-api/src/makie/public-api.md"
-sha256 = "39d7bb58055a9e63caf38fe2fec471d8cb29004efd032c92d7589bbf432c9723"
+sha256 = "2811751a8f697d5edf7876c06bd801445ef8a572c97ce23b0754229110ce00bf"
 [[inputs]]
 path = "website/optional-api/src/makie/full-api.md"
-sha256 = "ceed99899e1251739c3181c41eb45fd537645487a635b31daed420e2654e0563"
+sha256 = "ca20909febf882a3bc63c33a755be0ca4b90cbbef32b06e07d027692e67ae5aa"
 
 [[methods]]
 binding = "PerfChecker.checkres_to_boxplots"
@@ -442,10 +442,10 @@ source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd1
 
 [[outputs]]
 path = ".documenter/makie/public-api.md"
-sha256 = "ad242db3c93f8e94cbdb737d4cd534705db3c742719889529ca48adb7599b454"
+sha256 = "69acd7c7b7cba651c2ab9a8b6583436b9cb21978cfa54ea9f9cc2302264a8c21"
 [[outputs]]
 path = ".documenter/makie/full-api.md"
-sha256 = "a6dd4b720de3e122c5e8b9d63497f71afdca5fca132986f5feb2c68882b7aae2"
+sha256 = "f5ab75e6636ed3326f90882c3fc8c773aafcdbc6475fab2831d1a1822d740857"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "e95d8c852291d27dbf1fb824d71147249f0ea42c0c1b9543c00aa143e3dbd10c"
+sha256 = "c600fc2153f47cccbcdaed3b9d589a37251e8a2c09c174660d3fd489cb6de28e"
