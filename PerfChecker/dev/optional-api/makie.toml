@@ -3,16 +3,16 @@ core_version = "1.1.0"
 documented_modules = ["PerfCheckerMakie", "WGLMakieExt"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "b9d7f41b30dc22cde3f19d1819b9b3a01f9d5a4e48a43c0aa3e204bd3dd1faa9"
+manifest_sha256 = "d797dfdb9c82a2b3c92c2e932135ce2085c6abe8b56f1910e0453bbf3e9bfca2"
 owner = "PerfCheckerMakie"
 owner_uuid = "1039c70d-de90-4811-a202-d36e08616791"
-owner_version = "1.0.1"
+owner_version = "1.0.3"
 pretty_tables = "absent"
-project_sha256 = "44ca4907db26e6c8afa58e824986c35772fc08b6d525404ce9906978cc57c221"
+project_sha256 = "98ebc741b22605dd33598ce70325089609c438191f2ddce64a492c470c1d8f4f"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4e81603c57b47bc08372992492fdf2cbbd718b3b"
-source_tree = "753e41cad1c984640a2337b314b70ad6932626ad"
+source_revision = "9947de5e4163388c0a14f0d439e6c578a4676597"
+source_tree = "c99e686cb4103fb636cb7d8cb1205b6be0ad8575"
 
 [[bindings]]
 binding = "PerfChecker.checkres_to_boxplots"
@@ -97,7 +97,7 @@ public = true
 public_api = true
 signature = "Tuple{PerfChecker.PerformancePlot}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[bindings]]
 binding = "PerfChecker.saveplot"
 binding_module = "PerfChecker"
@@ -145,7 +145,7 @@ public = true
 public_api = true
 signature = "Union{}"
 source = "packages/PerfCheckerMakie/src/PerfCheckerMakie.jl"
-source_sha256 = "aa8e9f1812efab0f02c1462593523079f6722e1b5c4bab93e239286034e9d3bb"
+source_sha256 = "e512a46e79945ec7483b033999c0694d2e8ea045bb59f02d0949d6c2a4f7059a"
 [[bindings]]
 binding = "PerfCheckerMakie._allocation_heatmap_figure"
 binding_module = "PerfCheckerMakie"
@@ -157,7 +157,7 @@ public = false
 public_api = false
 signature = "Tuple{Any}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[bindings]]
 binding = "PerfCheckerMakie._allocation_pie_inspection"
 binding_module = "PerfCheckerMakie"
@@ -169,7 +169,7 @@ public = false
 public_api = false
 signature = "Tuple{Pie, Any}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[bindings]]
 binding = "PerfCheckerMakie._decorate!"
 binding_module = "PerfCheckerMakie"
@@ -181,7 +181,7 @@ public = false
 public_api = false
 signature = "Tuple{Any}"
 source = "packages/PerfCheckerMakie/src/plotutils.jl"
-source_sha256 = "b950edd64cae726ba121051bd328ff990152d3d9fb0025c32be9bc996c92e965"
+source_sha256 = "c5c51d201b25a1927a7aa115875834ecb02a02bd854f55d95c9cea639e7593e3"
 [[bindings]]
 binding = "PerfCheckerMakie._flame_colors"
 binding_module = "PerfCheckerMakie"
@@ -193,7 +193,7 @@ public = false
 public_api = false
 signature = "Tuple{Any}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[bindings]]
 binding = "PerfCheckerMakie._flame_label_color"
 binding_module = "PerfCheckerMakie"
@@ -205,7 +205,7 @@ public = false
 public_api = false
 signature = "Tuple{Any, Any}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[bindings]]
 binding = "PerfCheckerMakie._flame_labels!"
 binding_module = "PerfCheckerMakie"
@@ -217,7 +217,7 @@ public = false
 public_api = false
 signature = "NTuple{4, Any}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[bindings]]
 binding = "PerfCheckerMakie.checkres_figures"
 binding_module = "PerfCheckerMakie"
@@ -231,6 +231,18 @@ signature = "Union{Tuple{backend}, Tuple{PerfChecker.CheckerResult, Val{backend}
 source = "packages/PerfCheckerMakie/src/exports.jl"
 source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
 [[bindings]]
+binding = "PerfCheckerMakie.observation_plot"
+binding_module = "PerfCheckerMakie"
+docstring_module = "PerfCheckerMakie"
+exported = true
+line = 1
+owner = "PerfCheckerMakie"
+public = true
+public_api = true
+signature = "Tuple{AbstractString, AbstractVector}"
+source = "packages/PerfCheckerMakie/src/observations.jl"
+source_sha256 = "536974931c145801dbbb998079077c87b2bb0b5b9018bfe4beafc76f19afe784"
+[[bindings]]
 binding = "PerfChecker.performance_plot_html"
 binding_module = "PerfChecker"
 docstring_module = "WGLMakieExt"
@@ -241,7 +253,7 @@ public = false
 public_api = true
 signature = "Tuple{PerfChecker.PerformancePlot}"
 source = "packages/PerfCheckerMakie/ext/WGLMakieExt.jl"
-source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d188907"
+source_sha256 = "6a2798800bea62a12f191a30ea70e00730694cda7313a22e48dd3c21170872b0"
 [[bindings]]
 binding = "WGLMakieExt._offline_point_controls"
 binding_module = "WGLMakieExt"
@@ -253,14 +265,14 @@ public = false
 public_api = false
 signature = "Tuple{Any, Any, Any}"
 source = "packages/PerfCheckerMakie/ext/WGLMakieExt.jl"
-source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d188907"
+source_sha256 = "6a2798800bea62a12f191a30ea70e00730694cda7313a22e48dd3c21170872b0"
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "b35259e60fcd8c4642838c11755cfd852b141ad9d10d688f7074bed915bb2c02"
+sha256 = "05b35fe9195d736a537cf353249ce6a856e24034a4449e3bb4f9303fe9653906"
 [[inputs]]
 path = "website/optional-api/makie/Project.toml"
-sha256 = "35872389ac608b147591e58578d12cd2fcc1a9cb19e515ff8e7efefe3e2e9b0f"
+sha256 = "416726ea834f20a5dbe5c06c01d3ae6a066782b3645d4b3d4ce1082511559e87"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -281,10 +293,10 @@ path = "website/optional-api/src/.vitepress/theme/style.css"
 sha256 = "fd28821097dce5e08447ddefc7cf5c38e71e55d177a3c091e9b7fbc250968de4"
 [[inputs]]
 path = "website/optional-api/src/makie/public-api.md"
-sha256 = "2811751a8f697d5edf7876c06bd801445ef8a572c97ce23b0754229110ce00bf"
+sha256 = "2bc0fd1c5b239165e4af38dd1f7015f931434cd5fc4afcf4fffa69b3369ce223"
 [[inputs]]
 path = "website/optional-api/src/makie/full-api.md"
-sha256 = "ca20909febf882a3bc63c33a755be0ca4b90cbbef32b06e07d027692e67ae5aa"
+sha256 = "48d5f5fad8ab853fcfb77356e3804f76ed529caa66aab0684a3897e6a0ee122f"
 
 [[methods]]
 binding = "PerfChecker.checkres_to_boxplots"
@@ -348,34 +360,34 @@ line = 601
 owner = "PerfCheckerMakie"
 signature = "Tuple{typeof(performance_figure), PerfChecker.PerformancePlot}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[methods]]
 binding = "PerfChecker.performance_figure"
 binding_module = "PerfChecker"
 defining_module = "PerfCheckerMakie"
-line = 645
+line = 646
 owner = "PerfCheckerMakie"
 signature = "Tuple{typeof(performance_figure), RunBundle, AbstractString}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[methods]]
 binding = "PerfChecker.performance_figure"
 binding_module = "PerfChecker"
 defining_module = "PerfCheckerMakie"
-line = 637
+line = 638
 owner = "PerfCheckerMakie"
 signature = "Tuple{typeof(performance_figure), RunBundle}"
 source = "packages/PerfCheckerMakie/src/performance.jl"
-source_sha256 = "409ee1007fdeaa7509c56b174d7ad551268cd833fb8609488b2cfa1e43374ccd"
+source_sha256 = "fdf87439d88e5e9dbb70de62ffce83499b4d22bcb006d30928de811d5b46fac0"
 [[methods]]
 binding = "PerfChecker.performance_plot_html"
 binding_module = "PerfChecker"
 defining_module = "WGLMakieExt"
-line = 285
+line = 287
 owner = "PerfCheckerMakie"
 signature = "Tuple{typeof(performance_plot_html), PerfChecker.PerformancePlot}"
 source = "packages/PerfCheckerMakie/ext/WGLMakieExt.jl"
-source_sha256 = "61d6f56f015c3720c7d8a5d41c658b2593f94160a2c6ea10834fc05e4d188907"
+source_sha256 = "6a2798800bea62a12f191a30ea70e00730694cda7313a22e48dd3c21170872b0"
 [[methods]]
 binding = "PerfChecker.saveplot"
 binding_module = "PerfChecker"
@@ -439,13 +451,22 @@ owner = "PerfCheckerMakie"
 signature = "Tuple{typeof(checkres_figures), PerfChecker.CheckerResult, Val{backend}} where backend"
 source = "packages/PerfCheckerMakie/src/exports.jl"
 source_sha256 = "f273c836f612f98f577599c1ec1e561fce58a094e8dda916e6b3bc07dfebcd15"
+[[methods]]
+binding = "PerfCheckerMakie.observation_plot"
+binding_module = "PerfCheckerMakie"
+defining_module = "PerfCheckerMakie"
+line = 48
+owner = "PerfCheckerMakie"
+signature = "Tuple{typeof(observation_plot), AbstractString, AbstractVector}"
+source = "packages/PerfCheckerMakie/src/observations.jl"
+source_sha256 = "536974931c145801dbbb998079077c87b2bb0b5b9018bfe4beafc76f19afe784"
 
 [[outputs]]
 path = ".documenter/makie/public-api.md"
-sha256 = "c013755becddd0e86ed0adf3dd4d6cd6a44b7723e058a7cd52be166890676b73"
+sha256 = "fdd9306707669b917fd4b188875ddeaac3035d2585c2362a7532cb8fc97390e7"
 [[outputs]]
 path = ".documenter/makie/full-api.md"
-sha256 = "5848e0e6e80042e0244d43dacaf34d851187639ac681363c40cf8dd34c7cc151"
+sha256 = "368692399a4730ea605c790195b260483ba2fb72690fd7561a3cbbb5e67d655e"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "c600fc2153f47cccbcdaed3b9d589a37251e8a2c09c174660d3fd489cb6de28e"
+sha256 = "b930c86d90f2b44fd7254a39d1f95ef754839b6444472e0c3b402ac9d575b080"

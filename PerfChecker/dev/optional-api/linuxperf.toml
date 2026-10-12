@@ -11,8 +11,8 @@ pretty_tables = "2.4.0"
 project_sha256 = "57e0270a6ab780d85fe06aabe7ab5cd4b93658039c0e524e0b736f40597f261e"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "4e81603c57b47bc08372992492fdf2cbbd718b3b"
-source_tree = "753e41cad1c984640a2337b314b70ad6932626ad"
+source_revision = "9947de5e4163388c0a14f0d439e6c578a4676597"
+source_tree = "c99e686cb4103fb636cb7d8cb1205b6be0ad8575"
 
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.CounterRecord"
@@ -125,7 +125,7 @@ source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a89
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "b35259e60fcd8c4642838c11755cfd852b141ad9d10d688f7074bed915bb2c02"
+sha256 = "05b35fe9195d736a537cf353249ce6a856e24034a4449e3bb4f9303fe9653906"
 [[inputs]]
 path = "website/optional-api/linuxperf/Project.toml"
 sha256 = "5e37bbdc4bdd18ddcddd83194b1aef90eb7a26c2a4f1aa2c3ebbc94d506e6e81"
@@ -238,10 +238,10 @@ source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a89
 
 [[outputs]]
 path = ".documenter/linuxperf/public-api.md"
-sha256 = "5a6582a527972001e78cf9618e33546faa803bd02631c82694c86272d6fcd36e"
+sha256 = "30d1688de27d76c6244c3ecc8704069f7c612e0459cc4761fffb338c9716dc10"
 [[outputs]]
 path = ".documenter/linuxperf/full-api.md"
-sha256 = "09a37d4a4764a76be193edba0426a23609d587bcb4ede31434eeb325432309f8"
+sha256 = "aaa56f396b6a8561c187f8724c7950c7831237480399a7af65e0725b31724ee0"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "067e8bad4f3072214e2d43243e2e3ea5574d87ede342b6c8b8ce89d202418dd2"

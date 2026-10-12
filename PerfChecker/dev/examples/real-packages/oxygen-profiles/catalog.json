@@ -92,7 +92,9 @@
       "svg": "version-series-5513036ec0aade22.svg",
       "terminal": "version-series-5513036ec0aade22.txt",
       "title": "Oxygen · heap_profile · julia.cpu.samples",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-5513036ec0aade22.html",
+      "html_input_sha256": "f56750830edd4df402a6f8998642b21102dc7a504490327d362157473b4d06e4"
     },
     {
       "case_id": "oxygen_event_lab/Oxygen/heap_profile_alloc",
@@ -192,7 +194,9 @@
       "svg": "version-series-753b13eecf14e21f.svg",
       "terminal": "version-series-753b13eecf14e21f.txt",
       "title": "Oxygen · heap_profile_alloc · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-753b13eecf14e21f.html",
+      "html_input_sha256": "488876b7453bdaea08ff42b688b25a56b007f02f208e664e13b9f40291c3d5bf"
     },
     {
       "feature": "heap_profile_alloc",
@@ -207,7 +211,9 @@
       "svg": "version-series-d51e72e65f7c1a84.svg",
       "terminal": "version-series-d51e72e65f7c1a84.txt",
       "title": "Oxygen · heap_profile_alloc · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-d51e72e65f7c1a84.html",
+      "html_input_sha256": "3dee9c501ff2dd1af1846ccf4305580d40b44f3d4b052c0699f07c44805f66fa"
     },
     {
       "feature": "heap_wall_profile",
@@ -222,7 +228,9 @@
       "svg": "version-series-3235f39cb9eb3d57.svg",
       "terminal": "version-series-3235f39cb9eb3d57.txt",
       "title": "Oxygen · heap_wall_profile · julia.wall.samples",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-3235f39cb9eb3d57.html",
+      "html_input_sha256": "ca2cdf85155f297a97922a5d71ae5ae29422242b55cab3240608ce7d8b1091ac"
     },
     {
       "case_id": "oxygen_event_lab/Oxygen/heap_wall_profile",
@@ -245,12 +253,12 @@
   ],
   "interactive_export": {
     "asset_layout": "shared_relative",
-    "companion_version": "1.0.1",
+    "companion_version": "1.0.3",
     "input_kind": "published_serialized_plot",
     "recipe": "examples/kitchen-sink/replay.jl:saved_plot",
     "recipe_sha256": "38ea1ff24fecc064fdf30af471893842266f3f970a92b11b9b24bdda07dd3307",
     "renderer": "PerfChecker.performance_plot_html",
-    "selected_views": 7,
-    "selection": "guided_examples"
+    "selected_views": 11,
+    "selection": "all_saved_views"
   }
 }

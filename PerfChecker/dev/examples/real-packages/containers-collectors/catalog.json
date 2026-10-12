@@ -13,7 +13,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "avltree.svg",
       "terminal": "avltree.txt",
-      "title": "AVLTree"
+      "title": "AVLTree",
+      "html": "avltree.html",
+      "plot": "avltree.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "accumulator",
@@ -21,7 +24,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "accumulator.svg",
       "terminal": "accumulator.txt",
-      "title": "Accumulator"
+      "title": "Accumulator",
+      "html": "accumulator.html",
+      "plot": "accumulator.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "binarymaxheap",
@@ -29,7 +35,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "binarymaxheap.svg",
       "terminal": "binarymaxheap.txt",
-      "title": "BinaryMaxHeap"
+      "title": "BinaryMaxHeap",
+      "html": "binarymaxheap.html",
+      "plot": "binarymaxheap.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "binaryminheap",
@@ -37,7 +46,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "binaryminheap.svg",
       "terminal": "binaryminheap.txt",
-      "title": "BinaryMinHeap"
+      "title": "BinaryMinHeap",
+      "html": "binaryminheap.html",
+      "plot": "binaryminheap.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "binaryminmaxheap",
@@ -45,7 +57,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "binaryminmaxheap.svg",
       "terminal": "binaryminmaxheap.txt",
-      "title": "BinaryMinMaxHeap"
+      "title": "BinaryMinMaxHeap",
+      "html": "binaryminmaxheap.html",
+      "plot": "binaryminmaxheap.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "circularbuffer",
@@ -53,7 +68,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "circularbuffer.svg",
       "terminal": "circularbuffer.txt",
-      "title": "CircularBuffer"
+      "title": "CircularBuffer",
+      "html": "circularbuffer.html",
+      "plot": "circularbuffer.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "circulardeque",
@@ -61,7 +79,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "circulardeque.svg",
       "terminal": "circulardeque.txt",
-      "title": "CircularDeque"
+      "title": "CircularDeque",
+      "html": "circulardeque.html",
+      "plot": "circulardeque.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "defaultdict",
@@ -69,7 +90,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "defaultdict.svg",
       "terminal": "defaultdict.txt",
-      "title": "DefaultDict"
+      "title": "DefaultDict",
+      "html": "defaultdict.html",
+      "plot": "defaultdict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "defaultordereddict",
@@ -77,7 +101,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "defaultordereddict.svg",
       "terminal": "defaultordereddict.txt",
-      "title": "DefaultOrderedDict"
+      "title": "DefaultOrderedDict",
+      "html": "defaultordereddict.html",
+      "plot": "defaultordereddict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "deque",
@@ -85,7 +112,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "deque.svg",
       "terminal": "deque.txt",
-      "title": "Deque"
+      "title": "Deque",
+      "html": "deque.html",
+      "plot": "deque.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "dibitvector",
@@ -93,7 +123,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "dibitvector.svg",
       "terminal": "dibitvector.txt",
-      "title": "DiBitVector"
+      "title": "DiBitVector",
+      "html": "dibitvector.html",
+      "plot": "dibitvector.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "disjointset",
@@ -101,7 +134,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "disjointset.svg",
       "terminal": "disjointset.txt",
-      "title": "DisjointSet"
+      "title": "DisjointSet",
+      "html": "disjointset.html",
+      "plot": "disjointset.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "fenwicktree",
@@ -109,7 +145,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "fenwicktree.svg",
       "terminal": "fenwicktree.txt",
-      "title": "FenwickTree"
+      "title": "FenwickTree",
+      "html": "fenwicktree.html",
+      "plot": "fenwicktree.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "intdisjointset",
@@ -117,7 +156,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "intdisjointset.svg",
       "terminal": "intdisjointset.txt",
-      "title": "IntDisjointSet"
+      "title": "IntDisjointSet",
+      "html": "intdisjointset.html",
+      "plot": "intdisjointset.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "linkedlist",
@@ -125,7 +167,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "linkedlist.svg",
       "terminal": "linkedlist.txt",
-      "title": "LinkedList"
+      "title": "LinkedList",
+      "html": "linkedlist.html",
+      "plot": "linkedlist.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "littledict",
@@ -133,7 +178,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "littledict.svg",
       "terminal": "littledict.txt",
-      "title": "LittleDict"
+      "title": "LittleDict",
+      "html": "littledict.html",
+      "plot": "littledict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "multidict",
@@ -141,7 +189,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "multidict.svg",
       "terminal": "multidict.txt",
-      "title": "MultiDict"
+      "title": "MultiDict",
+      "html": "multidict.html",
+      "plot": "multidict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "mutablebinarymaxheap",
@@ -149,7 +200,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "mutablebinarymaxheap.svg",
       "terminal": "mutablebinarymaxheap.txt",
-      "title": "MutableBinaryMaxHeap"
+      "title": "MutableBinaryMaxHeap",
+      "html": "mutablebinarymaxheap.html",
+      "plot": "mutablebinarymaxheap.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "mutablebinaryminheap",
@@ -157,7 +211,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "mutablebinaryminheap.svg",
       "terminal": "mutablebinaryminheap.txt",
-      "title": "MutableBinaryMinHeap"
+      "title": "MutableBinaryMinHeap",
+      "html": "mutablebinaryminheap.html",
+      "plot": "mutablebinaryminheap.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "mutablelinkedlist",
@@ -165,7 +222,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "mutablelinkedlist.svg",
       "terminal": "mutablelinkedlist.txt",
-      "title": "MutableLinkedList"
+      "title": "MutableLinkedList",
+      "html": "mutablelinkedlist.html",
+      "plot": "mutablelinkedlist.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "ordereddict",
@@ -173,7 +233,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "ordereddict.svg",
       "terminal": "ordereddict.txt",
-      "title": "OrderedDict"
+      "title": "OrderedDict",
+      "html": "ordereddict.html",
+      "plot": "ordereddict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "orderedrobindict",
@@ -181,7 +244,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "orderedrobindict.svg",
       "terminal": "orderedrobindict.txt",
-      "title": "OrderedRobinDict"
+      "title": "OrderedRobinDict",
+      "html": "orderedrobindict.html",
+      "plot": "orderedrobindict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "orderedset",
@@ -189,7 +255,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "orderedset.svg",
       "terminal": "orderedset.txt",
-      "title": "OrderedSet"
+      "title": "OrderedSet",
+      "html": "orderedset.html",
+      "plot": "orderedset.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "priorityqueue",
@@ -197,7 +266,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "priorityqueue.svg",
       "terminal": "priorityqueue.txt",
-      "title": "PriorityQueue"
+      "title": "PriorityQueue",
+      "html": "priorityqueue.html",
+      "plot": "priorityqueue.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "queue",
@@ -205,7 +277,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "queue.svg",
       "terminal": "queue.txt",
-      "title": "Queue"
+      "title": "Queue",
+      "html": "queue.html",
+      "plot": "queue.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "rbtree",
@@ -213,7 +288,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "rbtree.svg",
       "terminal": "rbtree.txt",
-      "title": "RBTree"
+      "title": "RBTree",
+      "html": "rbtree.html",
+      "plot": "rbtree.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "robindict",
@@ -221,7 +299,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "robindict.svg",
       "terminal": "robindict.txt",
-      "title": "RobinDict"
+      "title": "RobinDict",
+      "html": "robindict.html",
+      "plot": "robindict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "sorteddict",
@@ -229,7 +310,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "sorteddict.svg",
       "terminal": "sorteddict.txt",
-      "title": "SortedDict"
+      "title": "SortedDict",
+      "html": "sorteddict.html",
+      "plot": "sorteddict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "sortedmultidict",
@@ -237,7 +321,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "sortedmultidict.svg",
       "terminal": "sortedmultidict.txt",
-      "title": "SortedMultiDict"
+      "title": "SortedMultiDict",
+      "html": "sortedmultidict.html",
+      "plot": "sortedmultidict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "sortedset",
@@ -245,7 +332,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "sortedset.svg",
       "terminal": "sortedset.txt",
-      "title": "SortedSet"
+      "title": "SortedSet",
+      "html": "sortedset.html",
+      "plot": "sortedset.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "sparseintset",
@@ -253,7 +343,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "sparseintset.svg",
       "terminal": "sparseintset.txt",
-      "title": "SparseIntSet"
+      "title": "SparseIntSet",
+      "html": "sparseintset.html",
+      "plot": "sparseintset.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "splaytree",
@@ -261,7 +354,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "splaytree.svg",
       "terminal": "splaytree.txt",
-      "title": "SplayTree"
+      "title": "SplayTree",
+      "html": "splaytree.html",
+      "plot": "splaytree.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "stack",
@@ -269,7 +365,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "stack.svg",
       "terminal": "stack.txt",
-      "title": "Stack"
+      "title": "Stack",
+      "html": "stack.html",
+      "plot": "stack.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "swissdict",
@@ -277,7 +376,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "swissdict.svg",
       "terminal": "swissdict.txt",
-      "title": "SwissDict"
+      "title": "SwissDict",
+      "html": "swissdict.html",
+      "plot": "swissdict.plot.json",
+      "kind": "observation_series"
     },
     {
       "id": "trie",
@@ -285,7 +387,10 @@
       "label": "BenchmarkTools and Chairmarks",
       "svg": "trie.svg",
       "terminal": "trie.txt",
-      "title": "Trie"
+      "title": "Trie",
+      "html": "trie.html",
+      "plot": "trie.plot.json",
+      "kind": "observation_series"
     }
   ]
 }

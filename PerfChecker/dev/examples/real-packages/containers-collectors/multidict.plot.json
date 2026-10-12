@@ -1,0 +1,232 @@
+{
+  "plot": {
+    "data": [
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.wall.time",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 4.3,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "minimum of paired per-sample gc.time / wall.time; not a ratio of separate minima · 30 samples",
+        "panel": "julia.gc.fraction",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 0.0,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.bytes",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 9328.0,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.count",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 72.0,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.wall.time",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 2.1,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "minimum of paired per-sample gc.time / wall.time; not a ratio of separate minima · 30 samples",
+        "panel": "julia.gc.fraction",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 0.0,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.bytes",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 5856.0,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.count",
+        "series": "BenchmarkTools",
+        "style": "bar",
+        "value": 37.0,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.wall.time",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 8.000000000000002,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.gc.fraction",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 0.0,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.bytes",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 9328.0,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.count",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 72.0,
+        "version": "0.19.6",
+        "x": "MultiDict_build"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.wall.time",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 2.1,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.gc.fraction",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 0.0,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.bytes",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 5856.0,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      },
+      {
+        "label": "recorded minimum · 30 samples",
+        "panel": "julia.alloc.count",
+        "series": "Chairmarks",
+        "style": "bar",
+        "value": 37.0,
+        "version": "0.19.6",
+        "x": "MultiDict_traverse"
+      }
+    ],
+    "description": "",
+    "encoding": {
+      "color": "series",
+      "panel": "panel",
+      "x": "x",
+      "y": "value"
+    },
+    "id": "multidict",
+    "kind": "observation_series",
+    "options": {
+      "collector_label": "BenchmarkTools and Chairmarks",
+      "metadata": {
+        "run_ids": [
+          "51ef987b-fda5-41d4-be72-19bf54d88d53",
+          "de4d48db-443e-4566-9985-d95aa8a7074c"
+        ],
+        "source_sha256": {
+          "multidict.json": "6b0e627d5c1457ebb1051f8a5c88166e7a63a629571338690047af20e03e84f8"
+        }
+      },
+      "panels": [
+        {
+          "categories": [
+            "MultiDict_build",
+            "MultiDict_traverse"
+          ],
+          "id": "julia.wall.time",
+          "title": "wall.time",
+          "unit": "µs",
+          "xkind": "categorical",
+          "xlabel": "Operation",
+          "xunit": "",
+          "ylabel": "wall.time",
+          "yscale": "linear"
+        },
+        {
+          "categories": [
+            "MultiDict_build",
+            "MultiDict_traverse"
+          ],
+          "id": "julia.gc.fraction",
+          "title": "gc.fraction",
+          "unit": "%",
+          "xkind": "categorical",
+          "xlabel": "Operation",
+          "xunit": "",
+          "ylabel": "gc.fraction",
+          "yscale": "linear"
+        },
+        {
+          "categories": [
+            "MultiDict_build",
+            "MultiDict_traverse"
+          ],
+          "id": "julia.alloc.bytes",
+          "title": "alloc.bytes",
+          "unit": "By",
+          "xkind": "categorical",
+          "xlabel": "Operation",
+          "xunit": "",
+          "ylabel": "alloc.bytes",
+          "yscale": "linear"
+        },
+        {
+          "categories": [
+            "MultiDict_build",
+            "MultiDict_traverse"
+          ],
+          "id": "julia.alloc.count",
+          "title": "alloc.count",
+          "unit": "1",
+          "xkind": "categorical",
+          "xlabel": "Operation",
+          "xunit": "",
+          "ylabel": "alloc.count",
+          "yscale": "linear"
+        }
+      ],
+      "scope": "Separate collector sessions on one local machine; not a collector speed verdict"
+    },
+    "schema_version": "perfchecker-plot/1",
+    "title": "MultiDict · DataStructures 0.19.6"
+  }
+}

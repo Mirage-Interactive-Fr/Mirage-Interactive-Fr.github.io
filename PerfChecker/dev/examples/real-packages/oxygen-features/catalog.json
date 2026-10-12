@@ -5083,14 +5083,18 @@
         {
           "json": "normalized-metrics-6811dfa7c05d4c5c-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-6811dfa7c05d4c5c-1.10.svg"
+          "svg": "normalized-metrics-6811dfa7c05d4c5c-1.10.svg",
+          "html": "normalized-metrics-6811dfa7c05d4c5c-1.10.html",
+          "html_input_sha256": "08ab44c9eea895a88f898d05e64f20f9fe46055e8eec7aae62f4238d192d1a52"
         }
       ],
       "svg": "normalized-metrics-6811dfa7c05d4c5c.svg",
       "terminal": "normalized-metrics-6811dfa7c05d4c5c.txt",
       "title": "Oxygen · binary_benchmark · relative to minimum",
       "unit": "ratio",
-      "workload": "binary_http"
+      "workload": "binary_http",
+      "html": "normalized-metrics-6811dfa7c05d4c5c.html",
+      "html_input_sha256": "36b81cd2ed91e69005074ef806f9908f0f6c388201bae94c801849b6d566ad9c"
     },
     {
       "feature": "binary_benchmark",
@@ -5105,7 +5109,9 @@
       "svg": "distribution-1271aa7234f08b39.svg",
       "terminal": "distribution-1271aa7234f08b39.txt",
       "title": "Oxygen · binary_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-1271aa7234f08b39.html",
+      "html_input_sha256": "97e08ef6409c558c088020ee79826b83474ef6db68500edce2d18f9813a919ca"
     },
     {
       "feature": "binary_benchmark",
@@ -5120,7 +5126,9 @@
       "svg": "distribution-3c25eeeacc240348.svg",
       "terminal": "distribution-3c25eeeacc240348.txt",
       "title": "Oxygen · binary_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-3c25eeeacc240348.html",
+      "html_input_sha256": "db85480865478b088d7c5ddbd8c1cfc0162f135cc66737aeb679b839546755f8"
     },
     {
       "feature": "binary_benchmark",
@@ -5135,7 +5143,9 @@
       "svg": "distribution-88085500cb999b85.svg",
       "terminal": "distribution-88085500cb999b85.txt",
       "title": "Oxygen · binary_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-88085500cb999b85.html",
+      "html_input_sha256": "2e8e3863df018a2eed5e436486f7e2b4c182c71e265f4521e280885d2ceda67f"
     },
     {
       "feature": "binary_benchmark",
@@ -5150,7 +5160,9 @@
       "svg": "distribution-dcb8f0b9e73b46be.svg",
       "terminal": "distribution-dcb8f0b9e73b46be.txt",
       "title": "Oxygen · binary_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-dcb8f0b9e73b46be.html",
+      "html_input_sha256": "68e4d43aecad494eb8046129cca5b8aeb77a3d28d4a4cfa02a9fabfb0c82dee1"
     },
     {
       "comparison_key": "oxygen/http/binary/v1",
@@ -5165,7 +5177,9 @@
       "svg": "time-allocation-tradeoff-8d2abb27d5a776aa.svg",
       "terminal": "time-allocation-tradeoff-8d2abb27d5a776aa.txt",
       "title": "Oxygen · binary_benchmark · time/allocation trade-off",
-      "unit": "s+By"
+      "unit": "s+By",
+      "html": "time-allocation-tradeoff-8d2abb27d5a776aa.html",
+      "html_input_sha256": "bd87db700811eec719c8eb5816ebacf1f7fd74547ecc1e7d4fa8b7e82dbe6d81"
     },
     {
       "feature": "binary_benchmark",
@@ -5180,7 +5194,9 @@
       "svg": "version-delta-3cea97477bd42444.svg",
       "terminal": "version-delta-3cea97477bd42444.txt",
       "title": "Oxygen · binary_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-3cea97477bd42444.html",
+      "html_input_sha256": "07801de0ec5954dfe43b0c0c8fd93b2b4a8727e307d191a7bb50b5402c89ee4c"
     },
     {
       "feature": "binary_benchmark",
@@ -5195,7 +5211,9 @@
       "svg": "version-delta-4dad75f3b4ab94ee.svg",
       "terminal": "version-delta-4dad75f3b4ab94ee.txt",
       "title": "Oxygen · binary_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-4dad75f3b4ab94ee.html",
+      "html_input_sha256": "62267d39e74417b7e252eeddb650b667d699672b4b5460965349f70050762bca"
     },
     {
       "feature": "binary_benchmark",
@@ -5210,7 +5228,9 @@
       "svg": "version-delta-5510243f25234699.svg",
       "terminal": "version-delta-5510243f25234699.txt",
       "title": "Oxygen · binary_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-5510243f25234699.html",
+      "html_input_sha256": "90d1cc3522975710b01662cd94c4294b8cea6531d56d34a43300f279bccc3e55"
     },
     {
       "feature": "binary_benchmark",
@@ -5225,7 +5245,9 @@
       "svg": "version-delta-ab72897e1fa5eef3.svg",
       "terminal": "version-delta-ab72897e1fa5eef3.txt",
       "title": "Oxygen · binary_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-ab72897e1fa5eef3.html",
+      "html_input_sha256": "fd5478d94039560d52e2d326d21b39b87c25a052c6914ce172ef57c1ca98b95a"
     },
     {
       "feature": "binary_benchmark",
@@ -5240,7 +5262,9 @@
       "svg": "version-series-26591c2afa00632f.svg",
       "terminal": "version-series-26591c2afa00632f.txt",
       "title": "Oxygen · binary_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-26591c2afa00632f.html",
+      "html_input_sha256": "26b0f28e749765f99932c2115430dd5f9842c57b8e8a7badcce3a8ebfc5f836e"
     },
     {
       "feature": "binary_benchmark",
@@ -5255,7 +5279,9 @@
       "svg": "version-series-771d7375e663f4f8.svg",
       "terminal": "version-series-771d7375e663f4f8.txt",
       "title": "Oxygen · binary_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-771d7375e663f4f8.html",
+      "html_input_sha256": "beb76b336a39e6ef3f29c6dd9efc9b5c60a5e53aa164294bf5335c4b3b07ea12"
     },
     {
       "feature": "binary_benchmark",
@@ -5270,7 +5296,9 @@
       "svg": "version-series-c92c3608c3eb2b92.svg",
       "terminal": "version-series-c92c3608c3eb2b92.txt",
       "title": "Oxygen · binary_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-c92c3608c3eb2b92.html",
+      "html_input_sha256": "27e65f954817f04970ddf65072733b23f4cdd7bf732bf75b64cb195661add15c"
     },
     {
       "feature": "binary_benchmark",
@@ -5285,7 +5313,9 @@
       "svg": "version-series-f5b05209b03b7dfd.svg",
       "terminal": "version-series-f5b05209b03b7dfd.txt",
       "title": "Oxygen · binary_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-f5b05209b03b7dfd.html",
+      "html_input_sha256": "80c691b5df3a6e53ec5127ea5f167dfd1b1dee0c4130affdda61e53a375c5f63"
     },
     {
       "collector": "benchmarktools-v1/fresh-state-evals1-v1",
@@ -5301,7 +5331,9 @@
         {
           "json": "normalized-metrics-ed5e8b7826e59b64-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-ed5e8b7826e59b64-1.10.svg"
+          "svg": "normalized-metrics-ed5e8b7826e59b64-1.10.svg",
+          "html": "normalized-metrics-ed5e8b7826e59b64-1.10.html",
+          "html_input_sha256": "e101c2846ce42fd96a6c37c3cf3dd2ffb341bef84fee04063b6763f9667d828b"
         }
       ],
       "svg": "normalized-metrics-ed5e8b7826e59b64.svg",
@@ -5325,7 +5357,9 @@
       "svg": "distribution-58d08edfc5211849.svg",
       "terminal": "distribution-58d08edfc5211849.txt",
       "title": "Oxygen · html_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-58d08edfc5211849.html",
+      "html_input_sha256": "f7fbd4c0ad501a56fd58dce87554c63dc5a5bb60e41148ca95f14f0d81bda313"
     },
     {
       "feature": "html_benchmark",
@@ -5357,7 +5391,9 @@
       "svg": "distribution-7f941a5a6c6a57cc.svg",
       "terminal": "distribution-7f941a5a6c6a57cc.txt",
       "title": "Oxygen · html_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-7f941a5a6c6a57cc.html",
+      "html_input_sha256": "cf33366f8c06357b92198b976d30b9336ab31813e284d87f0d601798e780c47d"
     },
     {
       "feature": "html_benchmark",
@@ -5372,7 +5408,9 @@
       "svg": "distribution-bf1d29928e072908.svg",
       "terminal": "distribution-bf1d29928e072908.txt",
       "title": "Oxygen · html_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-bf1d29928e072908.html",
+      "html_input_sha256": "c5b9f6cdc649a586ee4dd498ad6d6079bcd9f30cc0e1a0a0dce0f45dad59e30e"
     },
     {
       "comparison_key": "oxygen/http/html/v1",
@@ -5404,7 +5442,9 @@
       "svg": "version-delta-00826bcb6e9bd39a.svg",
       "terminal": "version-delta-00826bcb6e9bd39a.txt",
       "title": "Oxygen · html_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-00826bcb6e9bd39a.html",
+      "html_input_sha256": "5161759e132fb9d9f8c8770d843dd7cb3718ecb48fa6dfe7877312f051c6e279"
     },
     {
       "feature": "html_benchmark",
@@ -5419,7 +5459,9 @@
       "svg": "version-delta-486543aa8511ae27.svg",
       "terminal": "version-delta-486543aa8511ae27.txt",
       "title": "Oxygen · html_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-486543aa8511ae27.html",
+      "html_input_sha256": "fba798f558ac458ad235370a2f593a9ed894eebc7719d13c69f4a3ec1e251be2"
     },
     {
       "feature": "html_benchmark",
@@ -5434,7 +5476,9 @@
       "svg": "version-delta-5cd79346b4dabccc.svg",
       "terminal": "version-delta-5cd79346b4dabccc.txt",
       "title": "Oxygen · html_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-5cd79346b4dabccc.html",
+      "html_input_sha256": "682083d7e76023c0ea367de6c243e379a028b46ef6feef25508a221254d95bca"
     },
     {
       "feature": "html_benchmark",
@@ -5483,7 +5527,9 @@
       "svg": "version-series-bdf9403997fb2dda.svg",
       "terminal": "version-series-bdf9403997fb2dda.txt",
       "title": "Oxygen · html_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-bdf9403997fb2dda.html",
+      "html_input_sha256": "03d054774b74e36bd45162eb44ec9f87b9790c2b5a3b24420e90c91bb1122f53"
     },
     {
       "feature": "html_benchmark",
@@ -5498,7 +5544,9 @@
       "svg": "version-series-e8552ac9847291f8.svg",
       "terminal": "version-series-e8552ac9847291f8.txt",
       "title": "Oxygen · html_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-e8552ac9847291f8.html",
+      "html_input_sha256": "d38cf722c0550593356144a0ece990e35110d4e340e54fdb97771c6865404d90"
     },
     {
       "feature": "html_benchmark",
@@ -5513,7 +5561,9 @@
       "svg": "version-series-fcf4f5a17cf440cf.svg",
       "terminal": "version-series-fcf4f5a17cf440cf.txt",
       "title": "Oxygen · html_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-fcf4f5a17cf440cf.html",
+      "html_input_sha256": "a3015dc79a0afd7cd94f873404edc4655ae1dcaeb225bf78032279f872e0673e"
     },
     {
       "collector": "benchmarktools-v1/fresh-state-evals1-v1",
@@ -5529,14 +5579,18 @@
         {
           "json": "normalized-metrics-7b86e4a7bf1795c5-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-7b86e4a7bf1795c5-1.10.svg"
+          "svg": "normalized-metrics-7b86e4a7bf1795c5-1.10.svg",
+          "html": "normalized-metrics-7b86e4a7bf1795c5-1.10.html",
+          "html_input_sha256": "706da050e63c1b9a398f3e3813e4b63bf3d9edfe208dd1d67d0a4016e4c1b5d0"
         }
       ],
       "svg": "normalized-metrics-7b86e4a7bf1795c5.svg",
       "terminal": "normalized-metrics-7b86e4a7bf1795c5.txt",
       "title": "Oxygen · json_benchmark · relative to minimum",
       "unit": "ratio",
-      "workload": "json_http"
+      "workload": "json_http",
+      "html": "normalized-metrics-7b86e4a7bf1795c5.html",
+      "html_input_sha256": "c16582273a86852032fad994dc68143e0c47c52ac0f400eefb186d3c0b743e8e"
     },
     {
       "feature": "json_benchmark",
@@ -5551,7 +5605,9 @@
       "svg": "distribution-1d412e2e7aa0f24b.svg",
       "terminal": "distribution-1d412e2e7aa0f24b.txt",
       "title": "Oxygen · json_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-1d412e2e7aa0f24b.html",
+      "html_input_sha256": "45b01bb1be5552619c3a8ad9e2d110a212acec5160bfa637a36eb8d1e656777a"
     },
     {
       "feature": "json_benchmark",
@@ -5566,7 +5622,9 @@
       "svg": "distribution-39e10525d8a18113.svg",
       "terminal": "distribution-39e10525d8a18113.txt",
       "title": "Oxygen · json_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-39e10525d8a18113.html",
+      "html_input_sha256": "85f0e4883d1c8f7e748d1fa97ad66faaf60001c31eae46ad0241210d4596eef0"
     },
     {
       "feature": "json_benchmark",
@@ -5581,7 +5639,9 @@
       "svg": "distribution-6ea02a60a60d6768.svg",
       "terminal": "distribution-6ea02a60a60d6768.txt",
       "title": "Oxygen · json_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-6ea02a60a60d6768.html",
+      "html_input_sha256": "06ce800526f5397a071140b38f13fc94c5f436d563c2c34f1ee71d10f629c03d"
     },
     {
       "feature": "json_benchmark",
@@ -5596,7 +5656,9 @@
       "svg": "distribution-e10aa78d1c0e0c0b.svg",
       "terminal": "distribution-e10aa78d1c0e0c0b.txt",
       "title": "Oxygen · json_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-e10aa78d1c0e0c0b.html",
+      "html_input_sha256": "8bc74ef94c5745c56f82201eb6bb8327fee0eb54f711929c7a1e215ad3466aed"
     },
     {
       "comparison_key": "oxygen/http/json/v1",
@@ -5611,7 +5673,9 @@
       "svg": "time-allocation-tradeoff-d82dcc6c45ddfbd5.svg",
       "terminal": "time-allocation-tradeoff-d82dcc6c45ddfbd5.txt",
       "title": "Oxygen · json_benchmark · time/allocation trade-off",
-      "unit": "s+By"
+      "unit": "s+By",
+      "html": "time-allocation-tradeoff-d82dcc6c45ddfbd5.html",
+      "html_input_sha256": "5563ea23907909cf0ce62201a47a21904c588bba279947645ddb3fef6e092e40"
     },
     {
       "feature": "json_benchmark",
@@ -5626,7 +5690,9 @@
       "svg": "version-delta-3196b5f0287be992.svg",
       "terminal": "version-delta-3196b5f0287be992.txt",
       "title": "Oxygen · json_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-3196b5f0287be992.html",
+      "html_input_sha256": "05746a27b9003e87efb1d3d96ef46970c4cd4f4ca9baaff751b390cc2b86d9d1"
     },
     {
       "feature": "json_benchmark",
@@ -5641,7 +5707,9 @@
       "svg": "version-delta-abc026360dac2723.svg",
       "terminal": "version-delta-abc026360dac2723.txt",
       "title": "Oxygen · json_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-abc026360dac2723.html",
+      "html_input_sha256": "6c782c4080a7956aa0c775c74dc4591c4744e50de163c7385f9d1e054c6e8f47"
     },
     {
       "feature": "json_benchmark",
@@ -5656,7 +5724,9 @@
       "svg": "version-delta-c9defa40f0344e83.svg",
       "terminal": "version-delta-c9defa40f0344e83.txt",
       "title": "Oxygen · json_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-c9defa40f0344e83.html",
+      "html_input_sha256": "1f6f36754daa16833bee6cd378391fc010661bf6f6853fdf80e3fdc51f7afe2d"
     },
     {
       "feature": "json_benchmark",
@@ -5671,7 +5741,9 @@
       "svg": "version-delta-e768613be9f440a6.svg",
       "terminal": "version-delta-e768613be9f440a6.txt",
       "title": "Oxygen · json_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-e768613be9f440a6.html",
+      "html_input_sha256": "b3185c528b6db48e3a364ccaba03013feaaae0284c06ba568c2c3cfa6a60e7e1"
     },
     {
       "feature": "json_benchmark",
@@ -5686,7 +5758,9 @@
       "svg": "version-series-40dfcab04c397a47.svg",
       "terminal": "version-series-40dfcab04c397a47.txt",
       "title": "Oxygen · json_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-40dfcab04c397a47.html",
+      "html_input_sha256": "cdaddd3d8a920b74fa30ee68476b524d3666a567d96940cc66858ce84cb63bf8"
     },
     {
       "feature": "json_benchmark",
@@ -5701,7 +5775,9 @@
       "svg": "version-series-5be0802ddf73306a.svg",
       "terminal": "version-series-5be0802ddf73306a.txt",
       "title": "Oxygen · json_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-5be0802ddf73306a.html",
+      "html_input_sha256": "caeac2066b259b81dc429ed0847793f7949aa30a5ca364772db525f6364a3815"
     },
     {
       "feature": "json_benchmark",
@@ -5716,7 +5792,9 @@
       "svg": "version-series-775dbd305e5bb0a7.svg",
       "terminal": "version-series-775dbd305e5bb0a7.txt",
       "title": "Oxygen · json_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-775dbd305e5bb0a7.html",
+      "html_input_sha256": "5802776fe912a9431c350f8085e1db0109db25dcdcdea81e1785a03412e180b6"
     },
     {
       "feature": "json_benchmark",
@@ -5731,7 +5809,9 @@
       "svg": "version-series-f01f0a0ec390da18.svg",
       "terminal": "version-series-f01f0a0ec390da18.txt",
       "title": "Oxygen · json_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-f01f0a0ec390da18.html",
+      "html_input_sha256": "14e660d3138c8c674eeaa966c0caa6febfcc053dced3d4f837feee0693b510a2"
     },
     {
       "collector": "benchmarktools-v1/fresh-state-evals1-v1",
@@ -5747,14 +5827,18 @@
         {
           "json": "normalized-metrics-1f5231b3393e8c8d-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-1f5231b3393e8c8d-1.10.svg"
+          "svg": "normalized-metrics-1f5231b3393e8c8d-1.10.svg",
+          "html": "normalized-metrics-1f5231b3393e8c8d-1.10.html",
+          "html_input_sha256": "6755683c32d6bdfc2132d4736ae6bd6ab65d9ebdc614b3b01bd97ad886258851"
         }
       ],
       "svg": "normalized-metrics-1f5231b3393e8c8d.svg",
       "terminal": "normalized-metrics-1f5231b3393e8c8d.txt",
       "title": "Oxygen · not_found_benchmark · relative to minimum",
       "unit": "ratio",
-      "workload": "not_found_http"
+      "workload": "not_found_http",
+      "html": "normalized-metrics-1f5231b3393e8c8d.html",
+      "html_input_sha256": "cf6d346368bf327fbc19e4195a1ff2ba55127293dba0f9a51b7f6a587c2d28be"
     },
     {
       "feature": "not_found_benchmark",
@@ -5769,7 +5853,9 @@
       "svg": "distribution-add7f73bea14686f.svg",
       "terminal": "distribution-add7f73bea14686f.txt",
       "title": "Oxygen · not_found_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-add7f73bea14686f.html",
+      "html_input_sha256": "8c2f1f6fa78ef6953ac34be1d8e8dda963f074df3316c69cb6238a0dd2d6fdfb"
     },
     {
       "feature": "not_found_benchmark",
@@ -5784,7 +5870,9 @@
       "svg": "distribution-c20cb32ef4c91879.svg",
       "terminal": "distribution-c20cb32ef4c91879.txt",
       "title": "Oxygen · not_found_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-c20cb32ef4c91879.html",
+      "html_input_sha256": "24e5625a6d9c845c35c9feefa82252038efc63e2fe373adb26ccaf6099d7579e"
     },
     {
       "feature": "not_found_benchmark",
@@ -5799,7 +5887,9 @@
       "svg": "distribution-dbeac3b4fed60b7c.svg",
       "terminal": "distribution-dbeac3b4fed60b7c.txt",
       "title": "Oxygen · not_found_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-dbeac3b4fed60b7c.html",
+      "html_input_sha256": "09b7bc6f0e9d9786e6363bfc3d214ca8d69c7fd865294d6c3d6abc30ceee019a"
     },
     {
       "feature": "not_found_benchmark",
@@ -5814,7 +5904,9 @@
       "svg": "distribution-e6d8a6f3e76b5495.svg",
       "terminal": "distribution-e6d8a6f3e76b5495.txt",
       "title": "Oxygen · not_found_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-e6d8a6f3e76b5495.html",
+      "html_input_sha256": "83c3ff7064397361f04db0424057d64b92ba226a0fd38644a6c5705989ce5430"
     },
     {
       "comparison_key": "oxygen/http/not_found/v1",
@@ -5829,7 +5921,9 @@
       "svg": "time-allocation-tradeoff-baf161b23995773e.svg",
       "terminal": "time-allocation-tradeoff-baf161b23995773e.txt",
       "title": "Oxygen · not_found_benchmark · time/allocation trade-off",
-      "unit": "s+By"
+      "unit": "s+By",
+      "html": "time-allocation-tradeoff-baf161b23995773e.html",
+      "html_input_sha256": "d6930e92eb2bf49c4d834bffad080c434b220453c5e60f44655a85c9b132c82f"
     },
     {
       "feature": "not_found_benchmark",
@@ -5844,7 +5938,9 @@
       "svg": "version-delta-166fa00bf1370266.svg",
       "terminal": "version-delta-166fa00bf1370266.txt",
       "title": "Oxygen · not_found_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-166fa00bf1370266.html",
+      "html_input_sha256": "5af69203b931d6e29942370837a643d5508e269d7738737cfd26e15d7a237103"
     },
     {
       "feature": "not_found_benchmark",
@@ -5859,7 +5955,9 @@
       "svg": "version-delta-4aace34b389cea29.svg",
       "terminal": "version-delta-4aace34b389cea29.txt",
       "title": "Oxygen · not_found_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-4aace34b389cea29.html",
+      "html_input_sha256": "d07f5612e0004bbfcca4f9217c3a6acafd43a3221221341db57a9bfb9aa6fe8d"
     },
     {
       "feature": "not_found_benchmark",
@@ -5874,7 +5972,9 @@
       "svg": "version-delta-5aca3cf870ebb21a.svg",
       "terminal": "version-delta-5aca3cf870ebb21a.txt",
       "title": "Oxygen · not_found_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-5aca3cf870ebb21a.html",
+      "html_input_sha256": "0cbf45daa4ddde879b6f908139d52614e8e6ce188b43b1466a5f966ffa324f3d"
     },
     {
       "feature": "not_found_benchmark",
@@ -5889,7 +5989,9 @@
       "svg": "version-delta-bb672f1ec87f21c3.svg",
       "terminal": "version-delta-bb672f1ec87f21c3.txt",
       "title": "Oxygen · not_found_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-bb672f1ec87f21c3.html",
+      "html_input_sha256": "ea8f136b3ef8b9f0add4921d8e43445f5c44fc41270f71e663c4ed0a8308c520"
     },
     {
       "feature": "not_found_benchmark",
@@ -5904,7 +6006,9 @@
       "svg": "version-series-1ba7041252d6a597.svg",
       "terminal": "version-series-1ba7041252d6a597.txt",
       "title": "Oxygen · not_found_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-1ba7041252d6a597.html",
+      "html_input_sha256": "6ceadddf92fa7d42d8132e137a8903979058b6e60f68845903c652a6a5e71ac3"
     },
     {
       "feature": "not_found_benchmark",
@@ -5919,7 +6023,9 @@
       "svg": "version-series-206f0c5317562a64.svg",
       "terminal": "version-series-206f0c5317562a64.txt",
       "title": "Oxygen · not_found_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-206f0c5317562a64.html",
+      "html_input_sha256": "edb53abc02655cf2f5ca22da2c063ca066a61630e7ce852de7a1fe83e19e58ea"
     },
     {
       "feature": "not_found_benchmark",
@@ -5934,7 +6040,9 @@
       "svg": "version-series-69779bdc15c82846.svg",
       "terminal": "version-series-69779bdc15c82846.txt",
       "title": "Oxygen · not_found_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-69779bdc15c82846.html",
+      "html_input_sha256": "44d334e2fd01228462a5c88f703f00a733fc2b555925a0a898c88b80e389348b"
     },
     {
       "feature": "not_found_benchmark",
@@ -5949,7 +6057,9 @@
       "svg": "version-series-ebb5df3c1d5a72ab.svg",
       "terminal": "version-series-ebb5df3c1d5a72ab.txt",
       "title": "Oxygen · not_found_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-ebb5df3c1d5a72ab.html",
+      "html_input_sha256": "bda6a1320b60de72a9a1d340e12d484bf0495bd50f2f3adfca068dc75de4b834"
     },
     {
       "collector": "benchmarktools-v1/fresh-state-evals1-v1",
@@ -5965,14 +6075,18 @@
         {
           "json": "normalized-metrics-788986ad94d58c67-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-788986ad94d58c67-1.10.svg"
+          "svg": "normalized-metrics-788986ad94d58c67-1.10.svg",
+          "html": "normalized-metrics-788986ad94d58c67-1.10.html",
+          "html_input_sha256": "349988cfd96a5cd5da6cc658cff5ca5ebc644f6f70d441465a7476cb2da25334"
         }
       ],
       "svg": "normalized-metrics-788986ad94d58c67.svg",
       "terminal": "normalized-metrics-788986ad94d58c67.txt",
       "title": "Oxygen · path_benchmark · relative to minimum",
       "unit": "ratio",
-      "workload": "path_http"
+      "workload": "path_http",
+      "html": "normalized-metrics-788986ad94d58c67.html",
+      "html_input_sha256": "e449145d3b9704311f9552c0c27a023b31d90e73b56fea52605d4051ae7849ad"
     },
     {
       "feature": "path_benchmark",
@@ -5987,7 +6101,9 @@
       "svg": "distribution-5e6cf89b4406d47c.svg",
       "terminal": "distribution-5e6cf89b4406d47c.txt",
       "title": "Oxygen · path_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-5e6cf89b4406d47c.html",
+      "html_input_sha256": "6f6c968e650128825a3202d9d0816a27135267f2c457e78836bfcb899d094c0b"
     },
     {
       "feature": "path_benchmark",
@@ -6002,7 +6118,9 @@
       "svg": "distribution-a3976c73227b0e0f.svg",
       "terminal": "distribution-a3976c73227b0e0f.txt",
       "title": "Oxygen · path_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-a3976c73227b0e0f.html",
+      "html_input_sha256": "9ac2a4a3d93742a6674b26b6be3d29d597d29b3d9d84eedb5409bea71c55b79a"
     },
     {
       "feature": "path_benchmark",
@@ -6017,7 +6135,9 @@
       "svg": "distribution-b462f5e58fa47371.svg",
       "terminal": "distribution-b462f5e58fa47371.txt",
       "title": "Oxygen · path_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-b462f5e58fa47371.html",
+      "html_input_sha256": "7907e44b526dbae06de67c31b6a967fd517507c0f01099f10a7f531948793c19"
     },
     {
       "feature": "path_benchmark",
@@ -6032,7 +6152,9 @@
       "svg": "distribution-de4a9f0083b625b8.svg",
       "terminal": "distribution-de4a9f0083b625b8.txt",
       "title": "Oxygen · path_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-de4a9f0083b625b8.html",
+      "html_input_sha256": "1a4c314294743b4038487f1ddbf8f2f201f3772089f78e87d58f868e17fe1bc1"
     },
     {
       "comparison_key": "oxygen/http/path/v1",
@@ -6047,7 +6169,9 @@
       "svg": "time-allocation-tradeoff-5f2ecbf7f8532f9c.svg",
       "terminal": "time-allocation-tradeoff-5f2ecbf7f8532f9c.txt",
       "title": "Oxygen · path_benchmark · time/allocation trade-off",
-      "unit": "s+By"
+      "unit": "s+By",
+      "html": "time-allocation-tradeoff-5f2ecbf7f8532f9c.html",
+      "html_input_sha256": "0d11e2a4ff9db9c42e82e42beee1dac59c9092b410fda9f848bca459919acc42"
     },
     {
       "feature": "path_benchmark",
@@ -6062,7 +6186,9 @@
       "svg": "version-delta-459c6fad57e22c11.svg",
       "terminal": "version-delta-459c6fad57e22c11.txt",
       "title": "Oxygen · path_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-459c6fad57e22c11.html",
+      "html_input_sha256": "a092aa0f3d5edfe039f59d3fbda7c47801eaa24e49cc22f2e6581a85f9c4e6c2"
     },
     {
       "feature": "path_benchmark",
@@ -6077,7 +6203,9 @@
       "svg": "version-delta-5f7b98a91b0309c4.svg",
       "terminal": "version-delta-5f7b98a91b0309c4.txt",
       "title": "Oxygen · path_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-5f7b98a91b0309c4.html",
+      "html_input_sha256": "1e1a6678d2f0defa21ba2df960f5c612c75073a32e05233649fba71dee3afe37"
     },
     {
       "feature": "path_benchmark",
@@ -6092,7 +6220,9 @@
       "svg": "version-delta-affa3bd311e63787.svg",
       "terminal": "version-delta-affa3bd311e63787.txt",
       "title": "Oxygen · path_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-affa3bd311e63787.html",
+      "html_input_sha256": "a0e44924402a68a6f8057d9a1b4515754eef988bc0e24b30a42fef9b13578bf5"
     },
     {
       "feature": "path_benchmark",
@@ -6107,7 +6237,9 @@
       "svg": "version-delta-c0f9a37c4a381ccf.svg",
       "terminal": "version-delta-c0f9a37c4a381ccf.txt",
       "title": "Oxygen · path_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-c0f9a37c4a381ccf.html",
+      "html_input_sha256": "514dbc230abbfb84251735a78929cb0c5d09780c2aa1b2da223cdb959425da2f"
     },
     {
       "feature": "path_benchmark",
@@ -6122,7 +6254,9 @@
       "svg": "version-series-11e186ff655b6efa.svg",
       "terminal": "version-series-11e186ff655b6efa.txt",
       "title": "Oxygen · path_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-11e186ff655b6efa.html",
+      "html_input_sha256": "76287373b41b0ff3f96a7f62fedeb426e9f5419e01fccc4a1fa3a7e5ae59e5b8"
     },
     {
       "feature": "path_benchmark",
@@ -6137,7 +6271,9 @@
       "svg": "version-series-892f7cc4123bb3b7.svg",
       "terminal": "version-series-892f7cc4123bb3b7.txt",
       "title": "Oxygen · path_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-892f7cc4123bb3b7.html",
+      "html_input_sha256": "ea45bb76d6cca56544b9327f9cfa6234f35e96c73058bcb4412e33d8fc122969"
     },
     {
       "feature": "path_benchmark",
@@ -6152,7 +6288,9 @@
       "svg": "version-series-c3800b183b867a70.svg",
       "terminal": "version-series-c3800b183b867a70.txt",
       "title": "Oxygen · path_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-c3800b183b867a70.html",
+      "html_input_sha256": "b8d86d344a0fb05cd36beb2035c9c03f96fae42f3096030392185949f14c70f2"
     },
     {
       "feature": "path_benchmark",
@@ -6167,7 +6305,9 @@
       "svg": "version-series-dfe994f181d05b77.svg",
       "terminal": "version-series-dfe994f181d05b77.txt",
       "title": "Oxygen · path_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-dfe994f181d05b77.html",
+      "html_input_sha256": "17e7f2585f62908bb28e080bacc0d07160967bb002c33ac3567ed3123757c85c"
     },
     {
       "collector": "benchmarktools-v1/fresh-state-evals1-v1",
@@ -6183,14 +6323,18 @@
         {
           "json": "normalized-metrics-24034c4be099f2e2-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-24034c4be099f2e2-1.10.svg"
+          "svg": "normalized-metrics-24034c4be099f2e2-1.10.svg",
+          "html": "normalized-metrics-24034c4be099f2e2-1.10.html",
+          "html_input_sha256": "379a5ae378e7693a35e84f009b969427e61d59a28d85b992752eacd5d04c5731"
         }
       ],
       "svg": "normalized-metrics-24034c4be099f2e2.svg",
       "terminal": "normalized-metrics-24034c4be099f2e2.txt",
       "title": "Oxygen · plain_benchmark · relative to minimum",
       "unit": "ratio",
-      "workload": "plain_http"
+      "workload": "plain_http",
+      "html": "normalized-metrics-24034c4be099f2e2.html",
+      "html_input_sha256": "0174fd1c2aa2aa123cc7f9aac170155f6b20cf1828e423d3e620f234f1884710"
     },
     {
       "feature": "plain_benchmark",
@@ -6205,7 +6349,9 @@
       "svg": "distribution-17e1925ed491af0f.svg",
       "terminal": "distribution-17e1925ed491af0f.txt",
       "title": "Oxygen · plain_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-17e1925ed491af0f.html",
+      "html_input_sha256": "b5a3cf2e1335b508a8a43faba146c03765a64fd16c1a6489e6ab6e6b2c499984"
     },
     {
       "feature": "plain_benchmark",
@@ -6220,7 +6366,9 @@
       "svg": "distribution-89777f49e695bbcf.svg",
       "terminal": "distribution-89777f49e695bbcf.txt",
       "title": "Oxygen · plain_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-89777f49e695bbcf.html",
+      "html_input_sha256": "4d7ad0e2be1d18e1e80448067db28a2a06119d5c5a4e0320ac2a49ca6293ab0e"
     },
     {
       "feature": "plain_benchmark",
@@ -6235,7 +6383,9 @@
       "svg": "distribution-b85903e8d2b334fd.svg",
       "terminal": "distribution-b85903e8d2b334fd.txt",
       "title": "Oxygen · plain_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-b85903e8d2b334fd.html",
+      "html_input_sha256": "d7ed8793378e8ffee41726c052db551f6c6bd879bce52d3d09ca3e27ecbf80c6"
     },
     {
       "feature": "plain_benchmark",
@@ -6250,7 +6400,9 @@
       "svg": "distribution-ea9ecceb6d27103b.svg",
       "terminal": "distribution-ea9ecceb6d27103b.txt",
       "title": "Oxygen · plain_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-ea9ecceb6d27103b.html",
+      "html_input_sha256": "7da29fecd5f9f2759967ae88a0b32b8a8131be2b0be6f50fe7e1649f78607340"
     },
     {
       "comparison_key": "oxygen/http/plain/v1",
@@ -6265,7 +6417,9 @@
       "svg": "time-allocation-tradeoff-b8b1cd7ca6ed201f.svg",
       "terminal": "time-allocation-tradeoff-b8b1cd7ca6ed201f.txt",
       "title": "Oxygen · plain_benchmark · time/allocation trade-off",
-      "unit": "s+By"
+      "unit": "s+By",
+      "html": "time-allocation-tradeoff-b8b1cd7ca6ed201f.html",
+      "html_input_sha256": "9395ebdd4187f025d0f82a4610387031cdb89968c5cdcb3ba566cb64f21d5026"
     },
     {
       "feature": "plain_benchmark",
@@ -6280,7 +6434,9 @@
       "svg": "version-delta-0b26a191bb14e387.svg",
       "terminal": "version-delta-0b26a191bb14e387.txt",
       "title": "Oxygen · plain_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-0b26a191bb14e387.html",
+      "html_input_sha256": "44f098e5dd221d881c9091fbb2f58d020ef19897e53eb2aaf15740db33ba3cab"
     },
     {
       "feature": "plain_benchmark",
@@ -6295,7 +6451,9 @@
       "svg": "version-delta-7611b28635e88b4c.svg",
       "terminal": "version-delta-7611b28635e88b4c.txt",
       "title": "Oxygen · plain_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-7611b28635e88b4c.html",
+      "html_input_sha256": "6dab9b7cc3e704f3109a03cacfc3d173e9a0ec3839e4a190d285c28709ccb872"
     },
     {
       "feature": "plain_benchmark",
@@ -6310,7 +6468,9 @@
       "svg": "version-delta-b90474cdcffdae92.svg",
       "terminal": "version-delta-b90474cdcffdae92.txt",
       "title": "Oxygen · plain_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-b90474cdcffdae92.html",
+      "html_input_sha256": "80f662109bbc83c4dd541a7e871fda445f55bc2f5b8d84c5970a186d2397336d"
     },
     {
       "feature": "plain_benchmark",
@@ -6325,7 +6485,9 @@
       "svg": "version-delta-b970b482df54fc5c.svg",
       "terminal": "version-delta-b970b482df54fc5c.txt",
       "title": "Oxygen · plain_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-b970b482df54fc5c.html",
+      "html_input_sha256": "3b8ab8937e466d6f89c67e213a8626937f40eb15cdab4f5f004010b522aa8a59"
     },
     {
       "feature": "plain_benchmark",
@@ -6340,7 +6502,9 @@
       "svg": "version-series-7c8d5c7172c0bb0d.svg",
       "terminal": "version-series-7c8d5c7172c0bb0d.txt",
       "title": "Oxygen · plain_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-7c8d5c7172c0bb0d.html",
+      "html_input_sha256": "394e4e0854a0119a57534cd47435b4909f14ed8804be61c73cb496ac6d3eeca0"
     },
     {
       "feature": "plain_benchmark",
@@ -6355,7 +6519,9 @@
       "svg": "version-series-7ec7ee3b7c4420f2.svg",
       "terminal": "version-series-7ec7ee3b7c4420f2.txt",
       "title": "Oxygen · plain_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-7ec7ee3b7c4420f2.html",
+      "html_input_sha256": "0fcc13ef87a95db7dce78ba55c051df863974dc8f54f0176681d7dad781fb1e4"
     },
     {
       "feature": "plain_benchmark",
@@ -6370,7 +6536,9 @@
       "svg": "version-series-aa50c37931bd2f24.svg",
       "terminal": "version-series-aa50c37931bd2f24.txt",
       "title": "Oxygen · plain_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-aa50c37931bd2f24.html",
+      "html_input_sha256": "366fa4d9afa471bd2ef853d4aeaed7c4724cc64782a7119faf700f0540b6b871"
     },
     {
       "feature": "plain_benchmark",
@@ -6385,7 +6553,9 @@
       "svg": "version-series-aaad574242f26738.svg",
       "terminal": "version-series-aaad574242f26738.txt",
       "title": "Oxygen · plain_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-aaad574242f26738.html",
+      "html_input_sha256": "504c1c9f81246332246095793e9830adc241334dfdce63957e157afbf22ceb4b"
     },
     {
       "collector": "benchmarktools-v1/fresh-state-evals1-v1",
@@ -6401,14 +6571,18 @@
         {
           "json": "normalized-metrics-985b736d2cb7762e-1.10.json",
           "label": "1.10 patches",
-          "svg": "normalized-metrics-985b736d2cb7762e-1.10.svg"
+          "svg": "normalized-metrics-985b736d2cb7762e-1.10.svg",
+          "html": "normalized-metrics-985b736d2cb7762e-1.10.html",
+          "html_input_sha256": "f6919dacad5b1967c90920f93a9f894be95ce1e7b97e8b871f91c9bc276012de"
         }
       ],
       "svg": "normalized-metrics-985b736d2cb7762e.svg",
       "terminal": "normalized-metrics-985b736d2cb7762e.txt",
       "title": "Oxygen · query_benchmark · relative to minimum",
       "unit": "ratio",
-      "workload": "query_http"
+      "workload": "query_http",
+      "html": "normalized-metrics-985b736d2cb7762e.html",
+      "html_input_sha256": "62a06ce541bb03f7415e9d51c13b6125d8b590cccb45fd633e86fbdda4dea8ea"
     },
     {
       "feature": "query_benchmark",
@@ -6423,7 +6597,9 @@
       "svg": "distribution-09b195fc344d1825.svg",
       "terminal": "distribution-09b195fc344d1825.txt",
       "title": "Oxygen · query_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "distribution-09b195fc344d1825.html",
+      "html_input_sha256": "e08a5231afccc081ca48d97db26a27f25965a55f5aac3b6e64f5f5bd5a2842e7"
     },
     {
       "feature": "query_benchmark",
@@ -6438,7 +6614,9 @@
       "svg": "distribution-52cdf886abcb8177.svg",
       "terminal": "distribution-52cdf886abcb8177.txt",
       "title": "Oxygen · query_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-52cdf886abcb8177.html",
+      "html_input_sha256": "e9590551b622336343acf78da495e183b1d2ba740956cb3378c31c8e789cef2a"
     },
     {
       "feature": "query_benchmark",
@@ -6453,7 +6631,9 @@
       "svg": "distribution-620fd3410f61c9ee.svg",
       "terminal": "distribution-620fd3410f61c9ee.txt",
       "title": "Oxygen · query_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "distribution-620fd3410f61c9ee.html",
+      "html_input_sha256": "36d02ca26fbd9221ff3cd4a19884c692c6a2732f01834a484882edc75f1a6d99"
     },
     {
       "feature": "query_benchmark",
@@ -6468,7 +6648,9 @@
       "svg": "distribution-e8d4d33161b9d36c.svg",
       "terminal": "distribution-e8d4d33161b9d36c.txt",
       "title": "Oxygen · query_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "distribution-e8d4d33161b9d36c.html",
+      "html_input_sha256": "e858e2c8960aa6ab31d2111ad3c851c6e567ac7b9cd06a3e432cca2a790b27a0"
     },
     {
       "comparison_key": "oxygen/http/query/v1",
@@ -6483,7 +6665,9 @@
       "svg": "time-allocation-tradeoff-e5b0ff90a9b8e589.svg",
       "terminal": "time-allocation-tradeoff-e5b0ff90a9b8e589.txt",
       "title": "Oxygen · query_benchmark · time/allocation trade-off",
-      "unit": "s+By"
+      "unit": "s+By",
+      "html": "time-allocation-tradeoff-e5b0ff90a9b8e589.html",
+      "html_input_sha256": "8e49d140f3d05ba64ff2597e98c4260fdd85f51a93e9011eecb62ce167bfdfc8"
     },
     {
       "feature": "query_benchmark",
@@ -6498,7 +6682,9 @@
       "svg": "version-delta-2a49f9b10a4a2436.svg",
       "terminal": "version-delta-2a49f9b10a4a2436.txt",
       "title": "Oxygen · query_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-2a49f9b10a4a2436.html",
+      "html_input_sha256": "de60d6f3a3b984d57296380c28498c695e00c867ed220e054a59e6d7f2aa1604"
     },
     {
       "feature": "query_benchmark",
@@ -6513,7 +6699,9 @@
       "svg": "version-delta-336bd2f58744af45.svg",
       "terminal": "version-delta-336bd2f58744af45.txt",
       "title": "Oxygen · query_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-delta-336bd2f58744af45.html",
+      "html_input_sha256": "b67d1d46e332c32e9d76893f15f5fa7b0f5ad19b31875158a9a7a989ffe82680"
     },
     {
       "feature": "query_benchmark",
@@ -6528,7 +6716,9 @@
       "svg": "version-delta-611e67e8203f9b5a.svg",
       "terminal": "version-delta-611e67e8203f9b5a.txt",
       "title": "Oxygen · query_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-delta-611e67e8203f9b5a.html",
+      "html_input_sha256": "4a3865f4deb0f79ae9e43fd62f9f671311d1588f159d33f582f0d664d1587ce1"
     },
     {
       "feature": "query_benchmark",
@@ -6543,7 +6733,9 @@
       "svg": "version-delta-a8170eec3f571f92.svg",
       "terminal": "version-delta-a8170eec3f571f92.txt",
       "title": "Oxygen · query_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-delta-a8170eec3f571f92.html",
+      "html_input_sha256": "b8f759be99b7741b2c0fdb3df687b483d6bb4b344fcd489af3d2a1330c28bcce"
     },
     {
       "feature": "query_benchmark",
@@ -6558,7 +6750,9 @@
       "svg": "version-series-6af46a504cd97af8.svg",
       "terminal": "version-series-6af46a504cd97af8.txt",
       "title": "Oxygen · query_benchmark · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-6af46a504cd97af8.html",
+      "html_input_sha256": "174e5c85d4917943ff2f3bb09cc1cfd8593071441a7111ed98df50312e0a39a3"
     },
     {
       "feature": "query_benchmark",
@@ -6573,7 +6767,9 @@
       "svg": "version-series-7d46a975ec18f181.svg",
       "terminal": "version-series-7d46a975ec18f181.txt",
       "title": "Oxygen · query_benchmark · julia.wall.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-7d46a975ec18f181.html",
+      "html_input_sha256": "94474f7ed25efe8ae00870d7c9ac8384bb022b08e9cdca87707c1f81d24743b5"
     },
     {
       "feature": "query_benchmark",
@@ -6588,7 +6784,9 @@
       "svg": "version-series-d6366c6d804fb7e1.svg",
       "terminal": "version-series-d6366c6d804fb7e1.txt",
       "title": "Oxygen · query_benchmark · julia.gc.time",
-      "unit": "ns"
+      "unit": "ns",
+      "html": "version-series-d6366c6d804fb7e1.html",
+      "html_input_sha256": "0b7ef0bad1ddf555b6b72e12f15989ef87570fcae7c2603464ec5dafab267d09"
     },
     {
       "feature": "query_benchmark",
@@ -6603,17 +6801,19 @@
       "svg": "version-series-f128a671e8550603.svg",
       "terminal": "version-series-f128a671e8550603.txt",
       "title": "Oxygen · query_benchmark · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-f128a671e8550603.html",
+      "html_input_sha256": "54ad9fd0030558a66916a4be0e98097f361799b17749e84246461067521c9fb6"
     }
   ],
   "interactive_export": {
     "asset_layout": "shared_relative",
-    "companion_version": "1.0.1",
+    "companion_version": "1.0.3",
     "input_kind": "published_serialized_plot",
     "recipe": "examples/kitchen-sink/replay.jl:saved_plot",
     "recipe_sha256": "38ea1ff24fecc064fdf30af471893842266f3f970a92b11b9b24bdda07dd3307",
     "renderer": "PerfChecker.performance_plot_html",
-    "selected_views": 5,
-    "selection": "guided_examples"
+    "selected_views": 105,
+    "selection": "all_saved_views"
   }
 }

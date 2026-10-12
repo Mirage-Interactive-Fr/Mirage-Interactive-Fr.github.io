@@ -144,7 +144,9 @@
       "svg": "version-series-7fabdc6fa9d4d0f3.svg",
       "terminal": "version-series-7fabdc6fa9d4d0f3.txt",
       "title": "DataStructures · heap_32768_alloc · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-7fabdc6fa9d4d0f3.html",
+      "html_input_sha256": "9aa997b6d37abf03aea3f2b6f6ce2b2314838cf44db42220097b2c0edb487050"
     },
     {
       "case_id": "event_lab/DataStructures/heap_32768_profile",
@@ -177,7 +179,9 @@
       "svg": "allocation-files-9fe5fe0534069cf7.svg",
       "terminal": "allocation-files-9fe5fe0534069cf7.txt",
       "title": "DataStructures · heap_32768_profile_alloc · allocations",
-      "unit": "By"
+      "unit": "By",
+      "html": "allocation-files-9fe5fe0534069cf7.html",
+      "html_input_sha256": "3086556c01585bdb3585ed53a2258eaca300a20183172066fdaedf0ea38e8f3d"
     },
     {
       "case_id": "event_lab/DataStructures/heap_32768_profile_alloc",
@@ -209,7 +213,9 @@
       "svg": "allocation-heatmap-bdf4e07782ac84ea.svg",
       "terminal": "allocation-heatmap-bdf4e07782ac84ea.txt",
       "title": "DataStructures · heap_32768_profile_alloc · allocations",
-      "unit": "By"
+      "unit": "By",
+      "html": "allocation-heatmap-bdf4e07782ac84ea.html",
+      "html_input_sha256": "2d755e1242872a3bd6ae445fd530d33edd9f5e17afef752eabc79617d481f990"
     },
     {
       "case_id": "event_lab/DataStructures/heap_32768_profile_alloc",
@@ -224,7 +230,9 @@
       "svg": "allocation-lines-fea8acd7ab8697d0.svg",
       "terminal": "allocation-lines-fea8acd7ab8697d0.txt",
       "title": "DataStructures · heap_32768_profile_alloc · allocations",
-      "unit": "By"
+      "unit": "By",
+      "html": "allocation-lines-fea8acd7ab8697d0.html",
+      "html_input_sha256": "abc8120cfe06c1413e41f69867705ad019aaecbe18135d01e042f5e2978d4448"
     },
     {
       "case_id": "event_lab/DataStructures/heap_32768_profile_alloc",
@@ -239,7 +247,9 @@
       "svg": "allocation-pie-5fa622ca80b2df9b.svg",
       "terminal": "allocation-pie-5fa622ca80b2df9b.txt",
       "title": "DataStructures · heap_32768_profile_alloc · allocations",
-      "unit": "By"
+      "unit": "By",
+      "html": "allocation-pie-5fa622ca80b2df9b.html",
+      "html_input_sha256": "aad6f2437d76f22df7ae083ef7aaed141eaa04f61be6cd616ceaa4508ac0061f"
     },
     {
       "feature": "heap_32768_profile_alloc",
@@ -254,7 +264,9 @@
       "svg": "version-series-a6dc60f82624a0f2.svg",
       "terminal": "version-series-a6dc60f82624a0f2.txt",
       "title": "DataStructures · heap_32768_profile_alloc · julia.alloc.count",
-      "unit": "1"
+      "unit": "1",
+      "html": "version-series-a6dc60f82624a0f2.html",
+      "html_input_sha256": "c0ae01abe0588af3018a8c11f5f83aca7a4ab06707d5f1f488ea60190d306078"
     },
     {
       "feature": "heap_32768_profile_alloc",
@@ -269,7 +281,9 @@
       "svg": "version-series-b3bd3fce6a1b6673.svg",
       "terminal": "version-series-b3bd3fce6a1b6673.txt",
       "title": "DataStructures · heap_32768_profile_alloc · julia.alloc.bytes",
-      "unit": "By"
+      "unit": "By",
+      "html": "version-series-b3bd3fce6a1b6673.html",
+      "html_input_sha256": "7da60b223ce8534fb4a5b39abe64cbda1dc42f6bb03366b8361bee75c0d57d78"
     },
     {
       "case_id": "event_lab/DataStructures/heap_32768_wall_profile",
@@ -292,12 +306,12 @@
   ],
   "interactive_export": {
     "asset_layout": "shared_relative",
-    "companion_version": "1.0.1",
+    "companion_version": "1.0.3",
     "input_kind": "published_serialized_plot",
     "recipe": "examples/kitchen-sink/replay.jl:saved_plot",
     "recipe_sha256": "38ea1ff24fecc064fdf30af471893842266f3f970a92b11b9b24bdda07dd3307",
     "renderer": "PerfChecker.performance_plot_html",
-    "selected_views": 7,
-    "selection": "guided_examples"
+    "selected_views": 14,
+    "selection": "all_saved_views"
   }
 }

@@ -1,0 +1,205 @@
+<!doctype html>
+<html class="bonito-fragment"><head><script src="../../plot-assets/bonito/js/Bonito.bundled5040008371911548254.js" type="module"></script><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="UTF-8" /><title>Bonito App</title><style>.style_2 {
+  font-family: sans-serif;
+  gap: 1rem;
+  padding: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.style_3 {
+  height: 620px;
+  transform-origin: top left;
+  width: 1100px;
+}
+.style_4 {
+  height: 620px;
+  width: 100%;
+  overflow: hidden;
+  background: #f7f9fc;
+}
+</style><style>.wglmakie-spinner {
+  animation: wglmakie-spin 1.0s linear infinite;
+  position: absolute;
+  left: 50%;
+  z-index: 1000;
+  border-radius: 50%;
+  width: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  transform: translate(-50%, -50%);
+  border-top: 4px solid currentColor;
+  height: 40px;
+  pointer-events: none;
+  top: 50%;
+}
+@keyframes wglmakie-spin {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+</style><style>@media (prefers-color-scheme: light) {
+  :root {
+    --bonito-widget-hover-bg: #f3f4f6;
+    color-scheme: light;
+    --bonito-widget-muted-bg: #f3f4f6;
+    accent-color: #3182bb;
+    --bonito-widget-accent: #3182bb;
+    --bonito-widget-fg: #1a1a1a;
+    --bonito-widget-bg: #ffffff;
+    --bonito-widget-border: #9ca3af;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bonito-widget-hover-bg: #3a3a40;
+    color-scheme: dark;
+    --bonito-widget-muted-bg: #36363c;
+    accent-color: #6ea8e0;
+    --bonito-widget-accent: #6ea8e0;
+    --bonito-widget-fg: #e8e8ea;
+    --bonito-widget-bg: #2a2a2e;
+    --bonito-widget-border: #52525b;
+  }
+}
+html .noUi-target {
+  box-shadow: none;
+  background: var(--bonito-widget-muted-bg, #fafafa);
+  border-color: var(--bonito-widget-border, #d3d3d3);
+}
+html .noUi-connects {
+  background: var(--bonito-widget-muted-bg, #fafafa);
+}
+html .noUi-connect {
+  background: var(--bonito-widget-accent, #3182bb);
+}
+html .noUi-handle {
+  box-shadow: none;
+  background: var(--bonito-widget-bg, #fff);
+  border-color: var(--bonito-widget-border, #d3d3d3);
+}
+html .noUi-handle::before {
+  background: var(--bonito-widget-border, #d3d3d3);
+}
+html .noUi-handle::after {
+  background: var(--bonito-widget-border, #d3d3d3);
+}
+html .noUi-tooltip {
+  background: var(--bonito-widget-bg, #fff);
+  border-color: var(--bonito-widget-border, #d3d3d3);
+  color: var(--bonito-widget-fg, #000);
+}
+html .noUi-marker {
+  background: var(--bonito-widget-border, #ccc);
+}
+html .noUi-value {
+  color: var(--bonito-widget-fg, inherit);
+}
+</style><script src="../../plot-assets/bonito/js/WGLMakie.bundled1870091951256107923.js" type="module"></script><link rel="stylesheet" type="text/css" href="../../plot-assets/bonito/css/popup15566812377123610001.css" /></head><body><script type="module">Bonito.init_session("bbe4d13e-82d7-4dc9-a2ce-de4263ea632f", Bonito.fetch_binary('../../plot-assets/bonito/bin/afccc06cb78c038fd04c4f690a4455bf5f556f2b-17175929224474861423.bin'), "root", false);
+</script><div data-jscall-id="root" id="bbe4d13e-82d7-4dc9-a2ce-de4263ea632f"><div data-jscall-id="3"><div data-jscall-id="4" id="point-controls" class=" style_2" style=""><label data-jscall-id="5">Recorded point <input data-jscall-id="1" step="1" type="number" id="point-index" min="1" max="420" aria-label="Recorded point index" value="1" style="width:7rem" /> of 420</label><output data-jscall-id="2" aria-live="polite" id="point-readout">Point 1: 1.0.0 · 1.7211e6 ns</output></div><div data-jscall-id="6" id="offline-viewport" class=" style_4" role="img" aria-label="Oxygen · counter_benchmark · julia.wall.time · Collector: unspecified · Tags: " style=""><div data-jscall-id="7" id="offline-figure" class=" style_3" style=""><div data-jscall-id="8" style="width: 100%; height: 100%; position: relative;"><canvas data-jscall-id="9" height="620px" data-lm-suppress-shortcuts="true" width="1100px" data-jp-suppress-context-menu tabindex="0" style="display: block"></canvas><div data-jscall-id="10" class="wglmakie-spinner"></div></div></div></div><span><div data-jscall-id="11" class="popup"></div></span></div></div><script>// Viewport controls for the actual exported WGLMakie figure.
+(() => {
+  const model = {"data":[{"target_kind":"release","value":1.7211e6,"version":"1.0.0"},{"target_kind":"release","value":1.7401e6,"version":"1.0.0"},{"target_kind":"release","value":1.7133e6,"version":"1.0.0"},{"target_kind":"release","value":1.7388e6,"version":"1.0.0"},{"target_kind":"release","value":1.3416e6,"version":"1.0.0"},{"target_kind":"release","value":1.0776e6,"version":"1.0.0"},{"target_kind":"release","value":1.0634e6,"version":"1.0.0"},{"target_kind":"release","value":1.112e6,"version":"1.0.0"},{"target_kind":"release","value":1.0493e6,"version":"1.0.0"},{"target_kind":"release","value":1.0558e6,"version":"1.0.0"},{"target_kind":"release","value":1.0431e6,"version":"1.0.0"},{"target_kind":"release","value":1.0678e6,"version":"1.0.0"},{"target_kind":"release","value":1.0588e6,"version":"1.0.0"},{"target_kind":"release","value":1.0751e6,"version":"1.0.0"},{"target_kind":"release","value":1.0589e6,"version":"1.0.0"},{"target_kind":"release","value":3.4679e6,"version":"1.0.0"},{"target_kind":"release","value":1.2415e6,"version":"1.0.0"},{"target_kind":"release","value":1.0452e6,"version":"1.0.0"},{"target_kind":"release","value":1.0708e6,"version":"1.0.0"},{"target_kind":"release","value":1.0687e6,"version":"1.0.0"},{"target_kind":"release","value":1.0348e6,"version":"1.0.0"},{"target_kind":"release","value":1.0407e6,"version":"1.0.0"},{"target_kind":"release","value":1.0751e6,"version":"1.0.0"},{"target_kind":"release","value":1.0694e6,"version":"1.0.0"},{"target_kind":"release","value":1.0633e6,"version":"1.0.0"},{"target_kind":"release","value":1.0686e6,"version":"1.0.0"},{"target_kind":"release","value":1.0624e6,"version":"1.0.0"},{"target_kind":"release","value":1.0658e6,"version":"1.0.0"},{"target_kind":"release","value":1.0736e6,"version":"1.0.0"},{"target_kind":"release","value":1.3824e6,"version":"1.0.0"},{"target_kind":"release","value":1.2363e6,"version":"1.1.0"},{"target_kind":"release","value":1.1969e6,"version":"1.1.0"},{"target_kind":"release","value":2.0062e6,"version":"1.1.0"},{"target_kind":"release","value":1.9606e6,"version":"1.1.0"},{"target_kind":"release","value":1.9197e6,"version":"1.1.0"},{"target_kind":"release","value":1.9211e6,"version":"1.1.0"},{"target_kind":"release","value":1.8826e6,"version":"1.1.0"},{"target_kind":"release","value":1.9122e6,"version":"1.1.0"},{"target_kind":"release","value":1.9694e6,"version":"1.1.0"},{"target_kind":"release","value":2.0799e6,"version":"1.1.0"},{"target_kind":"release","value":1.9794e6,"version":"1.1.0"},{"target_kind":"release","value":1.933e6,"version":"1.1.0"},{"target_kind":"release","value":1.9194e6,"version":"1.1.0"},{"target_kind":"release","value":1.9578e6,"version":"1.1.0"},{"target_kind":"release","value":1.9273e6,"version":"1.1.0"},{"target_kind":"release","value":1.7184e6,"version":"1.1.0"},{"target_kind":"release","value":1.2015e6,"version":"1.1.0"},{"target_kind":"release","value":1.1724e6,"version":"1.1.0"},{"target_kind":"release","value":1.1836e6,"version":"1.1.0"},{"target_kind":"release","value":1.9907e6,"version":"1.1.0"},{"target_kind":"release","value":1.9176e6,"version":"1.1.0"},{"target_kind":"release","value":1.9128e6,"version":"1.1.0"},{"target_kind":"release","value":1.9095e6,"version":"1.1.0"},{"target_kind":"release","value":1.9094e6,"version":"1.1.0"},{"target_kind":"release","value":1.8962e6,"version":"1.1.0"},{"target_kind":"release","value":1.9299e6,"version":"1.1.0"},{"target_kind":"release","value":2.0174e6,"version":"1.1.0"},{"target_kind":"release","value":1.9338e6,"version":"1.1.0"},{"target_kind":"release","value":1.9248e6,"version":"1.1.0"},{"target_kind":"release","value":1.9134e6,"version":"1.1.0"},{"target_kind":"release","value":1.9834e6,"version":"1.2.0"},{"target_kind":"release","value":2.0531e6,"version":"1.2.0"},{"target_kind":"release","value":1.9905e6,"version":"1.2.0"},{"target_kind":"release","value":1.9184e6,"version":"1.2.0"},{"target_kind":"release","value":1.9388e6,"version":"1.2.0"},{"target_kind":"release","value":1.8793e6,"version":"1.2.0"},{"target_kind":"release","value":1.8428e6,"version":"1.2.0"},{"target_kind":"release","value":1.8317e6,"version":"1.2.0"},{"target_kind":"release","value":1.8857e6,"version":"1.2.0"},{"target_kind":"release","value":1.8684e6,"version":"1.2.0"},{"target_kind":"release","value":1.8364e6,"version":"1.2.0"},{"target_kind":"release","value":1.8419e6,"version":"1.2.0"},{"target_kind":"release","value":1.8492e6,"version":"1.2.0"},{"target_kind":"release","value":1.8181e6,"version":"1.2.0"},{"target_kind":"release","value":1.8246e6,"version":"1.2.0"},{"target_kind":"release","value":1.7984e6,"version":"1.2.0"},{"target_kind":"release","value":1.8239e6,"version":"1.2.0"},{"target_kind":"release","value":1.8149e6,"version":"1.2.0"},{"target_kind":"release","value":1.906e6,"version":"1.2.0"},{"target_kind":"release","value":1.8753e6,"version":"1.2.0"},{"target_kind":"release","value":1.9552e6,"version":"1.2.0"},{"target_kind":"release","value":1.941e6,"version":"1.2.0"},{"target_kind":"release","value":1.9263e6,"version":"1.2.0"},{"target_kind":"release","value":1.9059e6,"version":"1.2.0"},{"target_kind":"release","value":1.8471e6,"version":"1.2.0"},{"target_kind":"release","value":1.9264e6,"version":"1.2.0"},{"target_kind":"release","value":1.8642e6,"version":"1.2.0"},{"target_kind":"release","value":1.8629e6,"version":"1.2.0"},{"target_kind":"release","value":1.8355e6,"version":"1.2.0"},{"target_kind":"release","value":1.9226e6,"version":"1.2.0"},{"target_kind":"release","value":1.1465e6,"version":"1.3.0"},{"target_kind":"release","value":1.1341e6,"version":"1.3.0"},{"target_kind":"release","value":1.3429e6,"version":"1.3.0"},{"target_kind":"release","value":1.8167e6,"version":"1.3.0"},{"target_kind":"release","value":1.8358e6,"version":"1.3.0"},{"target_kind":"release","value":1.8403e6,"version":"1.3.0"},{"target_kind":"release","value":1.8188e6,"version":"1.3.0"},{"target_kind":"release","value":1.4867e6,"version":"1.3.0"},{"target_kind":"release","value":1.1035e6,"version":"1.3.0"},{"target_kind":"release","value":1.1031e6,"version":"1.3.0"},{"target_kind":"release","value":1.0723e6,"version":"1.3.0"},{"target_kind":"release","value":1.0622e6,"version":"1.3.0"},{"target_kind":"release","value":1.0587e6,"version":"1.3.0"},{"target_kind":"release","value":1.0653e6,"version":"1.3.0"},{"target_kind":"release","value":1.0647e6,"version":"1.3.0"},{"target_kind":"release","value":1.096e6,"version":"1.3.0"},{"target_kind":"release","value":1.8158e6,"version":"1.3.0"},{"target_kind":"release","value":1.83e6,"version":"1.3.0"},{"target_kind":"release","value":1.6445e6,"version":"1.3.0"},{"target_kind":"release","value":1.1203e6,"version":"1.3.0"},{"target_kind":"release","value":1.091e6,"version":"1.3.0"},{"target_kind":"release","value":1.0656e6,"version":"1.3.0"},{"target_kind":"release","value":1.0915e6,"version":"1.3.0"},{"target_kind":"release","value":1.0968e6,"version":"1.3.0"},{"target_kind":"release","value":1.0482e6,"version":"1.3.0"},{"target_kind":"release","value":1.0861e6,"version":"1.3.0"},{"target_kind":"release","value":1.0981e6,"version":"1.3.0"},{"target_kind":"release","value":1.1009e6,"version":"1.3.0"},{"target_kind":"release","value":1.1716e6,"version":"1.3.0"},{"target_kind":"release","value":1.1024e6,"version":"1.3.0"},{"target_kind":"release","value":1.1551e6,"version":"1.4.0"},{"target_kind":"release","value":1.1034e6,"version":"1.4.0"},{"target_kind":"release","value":1.1143e6,"version":"1.4.0"},{"target_kind":"release","value":1.2183e6,"version":"1.4.0"},{"target_kind":"release","value":1.672e6,"version":"1.4.0"},{"target_kind":"release","value":1.8347e6,"version":"1.4.0"},{"target_kind":"release","value":1.8831e6,"version":"1.4.0"},{"target_kind":"release","value":1.8434e6,"version":"1.4.0"},{"target_kind":"release","value":1.9314e6,"version":"1.4.0"},{"target_kind":"release","value":1.806e6,"version":"1.4.0"},{"target_kind":"release","value":1.8055e6,"version":"1.4.0"},{"target_kind":"release","value":1.7984e6,"version":"1.4.0"},{"target_kind":"release","value":1.8153e6,"version":"1.4.0"},{"target_kind":"release","value":1.2816e6,"version":"1.4.0"},{"target_kind":"release","value":1.1053e6,"version":"1.4.0"},{"target_kind":"release","value":1.0719e6,"version":"1.4.0"},{"target_kind":"release","value":1.0703e6,"version":"1.4.0"},{"target_kind":"release","value":1.0372e6,"version":"1.4.0"},{"target_kind":"release","value":1.0643e6,"version":"1.4.0"},{"target_kind":"release","value":1.2863e6,"version":"1.4.0"},{"target_kind":"release","value":1.0922e6,"version":"1.4.0"},{"target_kind":"release","value":1.0815e6,"version":"1.4.0"},{"target_kind":"release","value":1.0889e6,"version":"1.4.0"},{"target_kind":"release","value":1.0889e6,"version":"1.4.0"},{"target_kind":"release","value":1.0855e6,"version":"1.4.0"},{"target_kind":"release","value":1.0988e6,"version":"1.4.0"},{"target_kind":"release","value":1.102e6,"version":"1.4.0"},{"target_kind":"release","value":1.0848e6,"version":"1.4.0"},{"target_kind":"release","value":1.1157e6,"version":"1.4.0"},{"target_kind":"release","value":1.0905e6,"version":"1.4.0"},{"target_kind":"release","value":1.1552e6,"version":"1.5.0"},{"target_kind":"release","value":1.1625e6,"version":"1.5.0"},{"target_kind":"release","value":1.114e6,"version":"1.5.0"},{"target_kind":"release","value":1.3628e6,"version":"1.5.0"},{"target_kind":"release","value":1.2256e6,"version":"1.5.0"},{"target_kind":"release","value":1.1095e6,"version":"1.5.0"},{"target_kind":"release","value":1.0902e6,"version":"1.5.0"},{"target_kind":"release","value":1.1023e6,"version":"1.5.0"},{"target_kind":"release","value":1.085e6,"version":"1.5.0"},{"target_kind":"release","value":1.104e6,"version":"1.5.0"},{"target_kind":"release","value":1.0851e6,"version":"1.5.0"},{"target_kind":"release","value":1.0839e6,"version":"1.5.0"},{"target_kind":"release","value":1.0678e6,"version":"1.5.0"},{"target_kind":"release","value":1.0587e6,"version":"1.5.0"},{"target_kind":"release","value":1.0863e6,"version":"1.5.0"},{"target_kind":"release","value":1.1064e6,"version":"1.5.0"},{"target_kind":"release","value":1.1198e6,"version":"1.5.0"},{"target_kind":"release","value":1.3413e6,"version":"1.5.0"},{"target_kind":"release","value":1.1269e6,"version":"1.5.0"},{"target_kind":"release","value":1.0795e6,"version":"1.5.0"},{"target_kind":"release","value":1.0802e6,"version":"1.5.0"},{"target_kind":"release","value":1.1273e6,"version":"1.5.0"},{"target_kind":"release","value":1.1013e6,"version":"1.5.0"},{"target_kind":"release","value":1.1048e6,"version":"1.5.0"},{"target_kind":"release","value":1.0712e6,"version":"1.5.0"},{"target_kind":"release","value":1.061e6,"version":"1.5.0"},{"target_kind":"release","value":1.0855e6,"version":"1.5.0"},{"target_kind":"release","value":1.0994e6,"version":"1.5.0"},{"target_kind":"release","value":1.0828e6,"version":"1.5.0"},{"target_kind":"release","value":1.0701e6,"version":"1.5.0"},{"target_kind":"release","value":2.3035e6,"version":"1.6.0"},{"target_kind":"release","value":2.6375e6,"version":"1.6.0"},{"target_kind":"release","value":3.4774e6,"version":"1.6.0"},{"target_kind":"release","value":2.4544e6,"version":"1.6.0"},{"target_kind":"release","value":2.2154e6,"version":"1.6.0"},{"target_kind":"release","value":2.2036e6,"version":"1.6.0"},{"target_kind":"release","value":2.1888e6,"version":"1.6.0"},{"target_kind":"release","value":2.1629e6,"version":"1.6.0"},{"target_kind":"release","value":2.1705e6,"version":"1.6.0"},{"target_kind":"release","value":2.207e6,"version":"1.6.0"},{"target_kind":"release","value":2.2721e6,"version":"1.6.0"},{"target_kind":"release","value":2.3136e6,"version":"1.6.0"},{"target_kind":"release","value":2.3622e6,"version":"1.6.0"},{"target_kind":"release","value":2.2952e6,"version":"1.6.0"},{"target_kind":"release","value":2.3398e6,"version":"1.6.0"},{"target_kind":"release","value":2.312e6,"version":"1.6.0"},{"target_kind":"release","value":2.3283e6,"version":"1.6.0"},{"target_kind":"release","value":2.5049e6,"version":"1.6.0"},{"target_kind":"release","value":2.3181e6,"version":"1.6.0"},{"target_kind":"release","value":2.3237e6,"version":"1.6.0"},{"target_kind":"release","value":2.2864e6,"version":"1.6.0"},{"target_kind":"release","value":2.2755e6,"version":"1.6.0"},{"target_kind":"release","value":2.3594e6,"version":"1.6.0"},{"target_kind":"release","value":2.3288e6,"version":"1.6.0"},{"target_kind":"release","value":2.358e6,"version":"1.6.0"},{"target_kind":"release","value":2.3153e6,"version":"1.6.0"},{"target_kind":"release","value":2.305e6,"version":"1.6.0"},{"target_kind":"release","value":2.4258e6,"version":"1.6.0"},{"target_kind":"release","value":2.3202e6,"version":"1.6.0"},{"target_kind":"release","value":2.3733e6,"version":"1.6.0"},{"target_kind":"release","value":1.8374e6,"version":"1.7.0"},{"target_kind":"release","value":1.7513e6,"version":"1.7.0"},{"target_kind":"release","value":1.678e6,"version":"1.7.0"},{"target_kind":"release","value":1.141e6,"version":"1.7.0"},{"target_kind":"release","value":1.1163e6,"version":"1.7.0"},{"target_kind":"release","value":1.0711e6,"version":"1.7.0"},{"target_kind":"release","value":1.0762e6,"version":"1.7.0"},{"target_kind":"release","value":1.081e6,"version":"1.7.0"},{"target_kind":"release","value":1.0761e6,"version":"1.7.0"},{"target_kind":"release","value":1.0891e6,"version":"1.7.0"},{"target_kind":"release","value":1.0907e6,"version":"1.7.0"},{"target_kind":"release","value":1.062e6,"version":"1.7.0"},{"target_kind":"release","value":1.0415e6,"version":"1.7.0"},{"target_kind":"release","value":1.068e6,"version":"1.7.0"},{"target_kind":"release","value":1.0506e6,"version":"1.7.0"},{"target_kind":"release","value":1.0574e6,"version":"1.7.0"},{"target_kind":"release","value":1.2486e6,"version":"1.7.0"},{"target_kind":"release","value":1.1016e6,"version":"1.7.0"},{"target_kind":"release","value":1.0637e6,"version":"1.7.0"},{"target_kind":"release","value":1.035e6,"version":"1.7.0"},{"target_kind":"release","value":1.063e6,"version":"1.7.0"},{"target_kind":"release","value":1.0817e6,"version":"1.7.0"},{"target_kind":"release","value":1.0719e6,"version":"1.7.0"},{"target_kind":"release","value":1.0686e6,"version":"1.7.0"},{"target_kind":"release","value":1.0656e6,"version":"1.7.0"},{"target_kind":"release","value":1.0779e6,"version":"1.7.0"},{"target_kind":"release","value":1.0894e6,"version":"1.7.0"},{"target_kind":"release","value":1.0678e6,"version":"1.7.0"},{"target_kind":"release","value":1.6471e6,"version":"1.7.0"},{"target_kind":"release","value":1.8532e6,"version":"1.7.0"},{"target_kind":"release","value":1.1229e6,"version":"1.8.0"},{"target_kind":"release","value":1.0804e6,"version":"1.8.0"},{"target_kind":"release","value":1.0576e6,"version":"1.8.0"},{"target_kind":"release","value":1.0558e6,"version":"1.8.0"},{"target_kind":"release","value":1.0339e6,"version":"1.8.0"},{"target_kind":"release","value":1.0308e6,"version":"1.8.0"},{"target_kind":"release","value":1.0339e6,"version":"1.8.0"},{"target_kind":"release","value":1.0337e6,"version":"1.8.0"},{"target_kind":"release","value":1.0669e6,"version":"1.8.0"},{"target_kind":"release","value":1.1753e6,"version":"1.8.0"},{"target_kind":"release","value":1.0326e6,"version":"1.8.0"},{"target_kind":"release","value":1.02e6,"version":"1.8.0"},{"target_kind":"release","value":1.4164e6,"version":"1.8.0"},{"target_kind":"release","value":1.0351e6,"version":"1.8.0"},{"target_kind":"release","value":1.0407e6,"version":"1.8.0"},{"target_kind":"release","value":1.0246e6,"version":"1.8.0"},{"target_kind":"release","value":1.0384e6,"version":"1.8.0"},{"target_kind":"release","value":1.0438e6,"version":"1.8.0"},{"target_kind":"release","value":1.0548e6,"version":"1.8.0"},{"target_kind":"release","value":1.0443e6,"version":"1.8.0"},{"target_kind":"release","value":1.0385e6,"version":"1.8.0"},{"target_kind":"release","value":1.0476e6,"version":"1.8.0"},{"target_kind":"release","value":1.0234e6,"version":"1.8.0"},{"target_kind":"release","value":1.0188e6,"version":"1.8.0"},{"target_kind":"release","value":1.0658e6,"version":"1.8.0"},{"target_kind":"release","value":1.0449e6,"version":"1.8.0"},{"target_kind":"release","value":1.3159e6,"version":"1.8.0"},{"target_kind":"release","value":1.0576e6,"version":"1.8.0"},{"target_kind":"release","value":1.0354e6,"version":"1.8.0"},{"target_kind":"release","value":1.0379e6,"version":"1.8.0"},{"target_kind":"release","value":1.3909e6,"version":"1.9.0"},{"target_kind":"release","value":1.1106e6,"version":"1.9.0"},{"target_kind":"release","value":1.0849e6,"version":"1.9.0"},{"target_kind":"release","value":1.0723e6,"version":"1.9.0"},{"target_kind":"release","value":1.1133e6,"version":"1.9.0"},{"target_kind":"release","value":1.0544e6,"version":"1.9.0"},{"target_kind":"release","value":1.0712e6,"version":"1.9.0"},{"target_kind":"release","value":1.0963e6,"version":"1.9.0"},{"target_kind":"release","value":1.0897e6,"version":"1.9.0"},{"target_kind":"release","value":1.0756e6,"version":"1.9.0"},{"target_kind":"release","value":1.0669e6,"version":"1.9.0"},{"target_kind":"release","value":1.0697e6,"version":"1.9.0"},{"target_kind":"release","value":1.0684e6,"version":"1.9.0"},{"target_kind":"release","value":1.0771e6,"version":"1.9.0"},{"target_kind":"release","value":1.116e6,"version":"1.9.0"},{"target_kind":"release","value":1.0798e6,"version":"1.9.0"},{"target_kind":"release","value":1.0862e6,"version":"1.9.0"},{"target_kind":"release","value":1.0747e6,"version":"1.9.0"},{"target_kind":"release","value":1.078e6,"version":"1.9.0"},{"target_kind":"release","value":1.086e6,"version":"1.9.0"},{"target_kind":"release","value":1.0848e6,"version":"1.9.0"},{"target_kind":"release","value":1.0706e6,"version":"1.9.0"},{"target_kind":"release","value":1.0765e6,"version":"1.9.0"},{"target_kind":"release","value":1.0689e6,"version":"1.9.0"},{"target_kind":"release","value":1.0754e6,"version":"1.9.0"},{"target_kind":"release","value":1.085e6,"version":"1.9.0"},{"target_kind":"release","value":1.067e6,"version":"1.9.0"},{"target_kind":"release","value":1.0677e6,"version":"1.9.0"},{"target_kind":"release","value":1.0738e6,"version":"1.9.0"},{"target_kind":"release","value":1.0803e6,"version":"1.9.0"},{"target_kind":"release","value":1.1605e6,"version":"1.10.0"},{"target_kind":"release","value":1.1343e6,"version":"1.10.0"},{"target_kind":"release","value":1.1583e6,"version":"1.10.0"},{"target_kind":"release","value":1.2084e6,"version":"1.10.0"},{"target_kind":"release","value":1.2429e6,"version":"1.10.0"},{"target_kind":"release","value":1.2e6,"version":"1.10.0"},{"target_kind":"release","value":1.3535e6,"version":"1.10.0"},{"target_kind":"release","value":1.1793e6,"version":"1.10.0"},{"target_kind":"release","value":1.1508e6,"version":"1.10.0"},{"target_kind":"release","value":1.1659e6,"version":"1.10.0"},{"target_kind":"release","value":1.2381e6,"version":"1.10.0"},{"target_kind":"release","value":1.2295e6,"version":"1.10.0"},{"target_kind":"release","value":1.183e6,"version":"1.10.0"},{"target_kind":"release","value":1.1597e6,"version":"1.10.0"},{"target_kind":"release","value":1.3085e6,"version":"1.10.0"},{"target_kind":"release","value":1.2171e6,"version":"1.10.0"},{"target_kind":"release","value":1.1857e6,"version":"1.10.0"},{"target_kind":"release","value":1.1785e6,"version":"1.10.0"},{"target_kind":"release","value":1.1774e6,"version":"1.10.0"},{"target_kind":"release","value":1.2696e6,"version":"1.10.0"},{"target_kind":"release","value":1.1634e6,"version":"1.10.0"},{"target_kind":"release","value":1.1489e6,"version":"1.10.0"},{"target_kind":"release","value":1.1589e6,"version":"1.10.0"},{"target_kind":"release","value":1.1772e6,"version":"1.10.0"},{"target_kind":"release","value":1.9189e6,"version":"1.10.0"},{"target_kind":"release","value":1.2502e6,"version":"1.10.0"},{"target_kind":"release","value":1.2149e6,"version":"1.10.0"},{"target_kind":"release","value":1.1976e6,"version":"1.10.0"},{"target_kind":"release","value":1.215e6,"version":"1.10.0"},{"target_kind":"release","value":1.1667e6,"version":"1.10.0"},{"target_kind":"release","value":2.2919e6,"version":"1.10.1"},{"target_kind":"release","value":2.6073e6,"version":"1.10.1"},{"target_kind":"release","value":2.2595e6,"version":"1.10.1"},{"target_kind":"release","value":2.2567e6,"version":"1.10.1"},{"target_kind":"release","value":2.1963e6,"version":"1.10.1"},{"target_kind":"release","value":2.2126e6,"version":"1.10.1"},{"target_kind":"release","value":2.0434e6,"version":"1.10.1"},{"target_kind":"release","value":2.0082e6,"version":"1.10.1"},{"target_kind":"release","value":2.1379e6,"version":"1.10.1"},{"target_kind":"release","value":2.2551e6,"version":"1.10.1"},{"target_kind":"release","value":2.2638e6,"version":"1.10.1"},{"target_kind":"release","value":2.3118e6,"version":"1.10.1"},{"target_kind":"release","value":2.27e6,"version":"1.10.1"},{"target_kind":"release","value":2.2784e6,"version":"1.10.1"},{"target_kind":"release","value":2.3259e6,"version":"1.10.1"},{"target_kind":"release","value":2.3031e6,"version":"1.10.1"},{"target_kind":"release","value":2.2483e6,"version":"1.10.1"},{"target_kind":"release","value":2.3216e6,"version":"1.10.1"},{"target_kind":"release","value":2.2522e6,"version":"1.10.1"},{"target_kind":"release","value":2.2866e6,"version":"1.10.1"},{"target_kind":"release","value":2.1925e6,"version":"1.10.1"},{"target_kind":"release","value":2.1912e6,"version":"1.10.1"},{"target_kind":"release","value":2.2607e6,"version":"1.10.1"},{"target_kind":"release","value":2.0568e6,"version":"1.10.1"},{"target_kind":"release","value":2.0874e6,"version":"1.10.1"},{"target_kind":"release","value":2.2901e6,"version":"1.10.1"},{"target_kind":"release","value":2.275e6,"version":"1.10.1"},{"target_kind":"release","value":2.232e6,"version":"1.10.1"},{"target_kind":"release","value":2.2164e6,"version":"1.10.1"},{"target_kind":"release","value":2.2559e6,"version":"1.10.1"},{"target_kind":"release","value":1.1425e6,"version":"1.10.2"},{"target_kind":"release","value":1.0782e6,"version":"1.10.2"},{"target_kind":"release","value":1.1076e6,"version":"1.10.2"},{"target_kind":"release","value":1.073e6,"version":"1.10.2"},{"target_kind":"release","value":1.2507e6,"version":"1.10.2"},{"target_kind":"release","value":1.0833e6,"version":"1.10.2"},{"target_kind":"release","value":1.0599e6,"version":"1.10.2"},{"target_kind":"release","value":1.0538e6,"version":"1.10.2"},{"target_kind":"release","value":1.0842e6,"version":"1.10.2"},{"target_kind":"release","value":1.0748e6,"version":"1.10.2"},{"target_kind":"release","value":1.0776e6,"version":"1.10.2"},{"target_kind":"release","value":1.0778e6,"version":"1.10.2"},{"target_kind":"release","value":1.0671e6,"version":"1.10.2"},{"target_kind":"release","value":1.0523e6,"version":"1.10.2"},{"target_kind":"release","value":1.1006e6,"version":"1.10.2"},{"target_kind":"release","value":1.0612e6,"version":"1.10.2"},{"target_kind":"release","value":1.0658e6,"version":"1.10.2"},{"target_kind":"release","value":1.0971e6,"version":"1.10.2"},{"target_kind":"release","value":1.322e6,"version":"1.10.2"},{"target_kind":"release","value":1.0969e6,"version":"1.10.2"},{"target_kind":"release","value":1.0818e6,"version":"1.10.2"},{"target_kind":"release","value":1.0647e6,"version":"1.10.2"},{"target_kind":"release","value":1.0836e6,"version":"1.10.2"},{"target_kind":"release","value":1.0708e6,"version":"1.10.2"},{"target_kind":"release","value":1.0834e6,"version":"1.10.2"},{"target_kind":"release","value":1.0653e6,"version":"1.10.2"},{"target_kind":"release","value":1.0455e6,"version":"1.10.2"},{"target_kind":"release","value":1.0766e6,"version":"1.10.2"},{"target_kind":"release","value":1.0758e6,"version":"1.10.2"},{"target_kind":"release","value":1.0599e6,"version":"1.10.2"},{"target_kind":"release","value":1.1949e6,"version":"1.11.0"},{"target_kind":"release","value":1.1576e6,"version":"1.11.0"},{"target_kind":"release","value":1.1528e6,"version":"1.11.0"},{"target_kind":"release","value":1.1386e6,"version":"1.11.0"},{"target_kind":"release","value":1.154e6,"version":"1.11.0"},{"target_kind":"release","value":1.1518e6,"version":"1.11.0"},{"target_kind":"release","value":1.1574e6,"version":"1.11.0"},{"target_kind":"release","value":1.1618e6,"version":"1.11.0"},{"target_kind":"release","value":1.3529e6,"version":"1.11.0"},{"target_kind":"release","value":1.164e6,"version":"1.11.0"},{"target_kind":"release","value":1.1975e6,"version":"1.11.0"},{"target_kind":"release","value":1.1507e6,"version":"1.11.0"},{"target_kind":"release","value":1.1673e6,"version":"1.11.0"},{"target_kind":"release","value":1.1629e6,"version":"1.11.0"},{"target_kind":"release","value":1.1664e6,"version":"1.11.0"},{"target_kind":"release","value":1.1659e6,"version":"1.11.0"},{"target_kind":"release","value":1.1262e6,"version":"1.11.0"},{"target_kind":"release","value":1.1776e6,"version":"1.11.0"},{"target_kind":"release","value":1.1702e6,"version":"1.11.0"},{"target_kind":"release","value":1.2089e6,"version":"1.11.0"},{"target_kind":"release","value":1.1244e6,"version":"1.11.0"},{"target_kind":"release","value":1.4336e6,"version":"1.11.0"},{"target_kind":"release","value":1.2318e6,"version":"1.11.0"},{"target_kind":"release","value":1.2675e6,"version":"1.11.0"},{"target_kind":"release","value":1.217e6,"version":"1.11.0"},{"target_kind":"release","value":1.1802e6,"version":"1.11.0"},{"target_kind":"release","value":1.178e6,"version":"1.11.0"},{"target_kind":"release","value":1.1548e6,"version":"1.11.0"},{"target_kind":"release","value":1.1576e6,"version":"1.11.0"},{"target_kind":"release","value":1.1457e6,"version":"1.11.0"}],"description":"Sample distribution","encoding":{"color":"target_kind","x":"version","y":"value"},"id":"distribution-26ddec5825122b13","kind":"distribution","options":{"feature":"counter_benchmark","metric":"julia.wall.time","package":"Oxygen","series_id":"1584ad8fbc17139f","unit":"ns"},"schema_version":"perfchecker-plot/1","title":"Oxygen · counter_benchmark · julia.wall.time"};
+  const width = 1100, height = 620;
+  function install() {
+    const viewport = document.getElementById('offline-viewport');
+    const figure = document.getElementById('offline-figure');
+    if (!viewport || !figure) throw new Error('The exported Makie figure is missing');
+    const style = document.createElement('style');
+    style.textContent = `
+      body{margin:0;background:#f6f8fb;color:#17243b;font:14px system-ui,sans-serif}
+      .plot-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 14px}
+      .plot-brand{font-size:11px;letter-spacing:.05em;color:#64748b;margin-right:auto}
+      .plot-toolbar button,#point-controls input{font:inherit;color:inherit;background:white;border:1px solid #c8d2e1;border-radius:6px;padding:7px 10px}
+      .plot-toolbar button{cursor:pointer}.plot-toolbar button:focus-visible,#point-controls input:focus-visible,#offline-viewport:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
+      #point-controls{align-items:center;font-size:13px}#point-controls label{white-space:nowrap}
+      #point-readout{flex:1;min-width:220px;padding:10px;border-left:3px solid #2563eb;background:#edf3ff;overflow-wrap:anywhere}
+      #offline-viewport{box-sizing:border-box;border:1px solid #d5ddeb;background:white!important;overflow:auto!important;touch-action:pan-x pan-y}
+      #offline-surface{position:relative;margin-inline:auto}#offline-figure{position:absolute;left:0;top:0}
+      .popup:not(.show){display:none}.popup{box-sizing:border-box;max-width:calc(100vw - 16px);max-height:calc(100vh - 16px);overflow:auto;overflow-wrap:anywhere}
+      .plot-help{font-size:12px;color:#526078;padding:0 14px 10px;margin:0}
+      @media(max-width:600px){.plot-brand{flex-basis:100%}}
+    `;
+    document.head.append(style);
+    const toolbar = document.createElement('div');
+    toolbar.className = 'plot-toolbar';toolbar.setAttribute('aria-label','Plot controls');
+    const brand = document.createElement('span');brand.className='plot-brand';brand.textContent='PerfChecker.jl · SAVED MEASUREMENTS';toolbar.append(brand);
+    const button = (text,label,action) => {const node=document.createElement('button');node.textContent=text;node.setAttribute('aria-label',label);node.addEventListener('click',action);toolbar.append(node);return node};
+    let zoom=1,fitScale=1,availableHeight=height+2;
+    const surface=document.createElement('div');surface.id='offline-surface';
+    viewport.insertBefore(surface,figure);surface.append(figure);
+    const zoomLevel=document.createElement('output');zoomLevel.setAttribute('aria-live','polite');
+    const hidePopups=()=>document.querySelectorAll('.popup.show').forEach(popup=>popup.classList.remove('show'));
+    viewport.addEventListener('scroll',hidePopups,{passive:true});
+    const renderSize=()=>{
+      hidePopups();
+      const scale=fitScale*zoom;
+      viewport.style.height=Math.min(availableHeight,Math.ceil(height*scale)+2)+'px';
+      figure.style.transform='scale('+scale+')';
+      surface.style.width=(width*scale)+'px';surface.style.height=(height*scale)+'px';
+      zoomLevel.textContent=Math.round(zoom*100)+'%';
+    };
+    const resize=()=>{
+      if(viewport.clientWidth<=2)return;
+      availableHeight=Math.max(120,Math.min(720,window.innerHeight-viewport.offsetTop-50));
+      fitScale=Math.min(1,(viewport.clientWidth-2)/width,(availableHeight-2)/height);
+      renderSize();
+    };
+    const zoomTo=value=>{
+      const previous=zoom;zoom=Math.max(1,Math.min(6,value));renderSize();
+      viewport.scrollLeft=(viewport.scrollLeft+viewport.clientWidth/2)*zoom/previous-viewport.clientWidth/2;
+      viewport.scrollTop=(viewport.scrollTop+viewport.clientHeight/2)*zoom/previous-viewport.clientHeight/2;
+    };
+    const fit=()=>{zoom=1;resize();viewport.scrollTo(0,0)};
+    button('Fit','Fit plot',fit);button('−','Zoom out',()=>zoomTo(zoom/1.5));toolbar.append(zoomLevel);button('+','Zoom in',()=>zoomTo(zoom*1.5));
+    button('Model JSON','Download plot model JSON',()=>{
+      const url=URL.createObjectURL(new Blob([JSON.stringify(model,null,2)],{type:'application/json'}));
+      const link=document.createElement('a');link.href=url;link.download='perfchecker-'+String(model.kind)+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    });
+    viewport.before(toolbar);
+    const help=document.createElement('p');help.className='plot-help';help.textContent=(document.getElementById('point-index')?.dataset.readoutOnly==='true'?'No positive allocation weight. Inspect the recorded zero rows with the index above. ':document.getElementById('point-controls')?'Click a native mark to inspect it. Select an exact recorded row with the index above. ':'')+'Shift-drag or scroll to pan; + / − zoom, 0 fits the plot.';viewport.after(help);
+    viewport.setAttribute('role','group');viewport.tabIndex=0;
+    // WGL's picker consumes untransformed canvas coordinates; CSS viewport
+    // zoom changes its bounding rectangle. Keep popup page coordinates real.
+    viewport.addEventListener('mousedown',event=>{
+      const canvas=event.target.closest('canvas');if(!canvas)return;
+      const box=canvas.getBoundingClientRect();
+      if(!box.width||!box.height)return;
+      Object.defineProperties(event,{
+        clientX:{value:box.left+(event.clientX-box.left)*canvas.clientWidth/box.width},
+        clientY:{value:box.top+(event.clientY-box.top)*canvas.clientHeight/box.height},
+      });
+    },true);
+    viewport.addEventListener('mousedown',()=>{
+      document.querySelectorAll('.popup.show').forEach(popup=>{
+        const box=popup.getBoundingClientRect();
+        popup.style.left=(window.scrollX+Math.max(8,Math.min(box.left,innerWidth-box.width-8)))+'px';
+        popup.style.top=(window.scrollY+Math.max(8,Math.min(box.top,innerHeight-box.height-8)))+'px';
+      });
+    });
+    viewport.addEventListener('keydown',event=>{
+      if(event.target!==viewport)return;
+      if(['+','=','-','0','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key))event.preventDefault();
+      if(event.key==='+'||event.key==='=')zoomTo(zoom*1.5);
+      else if(event.key==='-')zoomTo(zoom/1.5);
+      else if(event.key==='0')fit();
+      else if(event.key.startsWith('Arrow'))viewport.scrollBy(event.key==='ArrowLeft'?-50:event.key==='ArrowRight'?50:0,event.key==='ArrowUp'?-50:event.key==='ArrowDown'?50:0);
+    });
+    let drag;
+    viewport.addEventListener('pointerdown',event=>{
+      if(event.pointerType!=='mouse'||event.button!==0||!event.shiftKey)return;
+      event.preventDefault();event.stopPropagation();viewport.setPointerCapture(event.pointerId);
+      drag={x:event.clientX,y:event.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};
+    },true);
+    viewport.addEventListener('pointermove',event=>{if(drag){viewport.scrollLeft=drag.left+drag.x-event.clientX;viewport.scrollTop=drag.top+drag.y-event.clientY}});
+    viewport.addEventListener('pointerup',()=>drag=null);viewport.addEventListener('pointercancel',()=>drag=null);
+    let observedWidth;
+    new ResizeObserver(()=>{
+      const nextWidth=viewport.getBoundingClientRect().width;
+      if(nextWidth!==observedWidth){observedWidth=nextWidth;resize()}
+    }).observe(viewport);
+    window.addEventListener('resize',resize);resize();
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
+})();
+</script></body></html>
