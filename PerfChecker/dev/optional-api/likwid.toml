@@ -11,8 +11,8 @@ pretty_tables = "3.5.0"
 project_sha256 = "d07b9e36fea19a949c690db88fa098f3c7b4b943b729388286dc469cbba77cf5"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "9947de5e4163388c0a14f0d439e6c578a4676597"
-source_tree = "c99e686cb4103fb636cb7d8cb1205b6be0ad8575"
+source_revision = "e36b19f132c8c3885ba319a234e464d15829d4a4"
+source_tree = "5547b08dc26c8617118b6670657f60dfb2ab8753"
 
 [[bindings]]
 binding = "PerfCheckerLIKWID.CounterRecord"
@@ -247,10 +247,10 @@ source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc
 
 [[outputs]]
 path = ".documenter/likwid/public-api.md"
-sha256 = "abb2a355ff5772024f3d947838021ae22b54625775837672daf237ada28275c0"
+sha256 = "78d8596254cf9994d8952dde539517a704dc6d27bd2dc7288fe4ebeb5f5feaa3"
 [[outputs]]
 path = ".documenter/likwid/full-api.md"
-sha256 = "c3688a2facb54161180fd4e48afd99361d0247b6302af8ec1be7742b6d1861ea"
+sha256 = "0e16dc9f022e243c3d13be4b6aa7c4d22e9bb6f78b6c3a5c2c3a0b26c98546e0"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "82928d841e951c07727a327dc2c8ce05c117b1a6308bace7872e9599f498147a"

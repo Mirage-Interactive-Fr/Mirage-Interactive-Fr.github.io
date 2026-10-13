@@ -11,8 +11,8 @@ pretty_tables = "absent"
 project_sha256 = "ffe078d2e0d2a85760b8fe588770b0117864432bf27a77c18befff919447acf7"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "9947de5e4163388c0a14f0d439e6c578a4676597"
-source_tree = "c99e686cb4103fb636cb7d8cb1205b6be0ad8575"
+source_revision = "e36b19f132c8c3885ba319a234e464d15829d4a4"
+source_tree = "5547b08dc26c8617118b6670657f60dfb2ab8753"
 
 [[bindings]]
 binding = "PerfChecker.register_oxygen_routes!"
@@ -397,10 +397,10 @@ source_sha256 = "8438f3170c88e070fc34d07abc11fc04d2271d847a667b0ad4834fc95092e38
 
 [[outputs]]
 path = ".documenter/web/public-api.md"
-sha256 = "63f9f0aa7e019cf075e7afa69a1e9c9beb8bb1c098f0c42d91f6427100769404"
+sha256 = "20f5117af8f843fce58bfe569857e4e3d77ca4a536e189fe5a7235e255653819"
 [[outputs]]
 path = ".documenter/web/full-api.md"
-sha256 = "07393dca192ce05393f2f3f72d6a12675b8d6ead876446764a4de715f7fd0857"
+sha256 = "6439b487e0c16059c353730d9ceab92366723dd43036b6ea5a9b9453fde8a992"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "b4430ba099ab903b91f9cc6ce9953d7b72efedcb505ce4606f2b7ab2ac005610"
