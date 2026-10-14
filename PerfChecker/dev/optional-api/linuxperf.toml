@@ -11,8 +11,8 @@ pretty_tables = "2.4.0"
 project_sha256 = "b45f35e5789c6613b4e23890b6572d0bf19b168d7f099d144c488683b8009d75"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "1b34f8a640ad9c24ed7766db75bd7f2518821ae1"
-source_tree = "42d103993d1742a7bf67c450cfd365243b2d3299"
+source_revision = "092caf40ff7fbc224423e79e0481e01b26c9e7e8"
+source_tree = "c2bcd242b44b6a1898a9989e925347d0485665c9"
 
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.CounterRecord"
@@ -238,10 +238,10 @@ source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6
 
 [[outputs]]
 path = ".documenter/linuxperf/public-api.md"
-sha256 = "36acc68b06d45dcd1b413caa0eebc22e76db3e45acda6b192e9b4425cd954208"
+sha256 = "7f716e4cebaafc943063fb4738fd973cb1a9969cff437a75d8c0cf730a4c95d6"
 [[outputs]]
 path = ".documenter/linuxperf/full-api.md"
-sha256 = "a651fa691d8f44d516e321019977e7d54552c2812840cf2ebb9ffabc9d456b8f"
+sha256 = "233379d5c0908a571c6b3a76730440060985286e35abf5831f1a7b94ade16240"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "6ef5b24d07e03d0fe8386a85512ba37f8342729702708bfa1bdb738987c079e0"
