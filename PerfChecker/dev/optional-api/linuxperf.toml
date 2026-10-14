@@ -1,18 +1,18 @@
 channel = "source"
-core_version = "1.1.0"
+core_version = "1.1.1"
 documented_modules = ["PerfCheckerLinuxPerf"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "8be8008df61d3e42d1db920ca01c69c399c841a82633b686c7c2b48bb152fb61"
+manifest_sha256 = "61c38cdd231bd94f19f370278d19188ac56db1fd00b159315f89b4fc0b41b7da"
 owner = "PerfCheckerLinuxPerf"
 owner_uuid = "a4fefc68-8c0a-49a5-9567-b52f4d4f54cb"
-owner_version = "1.0.1"
+owner_version = "1.0.2"
 pretty_tables = "2.4.0"
-project_sha256 = "57e0270a6ab780d85fe06aabe7ab5cd4b93658039c0e524e0b736f40597f261e"
+project_sha256 = "b45f35e5789c6613b4e23890b6572d0bf19b168d7f099d144c488683b8009d75"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "e36b19f132c8c3885ba319a234e464d15829d4a4"
-source_tree = "5547b08dc26c8617118b6670657f60dfb2ab8753"
+source_revision = "d079efd5c24c3dcac5b7550781822038e0ff780f"
+source_tree = "749f8eac351ed2a1f0bc110456f2eb37a3bc08ee"
 
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.CounterRecord"
@@ -55,13 +55,13 @@ binding = "PerfCheckerLinuxPerf._counter_checker_result"
 binding_module = "PerfCheckerLinuxPerf"
 docstring_module = "PerfCheckerLinuxPerf"
 exported = false
-line = 181
+line = 183
 owner = "PerfCheckerLinuxPerf"
 public = false
 public_api = false
 signature = "Tuple{RunBundle, Any}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.counter_bundle"
 binding_module = "PerfCheckerLinuxPerf"
@@ -73,7 +73,7 @@ public = true
 public_api = true
 signature = "Tuple{CounterResult}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.counter_command"
 binding_module = "PerfCheckerLinuxPerf"
@@ -85,19 +85,19 @@ public = true
 public_api = true
 signature = "Tuple{Symbol}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.counter_executor"
 binding_module = "PerfCheckerLinuxPerf"
 docstring_module = "PerfCheckerLinuxPerf"
 exported = true
-line = 213
+line = 215
 owner = "PerfCheckerLinuxPerf"
 public = true
 public_api = true
 signature = "Tuple{}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[bindings]]
 binding = "PerfCheckerLinuxPerf.measure_counters"
 binding_module = "PerfCheckerLinuxPerf"
@@ -115,20 +115,20 @@ binding = "PerfCheckerLinuxPerf.run_counter_suite"
 binding_module = "PerfCheckerLinuxPerf"
 docstring_module = "PerfCheckerLinuxPerf"
 exported = true
-line = 226
+line = 228
 owner = "PerfCheckerLinuxPerf"
 public = true
 public_api = true
 signature = "Tuple{SuitePlan}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "05b35fe9195d736a537cf353249ce6a856e24034a4449e3bb4f9303fe9653906"
+sha256 = "d8248d19db510e2166cb32744e7410c8013352a365b66551b17e0dc426474825"
 [[inputs]]
 path = "website/optional-api/linuxperf/Project.toml"
-sha256 = "5e37bbdc4bdd18ddcddd83194b1aef90eb7a26c2a4f1aa2c3ebbc94d506e6e81"
+sha256 = "8bb30b24b981b9d107c0670163a604d518c8226c4b35d45d978238e093efe044"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -198,7 +198,7 @@ line = 12
 owner = "PerfCheckerLinuxPerf"
 signature = "Tuple{typeof(counter_bundle), CounterResult}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[methods]]
 binding = "PerfCheckerLinuxPerf.counter_command"
 binding_module = "PerfCheckerLinuxPerf"
@@ -207,16 +207,16 @@ line = 115
 owner = "PerfCheckerLinuxPerf"
 signature = "Tuple{typeof(counter_command), Symbol}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[methods]]
 binding = "PerfCheckerLinuxPerf.counter_executor"
 binding_module = "PerfCheckerLinuxPerf"
 defining_module = "PerfCheckerLinuxPerf"
-line = 223
+line = 225
 owner = "PerfCheckerLinuxPerf"
 signature = "Tuple{typeof(counter_executor)}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 [[methods]]
 binding = "PerfCheckerLinuxPerf.measure_counters"
 binding_module = "PerfCheckerLinuxPerf"
@@ -230,18 +230,18 @@ source_sha256 = "b81986983cc65e06894aea5698fd161877edd56f6106ce80182b43253d9be33
 binding = "PerfCheckerLinuxPerf.run_counter_suite"
 binding_module = "PerfCheckerLinuxPerf"
 defining_module = "PerfCheckerLinuxPerf"
-line = 236
+line = 238
 owner = "PerfCheckerLinuxPerf"
 signature = "Tuple{typeof(run_counter_suite), SuitePlan}"
 source = "packages/PerfCheckerLinuxPerf/src/provider.jl"
-source_sha256 = "fa596fb8269898adbb41e6def68e2c2e809df57e81c6b4b86b855e632ea9a898"
+source_sha256 = "0f3639a8f72363258c89902b1ce958a1316c6b9a2277050b8378d3a481598e6d"
 
 [[outputs]]
 path = ".documenter/linuxperf/public-api.md"
-sha256 = "42ada324bddbeb18ac8ea1b4090b3109466c75e5a5f44f12d703839c8ec1ceca"
+sha256 = "17b814f642aa8d28c71c2080fb7c2f6bcf58d992ddc76c6330651beb642dd497"
 [[outputs]]
 path = ".documenter/linuxperf/full-api.md"
-sha256 = "1b20ab1549425b11cbe6aa6161e10351eecdbbdd3199d29dff672199f0b0c858"
+sha256 = "c46d4ca8facc73259b7a6c1c5034f3ae1f1f1b1c051241b8c17b4367a48b204b"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "067e8bad4f3072214e2d43243e2e3ea5574d87ede342b6c8b8ce89d202418dd2"
+sha256 = "6ef5b24d07e03d0fe8386a85512ba37f8342729702708bfa1bdb738987c079e0"

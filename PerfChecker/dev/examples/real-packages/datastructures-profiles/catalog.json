@@ -38,6 +38,13 @@
       "package": "DataStructures",
       "status": "pass",
       "version": "0.19.6"
+    },
+    {
+      "feature": "counter_32768_profile_alloc",
+      "package": "DataStructures",
+      "run_id": "94cf6884-2e97-4623-b29a-c8fb727355ff",
+      "status": "pass",
+      "version": "0.19.6"
     }
   ],
   "runtime": {
@@ -302,16 +309,106 @@
       "unit": "samples",
       "html": "wall-flamegraph-1a28318cdf1f7700.html",
       "html_input_sha256": "1bb7543df584ff82122ec8720181c4963393cd8378a4a08b43c31b9de8cbc12b"
+    },
+    {
+      "capture_conditions": {
+        "Correctness oracle": "passed",
+        "Fixture": "32,768 events; seed 42",
+        "Julia": "1.13.1",
+        "Pairing": "Independent totals and sampled events come from separate evaluations; matching allocation counts do not establish a pairing.",
+        "Profile evaluations": 1,
+        "Sampling rate": 1.0,
+        "Worker threads": 1
+      },
+      "capture_note": "One native counter profile: 2208 sampled bytes across 11 events; independently measured whole-operation totals are 2352 bytes and 11 allocations. The sampled pie is not rescaled to those totals.",
+      "case_id": "counter_32768_profile_alloc",
+      "evidence": "counter-allocation-source.json",
+      "feature": "counter_32768_profile_alloc",
+      "html": "counter-allocation_flamegraph.html",
+      "html_input_sha256": "428c44ce638f52cc9a17084fa62a748c954fa66ec48a07e33b181e7a30afd1c4",
+      "id": "allocation-flamegraph-c087f78e413d3873",
+      "json": "counter-allocation_flamegraph.json",
+      "kind": "allocation_flamegraph",
+      "label": "Allocation flame graph",
+      "metric": "julia.alloc.bytes",
+      "package": "DataStructures",
+      "title": "DataStructures · counter_32768_profile_alloc · allocation flame graph",
+      "unit": "By"
+    },
+    {
+      "capture_conditions": {
+        "Correctness oracle": "passed",
+        "Fixture": "32,768 events; seed 42",
+        "Julia": "1.13.1",
+        "Pairing": "Independent totals and sampled events come from separate evaluations; matching allocation counts do not establish a pairing.",
+        "Profile evaluations": 1,
+        "Sampling rate": 1.0,
+        "Worker threads": 1
+      },
+      "capture_note": "One native counter profile: 2208 sampled bytes across 11 events; independently measured whole-operation totals are 2352 bytes and 11 allocations. The sampled pie is not rescaled to those totals.",
+      "case_id": "counter_32768_profile_alloc",
+      "evidence": "counter-allocation-source.json",
+      "feature": "counter_32768_profile_alloc",
+      "html": "counter-allocation_lines.html",
+      "html_input_sha256": "8cc5b599717bfc7dc0f9052c1b9eb4f43b32ea4c622eac7f820789ede4fddec6",
+      "id": "allocation-lines-e96766d4d7560a23",
+      "json": "counter-allocation_lines.json",
+      "kind": "allocation_lines",
+      "label": "Allocation hotspots by line",
+      "metric": "julia.alloc.bytes",
+      "package": "DataStructures",
+      "title": "DataStructures · counter_32768_profile_alloc · allocations",
+      "unit": "By"
+    },
+    {
+      "capture_conditions": {
+        "Correctness oracle": "passed",
+        "Fixture": "32,768 events; seed 42",
+        "Julia": "1.13.1",
+        "Pairing": "Independent totals and sampled events come from separate evaluations; matching allocation counts do not establish a pairing.",
+        "Profile evaluations": 1,
+        "Sampling rate": 1.0,
+        "Worker threads": 1
+      },
+      "capture_note": "One native counter profile: 2208 sampled bytes across 11 events; independently measured whole-operation totals are 2352 bytes and 11 allocations. The sampled pie is not rescaled to those totals.",
+      "case_id": "counter_32768_profile_alloc",
+      "evidence": "counter-allocation-source.json",
+      "feature": "counter_32768_profile_alloc",
+      "html": "counter-allocation_pie.html",
+      "html_input_sha256": "835be9b42dec7b9afb4c2812319ac7d33179a2dd647bc27a84fdfa1a2aeb6e99",
+      "id": "allocation-pie-36db8d4534fe0275",
+      "json": "counter-allocation_pie.json",
+      "kind": "allocation_pie",
+      "label": "Allocation share by line (%)",
+      "metric": "julia.alloc.bytes",
+      "package": "DataStructures",
+      "title": "DataStructures · counter_32768_profile_alloc · allocations",
+      "unit": "By"
     }
   ],
   "interactive_export": {
     "asset_layout": "shared_relative",
-    "companion_version": "1.0.3",
+    "companion_version": "1.0.4",
     "input_kind": "published_serialized_plot",
     "recipe": "examples/kitchen-sink/replay.jl:saved_plot",
     "recipe_sha256": "38ea1ff24fecc064fdf30af471893842266f3f970a92b11b9b24bdda07dd3307",
     "renderer": "PerfChecker.performance_plot_html",
-    "selected_views": 14,
+    "selected_views": 17,
     "selection": "all_saved_views"
+  },
+  "documentation_interactive_export": {
+    "companion_version": "1.0.4",
+    "renderer": "PerfChecker.performance_plot_html",
+    "selected_views": 17,
+    "selection": "all_profile_views",
+    "source_revision": "06b2b4d9b54c6c1c5c84ba346ff2317f896a20d9",
+    "working_tree_source_sha256": {
+      "examples/kitchen-sink/publish-evidence.jl": "ca037a55e07e5af269d08e1ff8429f03bbb008afc1eb565aa5b59f16f426e63a",
+      "examples/kitchen-sink/replay.jl": "38ea1ff24fecc064fdf30af471893842266f3f970a92b11b9b24bdda07dd3307",
+      "packages/PerfCheckerMakie/Project.toml": "bdfa81ec53cb083c1490e71ebbe4c69ea8b9381801dd6279ee1a4f744aaf8cdb",
+      "packages/PerfCheckerMakie/ext/WGLMakieExt.jl": "e24172b05c7f0a7f41d571c950d65226738cebc52d445aa33af57ba2437ef5cd",
+      "packages/PerfCheckerMakie/src/assets/normalized.html": "206252de88acf1d6d97534bda17705feadccc36c1db191b05f6ed8abf516b295",
+      "packages/PerfCheckerMakie/src/performance.jl": "21282e3db628f6944de523d956362e410e62611ce1b1d55ef35c280c563708e4"
+    }
   }
 }

@@ -1,18 +1,18 @@
 channel = "source"
-core_version = "1.1.0"
+core_version = "1.1.1"
 documented_modules = ["PerfCheckerTachikoma"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "0a7aaa25e4758da66355cdd187ba5448c510dcf3b2eb6b1c62c17f5f0343cb76"
+manifest_sha256 = "cc8a2b3860be13dc729ea47e1e52b5e3e086d8c3cc6d9d31b68ea9a3baf6f4ab"
 owner = "PerfCheckerTachikoma"
 owner_uuid = "62732417-0f79-4b0f-bcf8-4246188b2099"
 owner_version = "1.0.1"
 pretty_tables = "absent"
-project_sha256 = "5f35e52f49f01143ffbc3b2a93e410eb5052c3bc32aa25c85e459baab865b4e5"
+project_sha256 = "f814c4aa52704e22ea0ce383a82f27268de1931cd79c1e49066dce2701649ab7"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "e36b19f132c8c3885ba319a234e464d15829d4a4"
-source_tree = "5547b08dc26c8617118b6670657f60dfb2ab8753"
+source_revision = "d079efd5c24c3dcac5b7550781822038e0ff780f"
+source_tree = "749f8eac351ed2a1f0bc110456f2eb37a3bc08ee"
 
 [[bindings]]
 binding = "PerfCheckerTachikoma.PerfCheckerTachikoma"
@@ -101,10 +101,10 @@ source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "05b35fe9195d736a537cf353249ce6a856e24034a4449e3bb4f9303fe9653906"
+sha256 = "d8248d19db510e2166cb32744e7410c8013352a365b66551b17e0dc426474825"
 [[inputs]]
 path = "website/optional-api/tachikoma/Project.toml"
-sha256 = "d30ae7c2076bfa5fb3f119411b45e229f2a2d318168a82860ba2267b1437d0d1"
+sha256 = "125a01d4136169db30900918458805a98f3ad3aa6b2ec6c301c6291e80601b1f"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -223,10 +223,10 @@ source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835
 
 [[outputs]]
 path = ".documenter/tachikoma/public-api.md"
-sha256 = "2dfa95abe6ad99e67b9123176a2a888796cc2ab25c8d1e9af5f7518bdd8aa2d4"
+sha256 = "ce59020337aab19d21c005e3adb94b102b06291711ed0f0dd1d4d903a433e57b"
 [[outputs]]
 path = ".documenter/tachikoma/full-api.md"
-sha256 = "c4d4efcce4ae4a1c373d7fd46196b233ddeff3dd3b3ecab0ac7c93f002a90059"
+sha256 = "2d2d1eb516035c39ab86c9a4aa70349b1d6b66fb1c6b7ff84aa40d56512159b6"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "3fc339cfe402c2d6bf420a168d1f68a69fe1934594213b2f939b2f1ca67db610"
+sha256 = "82a39751350d5f850c8b6a94c5e466f685577647ea01d4c1fae61f9e1bc75cdf"

@@ -1,18 +1,18 @@
 channel = "source"
-core_version = "1.1.0"
+core_version = "1.1.1"
 documented_modules = ["PerfCheckerLIKWID"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "3c71c94cbe7b363aa744ffa8711ef7322ef13343d7fe6d4660e3e702fcef8b01"
+manifest_sha256 = "04db8dc87a249b06e9d9ce1cd4ae9c3327684801fed0903312d4176f787e41f6"
 owner = "PerfCheckerLIKWID"
 owner_uuid = "00985017-4685-4f40-9ee8-39d442cefdbe"
-owner_version = "1.0.1"
+owner_version = "1.0.2"
 pretty_tables = "3.5.0"
-project_sha256 = "d07b9e36fea19a949c690db88fa098f3c7b4b943b729388286dc469cbba77cf5"
+project_sha256 = "a6bca4b549f85d998e5c09afd5253512c6d91c3879a1462000b90dfd30ffccfb"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "e36b19f132c8c3885ba319a234e464d15829d4a4"
-source_tree = "5547b08dc26c8617118b6670657f60dfb2ab8753"
+source_revision = "d079efd5c24c3dcac5b7550781822038e0ff780f"
+source_tree = "749f8eac351ed2a1f0bc110456f2eb37a3bc08ee"
 
 [[bindings]]
 binding = "PerfCheckerLIKWID.CounterRecord"
@@ -55,13 +55,13 @@ binding = "PerfCheckerLIKWID._counter_checker_result"
 binding_module = "PerfCheckerLIKWID"
 docstring_module = "PerfCheckerLIKWID"
 exported = false
-line = 189
+line = 191
 owner = "PerfCheckerLIKWID"
 public = false
 public_api = false
 signature = "Tuple{RunBundle, Any}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[bindings]]
 binding = "PerfCheckerLIKWID.counter_bundle"
 binding_module = "PerfCheckerLIKWID"
@@ -73,7 +73,7 @@ public = true
 public_api = true
 signature = "Tuple{CounterResult}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[bindings]]
 binding = "PerfCheckerLIKWID.counter_command"
 binding_module = "PerfCheckerLIKWID"
@@ -85,19 +85,19 @@ public = true
 public_api = true
 signature = "Tuple{Symbol}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[bindings]]
 binding = "PerfCheckerLIKWID.counter_executor"
 binding_module = "PerfCheckerLIKWID"
 docstring_module = "PerfCheckerLIKWID"
 exported = true
-line = 221
+line = 223
 owner = "PerfCheckerLIKWID"
 public = true
 public_api = true
 signature = "Tuple{}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[bindings]]
 binding = "PerfCheckerLIKWID.measure_counters"
 binding_module = "PerfCheckerLIKWID"
@@ -115,20 +115,20 @@ binding = "PerfCheckerLIKWID.run_counter_suite"
 binding_module = "PerfCheckerLIKWID"
 docstring_module = "PerfCheckerLIKWID"
 exported = true
-line = 234
+line = 236
 owner = "PerfCheckerLIKWID"
 public = true
 public_api = true
 signature = "Tuple{SuitePlan}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "05b35fe9195d736a537cf353249ce6a856e24034a4449e3bb4f9303fe9653906"
+sha256 = "d8248d19db510e2166cb32744e7410c8013352a365b66551b17e0dc426474825"
 [[inputs]]
 path = "website/optional-api/likwid/Project.toml"
-sha256 = "f77a065c609f2b113488c111cce0ceac27294ecb46286a9cb2912394e1c6f7e9"
+sha256 = "93aa0026a61810a4412e5b4456ae798383b3acace18b97db3efc7f0d6d6a4382"
 [[inputs]]
 path = "website/compat.jl"
 sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
@@ -207,7 +207,7 @@ line = 11
 owner = "PerfCheckerLIKWID"
 signature = "Tuple{typeof(counter_bundle), CounterResult}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[methods]]
 binding = "PerfCheckerLIKWID.counter_command"
 binding_module = "PerfCheckerLIKWID"
@@ -216,16 +216,16 @@ line = 121
 owner = "PerfCheckerLIKWID"
 signature = "Tuple{typeof(counter_command), Symbol}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[methods]]
 binding = "PerfCheckerLIKWID.counter_executor"
 binding_module = "PerfCheckerLIKWID"
 defining_module = "PerfCheckerLIKWID"
-line = 231
+line = 233
 owner = "PerfCheckerLIKWID"
 signature = "Tuple{typeof(counter_executor)}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 [[methods]]
 binding = "PerfCheckerLIKWID.measure_counters"
 binding_module = "PerfCheckerLIKWID"
@@ -239,18 +239,18 @@ source_sha256 = "cb3b9512434fd8c474a3ba204aa8326bfb03693e1fa1ae6cad4422eeb3b7a54
 binding = "PerfCheckerLIKWID.run_counter_suite"
 binding_module = "PerfCheckerLIKWID"
 defining_module = "PerfCheckerLIKWID"
-line = 244
+line = 246
 owner = "PerfCheckerLIKWID"
 signature = "Tuple{typeof(run_counter_suite), SuitePlan}"
 source = "packages/PerfCheckerLIKWID/src/provider.jl"
-source_sha256 = "1826f4ddd41b22e40696086ab1fdaf1abde54d14fae882fe6f4e23a32d35efc1"
+source_sha256 = "58ba8c032f940fb514f0b0d363ab70c80ea11345da52fcde9f14ee0a1ac8961d"
 
 [[outputs]]
 path = ".documenter/likwid/public-api.md"
-sha256 = "78d8596254cf9994d8952dde539517a704dc6d27bd2dc7288fe4ebeb5f5feaa3"
+sha256 = "9745e2fc1966aca3a01a11c08f9e4a52848643a7c6bdff74e9d9b3c54ad7eaca"
 [[outputs]]
 path = ".documenter/likwid/full-api.md"
-sha256 = "0e16dc9f022e243c3d13be4b6aa7c4d22e9bb6f78b6c3a5c2c3a0b26c98546e0"
+sha256 = "0fb635d7d389881f35861f4c6069fad963cf05f4df8ea7f96e00f44c9bcbcd1b"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "82928d841e951c07727a327dc2c8ce05c117b1a6308bace7872e9599f498147a"
+sha256 = "a835b6efb349db91812f7dbda74dbf8189be32122bfda6ce2a50d9b142f5f41e"

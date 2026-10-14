@@ -1,9 +1,9 @@
 channel = "source"
-core_version = "1.1.0"
+core_version = "1.1.1"
 documented_modules = ["PerfCheckerPluto"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "774dfa3569a651a7267a4f7968c088b94a098c3b615a2887d8b9ec6b8d546ccf"
+manifest_sha256 = "b2d92449b0a2b1bb0a62020d9443f2b0d0ee197d60b87ab02dc44142f1a272bb"
 owner = "PerfCheckerPluto"
 owner_uuid = "862b4710-55ee-4fb5-a69c-50e17f92c1f9"
 owner_version = "1.0.1"
@@ -11,8 +11,8 @@ pretty_tables = "absent"
 project_sha256 = "6c068466cf8579c65c46d8a48039819d5fb2f5cc652d552e082065e69cf0b1a1"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "e36b19f132c8c3885ba319a234e464d15829d4a4"
-source_tree = "5547b08dc26c8617118b6670657f60dfb2ab8753"
+source_revision = "d079efd5c24c3dcac5b7550781822038e0ff780f"
+source_tree = "749f8eac351ed2a1f0bc110456f2eb37a3bc08ee"
 
 [[bindings]]
 binding = "PerfChecker.launch_pluto_dashboard"
@@ -77,7 +77,7 @@ source_sha256 = "21398057a77c09cbc50d9981b5994b6573361c07aad25f14b66a73f23c08002
 
 [[inputs]]
 path = "website/optional-api/make.jl"
-sha256 = "05b35fe9195d736a537cf353249ce6a856e24034a4449e3bb4f9303fe9653906"
+sha256 = "d8248d19db510e2166cb32744e7410c8013352a365b66551b17e0dc426474825"
 [[inputs]]
 path = "website/optional-api/pluto/Project.toml"
 sha256 = "bc14fa4bfe0791842e1ec7138371fd4aef942b89a74b37ffa6df6b2aaf67d582"
@@ -145,10 +145,10 @@ source_sha256 = "616242b21741b5c6b14ab242dced47d933c697744c017d897551c03195d706b
 
 [[outputs]]
 path = ".documenter/pluto/public-api.md"
-sha256 = "28837295c6ed934997e411348f3ae30c573885d32f11168f2e20553fd9712288"
+sha256 = "5d1b2db0b484b0285c68e49dd88c16e5987fa63676319729175f0877f2b9c2db"
 [[outputs]]
 path = ".documenter/pluto/full-api.md"
-sha256 = "07b1110501eda5adf178c886b544c342aa4d0a0377792e0d6a2dd8b706789d68"
+sha256 = "0e58d5a2b9a19531132a36688989acaefc89beb7608cf554f1a2d2ec01096baa"
 [[outputs]]
 path = ".documenter/public/objects.inv"
-sha256 = "6cd4cdec71031874f58304101bbb642fccb105b6f767e3ec202e22c90785c24c"
+sha256 = "95f3a95f9906f97ccc4a83c0bd16b62fb75218878fed5fa5f664b5cfaf2b613b"
