@@ -3,7 +3,7 @@ core_version = "1.1.1"
 documented_modules = ["PerfCheckerTachikoma"]
 documenter = "1.19.0"
 julia = "1.13.1"
-manifest_sha256 = "cc8a2b3860be13dc729ea47e1e52b5e3e086d8c3cc6d9d31b68ea9a3baf6f4ab"
+manifest_sha256 = "ea0abb429dd4e79207d51b83d4bc5fadfcc4d1594def6f26490a922e71a13410"
 owner = "PerfCheckerTachikoma"
 owner_uuid = "62732417-0f79-4b0f-bcf8-4246188b2099"
 owner_version = "1.0.1"
@@ -11,8 +11,8 @@ pretty_tables = "absent"
 project_sha256 = "f814c4aa52704e22ea0ce383a82f27268de1931cd79c1e49066dce2701649ab7"
 renderer = "0.3.5"
 schema = "perfchecker-optional-doc-export/1"
-source_revision = "d079efd5c24c3dcac5b7550781822038e0ff780f"
-source_tree = "749f8eac351ed2a1f0bc110456f2eb37a3bc08ee"
+source_revision = "1b34f8a640ad9c24ed7766db75bd7f2518821ae1"
+source_tree = "42d103993d1742a7bf67c450cfd365243b2d3299"
 
 [[bindings]]
 binding = "PerfCheckerTachikoma.PerfCheckerTachikoma"
@@ -107,7 +107,7 @@ path = "website/optional-api/tachikoma/Project.toml"
 sha256 = "125a01d4136169db30900918458805a98f3ad3aa6b2ec6c301c6291e80601b1f"
 [[inputs]]
 path = "website/compat.jl"
-sha256 = "29d53d2a0e330b4c0141236d5c543861c1a43dc2251cda6a55167ad6219c1cae"
+sha256 = "e5436bc05eb954117786fb7abdfb826ddfeba4c37fcfd68a6038ab2acdcbd0b8"
 [[inputs]]
 path = "website/package.json"
 sha256 = "2eee8d65709eb6296d36322b8645047bde3fe50032446cf0c35cabcedf9acfa5"
@@ -223,10 +223,10 @@ source_sha256 = "de263cf7cf16ae36252476fb804bf4280b955949a8888e881d5dd5e32d60835
 
 [[outputs]]
 path = ".documenter/tachikoma/public-api.md"
-sha256 = "ce59020337aab19d21c005e3adb94b102b06291711ed0f0dd1d4d903a433e57b"
+sha256 = "7fa660f666eccb5c9b4665d470b604e563aa58691444d7755157b06f5e73c9f1"
 [[outputs]]
 path = ".documenter/tachikoma/full-api.md"
-sha256 = "2d2d1eb516035c39ab86c9a4aa70349b1d6b66fb1c6b7ff84aa40d56512159b6"
+sha256 = "38845aa618a80a91f0587e5b43c3b27bf2ed6302bbf5489360f1acfd17151d81"
 [[outputs]]
 path = ".documenter/public/objects.inv"
 sha256 = "82a39751350d5f850c8b6a94c5e466f685577647ea01d4c1fae61f9e1bc75cdf"
